@@ -1,0 +1,19 @@
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+Signal strength: max dBFS of -45.5 dB vs -62.3 dB noise floor (16.8 dB above), LNA was set to 25.6 dB.
+
+(20241112_230015 above)
+
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+Max dBFS of -55 dB vs -63 dB noise floor (8 dB above), LNA set to 25.6 dB.
+
+(20241113_003306 above)
+
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+Max dBFS of -38.1 dBFS vs -63 dBFS noise floor (24.9 dB above), LNA set to 25.6 dB.
+
+(20241113_003550 above)
+
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+Max dBFS of -53.3 dBFS vs -63 dBFS noise floor (9.7 dB above), LNA set to 25.6 dB.
+
+(20241113_003959 above)
