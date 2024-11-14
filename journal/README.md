@@ -66,3 +66,62 @@ Then it eventually emerged out of the right side of a big tree, but I couldn't r
 ![ISS image, #4/12](PD120_20241113_003959.png)
 
 Overall, a really great radio day! 5 images is not too bad :)
+
+### 11-13-2024
+The saga continues...
+
+#### Pass #1: 6:39pm
+I anticipated this pass being **very** good. The maximum elevation was 68 degrees! This was the highest pass yet so far, and I was really excited :) However, it did present a bit of a thorny problem; because it crossed the entire sky:
+![ISS pass over time, showing it traversing the entire sky](68deg_pass.png)
+I couldn't go to my normal staircase spot (half of the pass would be blocked by a building). So, I settled for a lower place but with buildings further away:
+![My laptop and Yagi antenna on a picnic table in the middle of some grass](lower_place.png)
+As AOS hit, I realized the station wouldn't be reachable for a bit, since I was so low down. I pointed my antenna towards the predicted location of the ISS and heard a very faint SSTV signal, but it wasn't strong enough to decode. And then it stopped, but I couldn't tell when. I've learned that the interval between the end of one image and the start of the next is two minutes, but because I didn't know when the first one ended, I didn't know when the next one would start, and it was harder to track the station because I didn't have a signal to point at. I decided to move to some more open space when I was waiting for the transmission. While standing near a giant concrete sundial on campus in the middle of a walkway spewing static out of my computer and holding a mutant yardstick, I saw a white dot rise above the brick building where our science classrooms are. IT'S THE ISS!!!!!
+
+I pointed my antenna at the dot, greatly relieved that tracking was much easier and elated to actually see it (before I started this adventure and before I moved to campus, I'd often go outside to see the ISS cross the sky). Initially, there was no signal, and I was anxiously waiting.
+
+And then, the static abated, and I heard a very clear "deeeeeeeee de-duh-de-duh-de-duh-de-duh-deeeee," the SSTV initialization sequence. In more quantitative terms, here's the spectrogram:
+
+![A spectrogram showing the square-wave-shaped change in frequency of the SSTV initialization sequence, then a flat line of a higher pitch, and then an organized sequence of beeping](init_spectrogram.png)
+
+The subsequent two minutes were just lovely. I got to point my yardstick Yagi at the ISS, and could actually see brightly where the signal was coming from. I had a clear line of sight, reflected in the good-quality audio. I loved tracking the ISS across the sky and knowing that while I could only see photons with a wavelength of ~400-700 nm hitting my eyes from 254 miles away, invisible photons with a wavelength of ~2,000,000,000 nm from the same location were hitting and resonating with my antenna, resulting in sound waves with a wavelength of ~170,000,000 nm hitting my ears and different photons with a wavelength between ~400-700 nm showing an image on my screen celebrating this beautiful madness (oops a bit of a run-on but whatever):
+![ISS image, #10/12](PD120_20241113_234607.png)
+
+```
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+
+-37 dBFS vs -63 dBFS noise floor (36 dBFS above), LNA = 25.6 dB
+```
+
+And then I had a challenge; the ISS was now going to be obstructed by the building where I live. I had two minutes to find a better north-facing location before the next image (to be mostly transmitted before LOS) began. So, I sprinted up three flights of stairs to get to the north-facing staircase. I got there and got the image :)
+
+![ISS image, #11/12](PD120_20241113_235016.png)
+
+```
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+
+-50 dBFS vs -62 dBFS noise floor (12 dBFS above), LNA = 25.6 dB
+```
+
+LOS occurred at 6:50:08pm according to gqrx, and I expected the rest of the image to not render:
+
+![ISS image from above a few lines away from the finish](almost_done.png)
+
+But somehow the signal stayed strong until 6:50:18pm, creating the full image seen above (before this one). I'm not sure how this happened (maybe signals bouncing off the atmosphere? can 2m do that?) but it was cool to receive the end of an image after LOS had already passed. Or maybe my computer's clock is off, that's definitely a possibility, although 10 seconds seems a bit much /shrug
+
+Anyway, this pass was great. I was so happy to see the ISS and proud of my quick location-switching. And after it was over, an FTC person saw me being a radio nerd and asked me about it and we had a pretty good conversation :)
+
+#### Pass #2: 8:17pm
+
+This pass's maximum elevation was comparatively sad: 12 degrees. It went from west to northeast, so I again visited the north-facing staircase (leaving a rocketry meeting, where someone actually recognized that I had a Yagi antenna with me, early; I was late to this meeting because of the first pass. I think it's justified to miss rocketry to do space stuff :)). The same person as yesterday (who does FRC and used to go to a school with a very good FRC team) saw me up there and came up to say hi and join me. Radio is more fun with others, maybe that's why old white men are always ragchewing :) Anyway, that was cool. Because the angle was so low (or maybe this is just a skill issue), I heard the initialization sequence for the first image but `qsstv` wouldn't decode it until a bit later when I had a stronger signal. I heard the initialization sequence 2:03 into my audio file, but it was so weak and barely visible on a spectrogram (this was *after* messing with settings):
+![A spectrogram with SSTV signals very faintly visible](not_ideal_spectrogram.png)
+
+So `qsstv` took a while to pick it up (waited until a clearer signal could be locked on to), and I got this:
+![ISS image #9/12](PD120_20241114_012214.png)
+
+The next image was better; the ISS was higher in the sky. We thought we saw it behind a tree, but it was a plane :( oh well. Anyway, the image was decent for such a low angle: 
+![ISS image #10/12](PD120_20241114_012554.png)
+
+And here's an action shot of the antenna in use:
+![A homemade Yagi antenna pointing into the sky at the ISS](antenna_pointing_into_sky.png)
+
+Very good day :) I'm going to go to sleep, but need to submit the SSTV reception reports from the second pass eventually.
