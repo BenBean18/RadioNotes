@@ -125,3 +125,10 @@ And here's an action shot of the antenna in use:
 ![A homemade Yagi antenna pointing into the sky at the ISS](antenna_pointing_into_sky.png)
 
 Very good day :) I'm going to go to sleep, but need to submit the SSTV reception reports from the second pass eventually.
+
+### 11-14-2024
+It was raining. I didn't want to destroy my SDR. Being inside sucks for signal strength. You win some, you lose some. On the bright side, I *think* I got two unique images, but am not sure :/
+
+![ISS image with much static, #12/12](PD120_20241114_225712.png)
+![Very slanted ISS image, I assume #1/12](PD120_20241114_230112.png)
+![The static-filled bottom of an ISS image, I assume #12/12](inside_sstv.png)
