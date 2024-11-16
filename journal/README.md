@@ -179,3 +179,10 @@ Anyway, I got the next image really well surprisingly! I initially was tracking 
 I knew I *might* be able to get a tiny bit of the next image; this one finished with ~2:22 left. As LOS approached (0:22 left), I heard the SSTV initial sequence, but it was too quiet for `qsstv` to detect. I could see it on the waterfall, but the signal wasn't strong enough. Here's a [video](faint_init_signal.mp4) (see if you can catch the initial sequence)
 
 Overall, pretty successful! :)
+
+#### Pass #4, kinda
+uhhhhhhhh idk why i was up but saw a pass was happening sooooo did the obvious thing i should go to sleep it's 1:23am
+
+on the bright side got a better version of #7!
+
+![ISS image, #7/12](PD120_20241116_062008.png)
