@@ -132,3 +132,50 @@ It was raining. I didn't want to destroy my SDR. Being inside sucks for signal s
 ![ISS image with much static, #12/12](PD120_20241114_225712.png)
 ![Very slanted ISS image, I assume #1/12](PD120_20241114_230112.png)
 ![The static-filled bottom of an ISS image, I assume #12/12](inside_sstv.png)
+
+### 11-15-2024
+Three passes. Two new images. Two repeated (today) images. Four unique images.
+
+#### Pass #1: 5:03pm
+So I was off campus (i.e. without my antenna, maybe that was a mistake to not bring it) with friends getting dinner, realized an ISS pass was coming up, started walking a bit faster, got on campus around 5:03pm (when the pass started), got to my room after running across campus and up four flights of stairs at ~5:06pm, opened my window, started up `gpredict`/`gqrx`/`qsstv` at 5:07:59pm, pointed my antenna out the window, and my effort somewhat paid off (although being inside still sucks):
+![ISS image, #9/12](PD120_20241115_221011_img9.png)
+
+I then realized the ISS would be moving northeast, and I was facing south. So, after the image was done being transmitted, I knew I had a two-minute window to move (TODO: would be cool to get a 437.800 MHz antenna as well so I could listen to the repeater while SSTV was inactive...ooh or two SDRs at the same time? idk). I speedwalked across hall to the most east-facing window on our west hall, opened it, and got a recognizable-ish image:
+![ISS image, #10/12](PD120_20241115_221358_img10.png)
+
+Also got a cool moon picture, it was big and yellow against a beautiful sunset:
+![moon!](moooooon.png)
+
+#### Pass #2: 6:40pm
+I actually had time to go outside (north-facing staircase) for this one, yay!
+
+AND I COULD SEE THE ISS! For the first half or so of the first image, I didn't know where the station was (well I knew the predicted angle but tracking is hard and I think the magnetic field from the antenna messed up my compass in the past, maybe I should build a rotator sometime), but I then saw a white dot moving right emerge from behind a tree! That's why the second half image quality is so much better :) Oh also, this is a new image in my collection (#8):
+
+![ISS image, #8/12](PD120_20241115_234517_img8.png)
+
+Here's a [video](IMG_4029.MP4) of me tracking the ISS! :) (unfortunately this is between SSTV transmissions so you'll only hear static, oh well /shrug)
+
+I could still see the ISS when the second transmission began, so got a MUCH better image:
+
+![ISS image, #9/12](PD120_20241115_234924_img9.png)
+
+ok maybe this is a bit of an exaggeration but it was pretty ok i guess
+
+#### Pass #3 (:o): 8:19pm
+I again went to the north-facing staircase for this one, there was a block party on the street that it overlooks so I got to hear music in the background of the SSTV sounds (oops spoiler)
+
+Shortly after AOS hit, I started hearing a faint signal, but `qsstv` couldn't pick it up. I tried moving the antenna around a bit, but still nothing. I then oriented the antenna vertically instead of horizontally, and got a much clearer signal (yay!) and the end of a (new! #7) image:
+
+![The very end of an ISS image, #7/12](PD120_20241116_012248_img7.png)
+
+Maybe the ISS has vertically polarized waves? idk i guess?
+
+![forum screenshot saying the ISS antennas are effectively vertically polarized](random_forum_screenshot.png)
+
+Anyway, I got the next image really well surprisingly! I initially was tracking the wrong position (fun fact: plane != ISS), but heard static so turned to a more ISSy direction and got a clearer signal. This was one of my better images:
+
+![ISS image, #8/12](PD120_20241116_012501_img8.png)
+
+I knew I *might* be able to get a tiny bit of the next image; this one finished with ~2:22 left. As LOS approached (0:22 left), I heard the SSTV initial sequence, but it was too quiet for `qsstv` to detect. I could see it on the waterfall, but the signal wasn't strong enough. Here's a [video](faint_init_signal.mp4) (see if you can catch the initial sequence)
+
+Overall, pretty successful! :)
