@@ -186,3 +186,11 @@ uhhhhhhhh idk why i was up but saw a pass was happening sooooo did the obvious t
 on the bright side got a better version of #7!
 
 ![ISS image, #7/12](PD120_20241116_062008.png)
+
+730pm pass
+
+Azores and Angola between 551pm and 730pm using watts drainpipe on 14.074
+
+Needed to set LNA to ~44 dB (vs ~25.6 normal) to get 437.800
+
+Vertical antenna works better
