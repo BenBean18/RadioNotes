@@ -198,6 +198,13 @@ I honestly forget a lot of what happened here, currently writing this on the 17t
 ![ISS image, #12/12](PD120_20241116_225659_img12.png)
 ![ISS image, #1/12](PD120_20241116_230104_img1.png)
 
+for #1/12
+```
+RTL-SDR v3 with 3-element Yagi-Uda antenna (gain of approximately 6.88 dB)
+
+-43 dBFS signal, -63 dBFS noise floor, LNA set to 25.6 dB.
+```
+
 I recorded some videos of receiving these; the ISS was visible during this (yay!) so tracking was easy and I enjoyed being able to see what I was pointing my antenna at!
 
 [Video 1](IMG_4042.MP4)

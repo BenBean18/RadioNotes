@@ -1,0 +1,28 @@
+* Z:\home\bean\RadioNotes\class_e_10mhz.asc
+Vbattery N001 0 12
+Vgen N009 0 PULSE(0 3.3 0 1n 1n 12.81n 35.62n)
+RGen N010 N009 10
+L1 N001 N002 220n
+C1 N002 0 183.771pF
+C2 N003 N002 184.159pF
+L2 N003 N004 219.568nH
+L3 N004 N005 118.359nH
+C3 N005 0 248.551pF
+RLoad NC_01 0 75
+C4 N006 N005 30p
+C5 N006 0 270p
+L4 N006 0 100n
+C6 N007 N006 10p
+C7 N007 0 270p
+L5 N007 0 100n
+C8 N008 N007 30p
+R1 N008 0 75
+XU1 N002 N010 0 SPP21N50C3_L1
+.model MySwitch SW(Ron= .0003321797 Roff=10000 Vt=3.5 Vh=0)
+.tran 0 35.62u 7.124u 18.1p startup
+* ClassE - www.TonneSoftware.com
+* L total = 337.927nH
+.model arf448 NMOS (LEVEL=3 VMAX=1.04MEG theta=47.4M ETA=152U VTO=3.8 KP=10.5)
+.lib Infineon - Simulation Model - PSpice - CoolMOS - C3 - 500V.lib
+.backanno
+.end

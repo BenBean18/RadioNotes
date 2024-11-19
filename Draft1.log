@@ -1,0 +1,15 @@
+LTspice 24.0.12 for Windows
+Circuit: * Z:\home\bean\RadioNotes\Draft1.asc
+Start Time: Mon Nov 18 21:03:44 2024
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 3.2873e-05 to 3.28731e-05
+Heightened Def Con from 4.74747e-05 to 4.74807e-05
+Heightened Def Con from 6.20755e-05 +to 6.20795e-05
+Heightened Def Con from 9.12776e-05 to 9.12806e-05
+Total elapsed time: 11.417 seconds.
+

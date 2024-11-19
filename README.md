@@ -12,5 +12,9 @@ I'm sure I'll think of more things to add, this is a WIP.
 
 ## Useful general resources
 - https://pysdr.org/index.html
+- https://www.electronics-notes.com/articles/radio/rf-mixer/fet-rf-mixer.php
+- https://hackaday.com/2020/07/17/modern-radio-receiver-architecture-from-regenerative-to-direct-conversion/
+- https://people.physics.anu.edu.au/~dxt103/160m/class_E_amplifier_design.pdf SATURATION VOLTAGE IS ZERO FOR A FET 
+![V0 is zero for a FET](class_e_screenshot.png)
 
 ## [Journal](journal/)

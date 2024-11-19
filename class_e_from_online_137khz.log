@@ -1,0 +1,55 @@
+LTspice 24.0.12 for Windows
+Circuit: * Z:\home\bean\RadioNotes\class_e_from_online_137khz.asc
+Start Time: Mon Nov 18 21:05:51 2024
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.000295672 to 0.000295673
+Heightened Def Con from 0.000317573 +to 0.000317573
+Heightened Def Con from 0.000332173 to 0.000332173
+Heightened Def Con from 0.000339473 to 0.000339473
+Heightened Def Con from 0.000354073 to 0.000354073
+Heightened Def Con from 0.000375972 to 0.000375973
+Heightened Def Con from 0.000390573 to 0.000390573
+Heightened Def Con from 0.000412473 to 0.000412473
+Heightened Def Con from 0.000427073 +to 0.000427073
+Heightened Def Con from 0.000448973 +to 0.00044898
+Heightened Def Con from 0.000470872 +to 0.000470879
+Heightened Def Con from 0.000485473 to 0.000485473
+Heightened Def Con from 0.000500073 +to 0.00050008
+Heightened Def Con from 0.000514672 +to 0.000514673
+Heightened Def Con from 0.000529273 to 0.000529273
+Heightened Def Con from 0.000558472 to 0.000558479
+Heightened Def Con from 0.000580372 to 0.000580373
+Heightened Def Con from 0.000587673 to 0.000587673
+Heightened Def Con from 0.000609572 to 0.000609579
+Heightened Def Con from 0.000616873 to 0.000616876
+Heightened Def Con from 0.000631473 to 0.000631473
+Heightened Def Con from 0.000653373 to 0.000653373
+Heightened Def Con from 0.000667973 to 0.000667973
+Heightened Def Con from 0.000675273 +to 0.000675276
+Heightened Def Con from 0.000682573 to 0.000682573
+Heightened Def Con from 0.000689873 +to 0.000689873
+Heightened Def Con from 0.000697173 to 0.000697173
+Heightened Def Con from 0.000711772 to 0.000711773
+Heightened Def Con from 0.000726373 +to 0.000726376
+Heightened Def Con from 0.000748272 to 0.000748279
+Heightened Def Con from 0.000755573 +to 0.000755576
+Heightened Def Con from 0.000777473 to 0.000777473
+Heightened Def Con from 0.000784773 to 0.000784773
+Heightened Def Con from 0.000850473 to 0.000850473
+Heightened Def Con from 0.000857773 +to 0.00085778
+Heightened Def Con from 0.000872373 to 0.000872373
+Heightened Def Con from 0.000879673 to 0.00087968
+Heightened Def Con from 0.000886973 +to 0.000886976
+Heightened Def Con from 0.000894273 to 0.000894273
+Heightened Def Con from 0.000923473 to 0.000923473
+Heightened Def Con from 0.000930773 +to 0.000930773
+Heightened Def Con from 0.000952673 to 0.00095268
+Heightened Def Con from 0.000959973 to 0.000959973
+Heightened Def Con from 0.000974573 +to 0.000974576
+Heightened Def Con from 0.00101107 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 0.00101107, timestep = 1.25005e-18: trouble with node "u1:1:d"
+
