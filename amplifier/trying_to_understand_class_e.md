@@ -71,6 +71,14 @@ oops this should be 10m (28mhz) not 10mhz, misleading name, my bad i was tired a
 ![](yay.png)
 waittttt.... only 4W out of the resistor?
 oh shoot increasing resistance would decrease power by equations in video. time to optimize more
+
+2(a). Other optimization path: `class_e_10mhz_orig_opt2.asc` (more trial and error, idk how I got to increasing R in the previous one which decreases output power according to video eqns)
+
+This is a LOT better:
+![more yay](yay2.png)
+
+12.77 W out / 12.885 W in = 99% efficient...using theoretical components but I'm still very optimistic :)
+
 3. class_e_10mhz_optimized_real_components.asc: looks really bad, didn't realize that the transistor I wanted to use (SPP21N50C3) has an output capacitance of **1200** pF when the largest capacitor in this is 150. time to find a different transistor oopsies, but this explains why I've been banging my head against the wall for a bit (:
 
 could I use the one I already have? no, too low power for what I want to do :(
