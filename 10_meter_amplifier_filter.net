@@ -1,0 +1,26 @@
+* Z:\home\bean\RadioNotes\10_meter_amplifier_filter.asc
+C1 N004 N003 30p
+C2 N004 0 270p
+L1 N004 0 100n
+C3 N005 N004 10p
+C4 N005 0 270p
+L2 N005 0 100n
+C5 N006 N005 30p
+V1 N003 0 PULSE(0 3.3 0 1n 1n 17.81n 35.62n)
+Q1 N001 N002 N007 0 2N3904
+Q2 N007 N008 N009 0 2N3906
+R1 N007 0 75
+V3 N001 0 12
+D1 N009 0 D
+D2 N006 N008 D
+D3 N002 N006 D
+R2 N001 N002 600
+R3 N008 0 600
+.model D D
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 20u 9u 100p
+.backanno
+.end
