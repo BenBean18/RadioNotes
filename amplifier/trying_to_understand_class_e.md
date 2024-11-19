@@ -1,6 +1,6 @@
 Resources used:
 https://www.reddit.com/r/amateurradio/comments/lt33rl/what_are_common_rf_power_transistors/
-and PDFs linked here and https://people.physics.anu.edu.au/~dxt103/class-e/ and the actual Class E paper https://people.physics.anu.edu.au/~dxt103/160m/class_E_amplifier_design.pdf which tells me that $V_0 = 0 \text{V}$ for a FET and https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/Microwave_and_RF_Design_V%3A_Amplifiers_and_Oscillators_(Steer)/04%3A_Power_Amplifiers/4.03%3A_Switching_Amplifiers_Classes_D_E_and_F and http://www.norcalqrp.org/files/Class_E_Amplifiers.pdf and https://ludens.cl/Electron/RFamps/RFamps.html (from a while ago when I was trying to design HPR amp) and uh a textbook which could be useful later  https://d1.amobbs.com/bbs_upload782111/files_45/ourdev_672470C259C6.pdf and https://www.qsl.net/va3iul/ is awesome and https://ocw.mit.edu/courses/6-976-high-speed-communication-circuits-and-systems-spring-2003/ is a great resource and specifically https://ocw.mit.edu/courses/6-976-high-speed-communication-circuits-and-systems-spring-2003/74927837820d5a11a2443b5b86ce0f50_guest3.pdf (guest lecture on power amplifiers)
+and PDFs linked here and https://people.physics.anu.edu.au/~dxt103/class-e/ and the actual Class E paper https://people.physics.anu.edu.au/~dxt103/160m/class_E_amplifier_design.pdf which tells me that $V_0 = 0 \text{V}$ for a FET and https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/Microwave_and_RF_Design_V%3A_Amplifiers_and_Oscillators_(Steer)/04%3A_Power_Amplifiers/4.03%3A_Switching_Amplifiers_Classes_D_E_and_F and http://www.norcalqrp.org/files/Class_E_Amplifiers.pdf and **https://ludens.cl/Electron/RFamps/RFamps.html** (from a while ago when I was trying to design HPR amp) and uh a textbook which could be useful later  https://d1.amobbs.com/bbs_upload782111/files_45/ourdev_672470C259C6.pdf and https://www.qsl.net/va3iul/ is awesome and https://ocw.mit.edu/courses/6-976-high-speed-communication-circuits-and-systems-spring-2003/ is a great resource and specifically https://ocw.mit.edu/courses/6-976-high-speed-communication-circuits-and-systems-spring-2003/74927837820d5a11a2443b5b86ce0f50_guest3.pdf (guest lecture on power amplifiers)
 
 Currently watching this video: https://www.youtube.com/watch?v=Tgrakttus3c
 
@@ -123,7 +123,42 @@ It'll be probably simpler to start with a Class AB amplifier.
 Note from RFamps.html (linked at top):
 "When building such an amplifier it's absolutely critical to minimize stray inductances. The 560pF capacitor needs to be soldered directly to the transistor's body, not one centimeter away. It needs to be a chip capacitor, because any wire terminals at all will contribute too much stray inductance. It's best to split it up into two capacitors of half the value, and solder them to the transistor on both sides of the drain terminal. Any deviation from this will make the amplifier behave less like the calculation indicates. And even if you follow these recommendations, you need to keep in mind that this design method is very simplistic, for example by not considering the inductance of the drain connection inside the transistor. One can usually get away with such simplifications at HF, but at 52MHz it's risky, and on even higher bands it definitely no longer works well enough. At VHF and higher one needs to design the matching network for the load impedance the transistor needs at its drain terminal, and not the one it needs inside, at its actual drain on the silicon chip. This load impedance needs to be looked up in the data sheet, which usually gives it for a single or a few operating frequencies and power levels. It often needs to be interpolated, if your application is not a completely standard one for the chosen transistor."
 
-## Class AB
+## Some kind of linear amplifier
 This seems helpful:
 https://www.electronics-tutorials.ws/amplifier/class-ab-amplifier.html
 
+Or class B? this also seems helpful
+https://www.allaboutcircuits.com/technical-articles/introduction-to-class-b-power-amplifiers/
+
+![](class_b.png)
+
+![](10meter_lc_network.png)
+
+ok so for biasing we want the voltage added to be approximately the transition voltage I think
+
+ok what about a single transistor tuned amplifier
+
+https://ludens.cl/Electron/RFamps/RFamps.html
+
+This seems useful
+
+https://www.w6pql.com/1_kw_sspa_for_1_8-54_mhz.htm
+
+Class A amplifier from same person with Class E video: https://www.youtube.com/watch?v=GtFnkXar5JU&list=PLT84nve2j1g_UO_7hj0HPrVwNj3NGQeES&index=6 Taking notes below
+- Incredibly inefficient (25% normally)
+- Class A: entire signal amplified by single element
+    - Class B/Class C: broken up into chunks so multiple elements amplifying
+![](transistor_operation.png)
+- Biasing required to keep transistor in linear region
+- Gain is current dependent
+- Closed-loop current control for good linearity -- stabilize gain at fixed value
+    - Providing negative feedback
+- If gain of amplifying element is high enough in negative feedback amplifier, then gain of entire amplifier only depends on attenuation $\beta$
+![](feedback.png)
+- Inductor opposes current flow
+    - Interesting thing about inductors: voltage is derivative of current, kind of
+    - Lets our amplifier go from 0V to 2VCC (-VCC to +VCC), increases max efficiency to 50%
+![](class_a_schematic.png)
+- Other approach: use transformer to remove DC
+![](transformer_a.png)
+- Negative feedback loop is important
