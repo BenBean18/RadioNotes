@@ -91,3 +91,16 @@ https://www.mouser.com/datasheet/2/302/MRF101AN-1510799.pdf
 
 Output capacitance is 43 pF, that's a lot more manageable
 
+3(a). class_e_10mhz_opt2_real_components.asc
+
+Trying https://www.qsl.net/in3otd/electronics/LDMOS_models/RD16HHF1/RD16HHF1_LTspice.html, capacitance of max 145 pF is a bit high but less than our 170 pF cap so might be fine? we'll see
+
+https://ieeexplore.ieee.org/document/1523078 optimization help?
+
+C2 (cap next to inductor right before load) is **very** important to the amount of power produced
+
+https://www.mouser.com/ProductDetail/NXP-Semiconductors/AFT09MS015NT1?qs=7imfUp6rdT0GP%2F%252B8RBSTBw%3D%3D could be good also (rocketry as well!)
+
+ok I really need sleep. current optimized model using RD16HHF1 has 13.233 W out / 15.242 W in = 86.8% efficiency which is not ideal but I need sleep and may use a different transistor anyway, using the AFT09MS015NT1 (linked above) would be good overlap with rocketry and allows me to test that one which i was thinking about using anyway
+
+245am rambling is not fun, going to sleep now
