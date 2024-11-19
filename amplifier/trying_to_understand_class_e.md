@@ -63,3 +63,23 @@ Build: (todo watch at a more reasonable hour) https://www.youtube.com/watch?v=qN
 - This guy has a frequency generator, oscilloscope, and spectrum analyzer
 
 Ok I should go to sleep, but this was really useful (and I think I now know why the amplifier was heating up so much when I was trying to transmit QPSK. I'd be interested to try just transmitting a square wave and seeing how that goes. I'll likely have to go with a linear amplifier for rocketry, should reference that MIT guest lecture at a more reasonable hour. Learning about radio stuff when I have lots of work to do ~~tomorrow~~today is probably not ideal but whatever, break is coming up soon :))
+
+## My amplifier
+oops this should be 10m (28mhz) not 10mhz, misleading name, my bad i was tired and don't want to rename rn
+1. class_e_10mhz_orig.asc from tool
+2. class_e_10mhz_optimized_ideal_components.asc after playing around, switching voltage waveform is much better
+![](yay.png)
+waittttt.... only 4W out of the resistor?
+oh shoot increasing resistance would decrease power by equations in video. time to optimize more
+3. class_e_10mhz_optimized_real_components.asc: looks really bad, didn't realize that the transistor I wanted to use (SPP21N50C3) has an output capacitance of **1200** pF when the largest capacitor in this is 150. time to find a different transistor oopsies, but this explains why I've been banging my head against the wall for a bit (:
+
+could I use the one I already have? no, too low power for what I want to do :(
+
+back to reddit thread https://www.reddit.com/r/amateurradio/comments/lt33rl/what_are_common_rf_power_transistors/
+
+MRF101BN is $25 which is dumb but I'm just curious if it works in sim, is there a spice model?
+
+https://www.mouser.com/datasheet/2/302/MRF101AN-1510799.pdf
+
+Output capacitance is 43 pF, that's a lot more manageable
+

@@ -1,0 +1,16 @@
+* Z:\home\bean\RadioNotes\class_e_10mhz_optimized_real_components.asc
+Vbattery N001 0 12
+Vgen N005 0 PULSE(0 12 0 0n 0n 12.81n 35.62n) Rser=25
+L1 N001 N002 100µ
+C1 N002 0 150pF
+C2 N003 N002 115pF
+L2 N003 N004 373.89nH
+R1 N004 0 8.25
+XU1 N002 N005 0 SPP21N50C3_L1
+.model MySwitch SW(Ron= .0003250389 Roff=10000 Vt=2.5 Vh=0)
+.tran 0 20u 19u 0.05n startup
+* ClassE - www.TonneSoftware.com
+* L total = 494.303nH
+.lib Infineon - Simulation Model - PSpice - CoolMOS - C3 - 500V.lib
+.backanno
+.end

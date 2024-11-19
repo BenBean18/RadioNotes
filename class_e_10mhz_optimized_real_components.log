@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * Z:\home\bean\RadioNotes\class_e_10mhz_optimized_real_components.asc
+Start Time: Tue Nov 19 01:43:15 2024
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source vgen to 1.281e-09
+Limiting fall time of source vgen to 1.281e-09
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 4.550 seconds.
+
