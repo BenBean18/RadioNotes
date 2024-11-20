@@ -242,8 +242,16 @@ https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf
 
 ![](noninverting_schem.png)
 ![](preamp_output.png)
-
 ![](hopefully_done_class_e.png)
 
 ## `class_e_10mhz_opt2_real_components.asc` is the file
 yes, this is 10 meters not 10mhz, naming files is hard at 2am
+
+Low pass filter calc: https://markimicrowave.com/technical-resources/tools/lc-filter-design-tool/
+
+Impedance matching calc: https://www.electronics-tutorials.ws/tools/t-pad-impedance-calculator.html
+
+Line 254
+
+## Updated to do impedance matching and low pass filtering
+13.181 W / 15.672 W = 84% efficiency, not bad!
