@@ -306,3 +306,7 @@ However the best way is to produce a PCB which simplifies the whole process and 
 https://github.com/ucdart/UCD-EEC134
 
 the RD16HHF1 is a TO-220 package MOSFET
+
+crud i need to redesign this for 50 ohms of impedance, that's what all the connectors use
+
+dipole is theoretically 72 ohms but drops to ~50
