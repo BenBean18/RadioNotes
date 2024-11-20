@@ -162,3 +162,48 @@ Class A amplifier from same person with Class E video: https://www.youtube.com/w
 - Other approach: use transformer to remove DC
 ![](transformer_a.png)
 - Negative feedback loop is important
+- Equations for design:
+![](class_a_equations.png)
+- Larger voltage drop across resistor --> more stable circuit
+
+Let's say I want to build an amplifier for 15 W with a load resistor of 75 ohms (i think the load resistor impedance should match the antenna? idk need to learn more about impedance) then:
+- $R_{load}=75\Omega$
+- $P_{out}=15 \text{W}$
+- $V_{loadRMS} = \sqrt{P_{out} \cdot R_{load}} = \sqrt{15 \cdot 72} = 33.54 V$
+- $V_{loadPTP} = 2 \cdot \sqrt{2} \cdot V_{loadRMS} = 94.86\text{V}$
+- $V_{supply} = \frac{V_{loadPTP}}{2} + V_{CE} + V_{REpeak} = 47.43 V + 3 V + 5 V \approx 55 V$
+- Ohm's Law: $I_{peak} = \frac{V_{loadPTP}}{R_{load}} = 1.26 A$
+- Current when amp isn't doing anything: $I_{static} = I_{peak}/2 = 630 mA$
+- Emitter resistor: $R_E = \frac{V_{REpeak}}{I_{peak}} = 3.96 \Omega \approx 4 \Omega$
+- Voltage gain: $g = \frac{R_{load}}{R_E} \approx 18.93$
+- Voltage across $R_1$: $V_{R1} = V_{BE} (V_{GS} \text{for FET}) + V_{REstatic} = 3 V + (3.96 \Omega) \cdot (630 mA) = 5.5 V$
+- Voltage across $R_2$: $V_{R2} = V_{supply} - V_{R1} = 49.5 V$
+- Current at base: $I_B = \frac{I_c = I_{static}}{\beta} = 466 \mu A$
+    - What's the gain of an FET? Only transconductance is listed
+    - Apparently we can multiply transconductance by load resistance? idk, for the SPP21N50C3 we have a transconductance of 18 mho/siemens, so 18 * R_load = 18 * 75 = 1350? seems high but idk
+- $I_{R2} = 10 \cdot I_B = 4.7 mA$
+- $I_{R1} = 9 \cdot I_B = 4.2 mA$
+- $R_1 = V_{R1}/I_{R1} = 5.5 V / 4.2 mA = 1309 \Omega$
+- $R_2 = V_{R2}/I_{R2} = 49.5 V / 4.7 mA = 10607 \Omega$
+
+I like MRF101AN
+heck yeah we got a spice for it https://github.com/westonb/Plasma-Driver/blob/master/simulation/class_E_final.asc
+
+80dB with filter, 64dB without
+
+## A working (in simulation) 10 meter Class A amplifier!
+Note: I'll probably end up using a Class E for this (the one I designed before) since I'll primarily be running FT8 or CW (haha definitely going to learn Morse *totally*) or other modes that just change frequency. This is partially because I don't want to touch a 55V power supply as my first amplifier. But it was good design practice, and I think I'll probably design a 435MHz Class A amplifier for rocketry.
+
+(also technically this requires 6.6Vptp not 3.3Vptp...oops...my bad...may redesign but want to push first and probably won't actually build this rn anyway)
+
+The file is `10_meter_class_a.asc`
+
+![](10m_class_a_schematic.png)
+
+Behavior when amplifying a sine wave:
+![](sine_class_a.png)
+
+Behavior when amplifying a square wave:
+![](square_class_a.png)
+
+Efficiency when amplifying sine wave: 13.761 W out / 37.42 W in = 36.8%, not terrible for this kind of really inefficient amp

@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * Z:\home\bean\RadioNotes\10_meter_class_a.asc
+Start Time: Tue Nov 19 19:49:34 2024
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 1.414 seconds.
+
