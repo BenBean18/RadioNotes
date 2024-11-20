@@ -218,3 +218,32 @@ What about SPA21N50C3
 
 
 WEEEE DID IT WITH a 3V3 SIGNAL LETS GOOOOOO RIGHT BEFORE CHECK IDK WHY THE COMMON EMITTER WAS SO HARD I WAS KINDA JUST TRYING STUFF WITHOUT THINKING SINCE IM TIRED
+
+Ok so...that was with an idealized BJT to drive the MOSFET...we have to use an actual one.
+
+With the ideal NPN BJT as a switch, the MOSFET is pulling about 300 mA maximum and about 80 mA RMS. That's why I can't drive it low enough with the transistors I'm trying (like 30mA max). So, I need to look for an RF transistor that can drive ~100mA+ of current. This is the one I tried https://www.mouser.com/ds/2/149/PN3563-889953.pdf but it didn't work.
+
+That's wrong, it's trying its best but it literally cannot switch that fast.
+
+http://eolstoragewe.blob.core.windows.net/wm-418498-cmsimages/Publications/ARJ_documents/2006no3/Vol97_No3_7.pdf
+
+Next possible paths:
+- Figure out how to drive this MOSFET from 3.3V, how much current do we need at 12V and how can we successfully amplify at high speed?
+- Find a MOSFET with lower voltage
+- Cry
+- Just use the Class A
+
+![alt text](image.png)
+
+https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf
+
+IT WORKS WITH THIS MAGICAL HIGH SLEW RATE OPAMP
+https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf
+
+![](noninverting_schem.png)
+![](preamp_output.png)
+
+![](hopefully_done_class_e.png)
+
+## `class_e_10mhz_opt2_real_components.asc` is the file
+yes, this is 10 meters not 10mhz, naming files is hard at 2am

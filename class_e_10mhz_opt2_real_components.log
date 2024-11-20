@@ -1,16 +1,11 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\class_e_10mhz_opt2_real_components.asc
-Start Time: Tue Nov 19 21:57:21 2024
-Warning: Multiple definitions of model "2scr375p" Type: BJT
-Warning: Multiple definitions of model "bc857b" Type: BJT
-Warning: Multiple definitions of model "bc847c" Type: BJT
-Warning: Multiple definitions of model "bc847b" Type: BJT
+Start Time: Wed Nov 20 09:07:03 2024
 solver = Normal
 Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
-WARNING: Less than two connections to node n007.  This node is used by vgen.
-.OP point found by inspection.
-Total elapsed time: 1.236 seconds.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 2.724 seconds.
 
