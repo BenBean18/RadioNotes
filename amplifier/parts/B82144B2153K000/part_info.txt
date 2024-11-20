@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B82144B2153K000
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2021-10-17 18:30:01
+Downloaded=2024-11-20 20:25:22
+3D=Y

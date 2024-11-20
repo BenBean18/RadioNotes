@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AISC_1008_R56J_T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "AISC-1008-R56J-T" (!) = "", "AISC-1008", "Other", "815-AISC-1008-R56J", "https://www.mouser.co.uk/ProductDetail/ABRACON/AISC-1008-R56J-T?qs=nwAb7ZGSLg71XeJ6BEm%2Ffw%3D%3D", "560 nH Unshielded Drum Core, Wirewound Inductor 400 mA 1.33Ohm Max 1008 (2520 Metric)", "https://abracon.com/Magnetics/new/AISC-1008(F).pdf", "2.29 mm"
+END_PART
+
+END.

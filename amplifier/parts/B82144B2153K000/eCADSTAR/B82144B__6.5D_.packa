@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B82144B2153K000"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-17-18:30:00)
+    (mountForm default
+        (footprintRef "B82144B__6_5D_")
+        (spec "System")
+    )
+)

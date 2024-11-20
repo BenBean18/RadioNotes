@@ -1,0 +1,16 @@
+.B82144B2153K000 :1 ;Leaded Inductors (Leaded Coils), L=15uH  Rated Current=2.3A, Radial DxL:6.5mmx9.2mm
+B82144B__6.5D_
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B82144B2153K000
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B82144B2153K000)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/lead/data_sheet/30/ds/b82144b2.pdf)
+~!Height (-)
+~!3D_Model (B82144B2153K000)
+B82144B2153K000
+1.1!U 2.1!U 

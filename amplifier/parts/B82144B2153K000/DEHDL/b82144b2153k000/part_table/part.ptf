@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B82144B2153K000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "B82144B2153K000" (!) = "", "B82144B_(6.5D)", "Other", "", "", "Leaded Inductors (Leaded Coils), L=15uH  Rated Current=2.3A, Radial DxL:6.5mmx9.2mm", "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/lead/data_sheet/30/ds/b82144b2.pdf"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CBR05C110JAGAC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "CBR05C110JAGAC" (!) = "", "CAPC1514X130N", "Capacitor Chip Non-polarised", "80-CBR05C110JAG", "https://www.mouser.com/Search/Refine.aspx?Keyword=80-CBR05C110JAG", "Multilayer Ceramic Capacitors MLCC - SMD/SMT 250volts 11pF 5% C0G 0505 Size", "https://componentsearchengine.com/Datasheets/1/CBR05C110JAGAC.pdf", "1.3 mm"
+END_PART
+
+END.

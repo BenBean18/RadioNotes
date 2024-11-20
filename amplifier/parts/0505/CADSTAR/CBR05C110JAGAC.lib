@@ -1,0 +1,16 @@
+.CBR05C110JAGAC :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT 250volts 11pF 5% C0G 0505 Size
+CAPC1514X130N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CBR05C110JAGAC
+~!Mouser Part Number (80-CBR05C110JAG)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=80-CBR05C110JAG)
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (CBR05C110JAGAC)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/CBR05C110JAGAC.pdf)
+~!Height (1.3mm)
+~!3D_Model (CBR05C110JAGAC)
+CBR05C110JAGAC
+1.1!U 2.1!U 

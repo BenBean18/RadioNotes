@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT1818CS8#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT1818CS8#PBF" (!) = "", "SOIC127P599X175-8N", "Small Outline Packages", "584-LT1818CS8#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D", "LT1818CS8#PBF, Operational Amplifier Voltage Feedback 360MHz, 12 V, 5 V, 9 V, 8-Pin SOIC", "http://cds.linear.com/docs/en/datasheet/18189fb.pdf", "1.752 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AISC-1008-R56J-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-21-10:05:40)
+    (mountForm default
+        (footprintRef "AISC-1008")
+        (spec "System")
+    )
+)

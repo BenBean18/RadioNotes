@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_15323019"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-17-18:30:01)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B82144B2153K000")
+)
+
+
+(pinAssign "ECS_15323019"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-17-18:30:01)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15323019")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B82144B2153K000")
+)
+
+
+(part "B82144B2153K000"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-17-18:30:01)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "B82144B2153K000")
+    (pinAssignRef "ECS_15323019")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Leaded Inductors (Leaded Coils), L=15uH  Rated Current=2.3A, Radial DxL:6.5mmx9.2mm")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "B82144B2153K000")
+    (property "Datasheet_Link" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/lead/data_sheet/30/ds/b82144b2.pdf")
+)
+
+

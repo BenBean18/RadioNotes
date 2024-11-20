@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AISC-1008"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AISC-1008")
+        (spec "default")
+    )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "B82144B__6_5D_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "B82144B__6_5D_")
+        (spec "default")
+    )
+)

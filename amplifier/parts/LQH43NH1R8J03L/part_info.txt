@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQH43NH1R8J03L
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=4
+Version=3.2
+Released=2019-10-01 12:21:36
+Downloaded=2024-11-20 20:34:36
+3D=Y

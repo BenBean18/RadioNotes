@@ -302,3 +302,7 @@ https://www.allaboutcircuits.com/tools/wire-self-inductance-calculator/
 "ANY RF design will NOT work on 'Veroboard' and the simplest method is to build above a copper groundplane, 'Ugly style'.
 
 However the best way is to produce a PCB which simplifies the whole process and makes it repeatable."
+
+https://github.com/ucdart/UCD-EEC134
+
+the RD16HHF1 is a TO-220 package MOSFET

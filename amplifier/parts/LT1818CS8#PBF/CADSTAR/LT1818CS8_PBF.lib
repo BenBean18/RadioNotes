@@ -1,0 +1,16 @@
+.LT1818CS8_PBF :1 ;LT1818CS8#PBF, Operational Amplifier Voltage Feedback 360MHz, 12 V, 5 V, 9 V, 8-Pin SOIC
+SOIC127P599X175-8N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="-IN" 3="+IN" 4="V-" 5="NC_2" 6="OUT" 7="V+" 8="NC_3"
+*MXP 8
+*DFN LT1818CS8_PBF
+~!Mouser Part Number (584-LT1818CS8#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT1818CS8#PBF)
+~!Link Datasheet (http://cds.linear.com/docs/en/datasheet/18189fb.pdf)
+~!Height (1.752mm)
+~!3D_Model (LT1818CS8#PBF)
+LT1818CS8_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

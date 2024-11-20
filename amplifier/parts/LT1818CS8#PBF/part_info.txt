@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT1818CS8#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=3.1
+Released=2015-04-17 13:37:08
+Downloaded=2024-11-20 20:15:54
+3D=Y

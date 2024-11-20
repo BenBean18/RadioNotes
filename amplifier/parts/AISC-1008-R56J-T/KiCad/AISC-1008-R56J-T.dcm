@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AISC-1008-R56J-T
+D 560 nH Unshielded Drum Core, Wirewound Inductor 400 mA 1.33Ohm Max 1008 (2520 Metric)
+K
+F https://abracon.com/Magnetics/new/AISC-1008(F).pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,96 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CBR05C110JAGAC"
+   (description "Multilayer Ceramic Capacitors MLCC - SMD/SMT 250volts 11pF 5% C0G 0505 Size")
+   (family "CAP")
+   (package "CAPC1514X130N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/CBR05C110JAGAC.pdf")
+   (attribute "Geometry.Height" "1.3mm")
+   (attribute "Mouser Part Number" "80-CBR05C110JAG")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-CBR05C110JAG")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "CBR05C110JAGAC")
+   (gate
+    (symbol "CBR05C110JAGAC")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CBR05C110JAGAC"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPC1514X130N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.245 1.05)
+      (pt 1.245 1.05)
+      (pt 1.245 -1.05)
+      (pt -1.245 -1.05)
+      (pt -1.245 1.05))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.732 0.7)
+      (pt 0.732 0.7)
+      (pt 0.732 -0.7)
+      (pt -0.732 -0.7)
+      (pt -0.732 0.7))))
+   (leg 1 (pt -0.65 0) (padstack 0))
+   (leg 2 (pt 0.65 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.89 1.79 0 0 90))
+   )
+   (model "CBR05C110JAGAC.stp"
+    (euler 90 0 0)
+    (offset -0.8899999856948853 -0.8899999856948853 0)
+   )
+  )
+ )
+)

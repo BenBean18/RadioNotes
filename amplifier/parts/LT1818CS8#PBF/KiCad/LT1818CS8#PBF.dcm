@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1818CS8#PBF
+D LT1818CS8#PBF, Operational Amplifier Voltage Feedback 360MHz, 12 V, 5 V, 9 V, 8-Pin SOIC
+K
+F http://cds.linear.com/docs/en/datasheet/18189fb.pdf
+$ENDCMP
+#
+#End Doc Library

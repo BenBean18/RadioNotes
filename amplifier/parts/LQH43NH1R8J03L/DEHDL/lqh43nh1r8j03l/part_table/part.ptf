@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQH43NH1R8J03L'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQH43NH1R8J03L" (!) = "", "LQH43MN470K03L", "Other", "81-LQH43NH1R8J03L", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQH43NH1R8J03L?qs=17u8i%2FzlE8%2FmRHE2WNlgfg%3D%3D", "LQH43NH_03 Series Inductor 1.8uH +/-5% 1812 (4532)", "https://psearch.en.murata.com/inductor/product/LQH43NH1R8J03%23.html", "2.8 mm"
+END_PART
+
+END.

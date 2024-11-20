@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=CBR05C110JAGAC
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.1
+Released=2023-03-07 11:03:18
+Downloaded=2024-11-20 20:49:56
+3D=Y

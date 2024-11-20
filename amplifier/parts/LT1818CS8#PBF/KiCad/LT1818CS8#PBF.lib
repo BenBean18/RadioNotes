@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LT1818CS8#PBF
+#/168117/1542200/2.50/8/3/Integrated Circuit
+DEF LT1818CS8#PBF IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LT1818CS8#PBF" 950 200 50 H V L CNN
+F2 "SOIC127P599X175-8N" 950 100 50 H I L CNN
+F3 "http://cds.linear.com/docs/en/datasheet/18189fb.pdf" 950 0 50 H I L CNN
+F4 "LT1818CS8#PBF, Operational Amplifier Voltage Feedback 360MHz, 12 V, 5 V, 9 V, 8-Pin SOIC" 950 -100 50 H I L CNN "Description"
+F5 "1.752" 950 -200 50 H I L CNN "Height"
+F6 "584-LT1818CS8#PBF" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LT1818CS8#PBF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X NC_3 8 1100 0 200 L 50 50 0 0 P
+X V+ 7 1100 -100 200 L 50 50 0 0 P
+X OUT 6 1100 -200 200 L 50 50 0 0 P
+X NC_2 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

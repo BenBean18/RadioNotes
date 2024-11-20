@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B82144B2153K000"
+   (description "Leaded Inductors (Leaded Coils), L=15uH  Rated Current=2.3A, Radial DxL:6.5mmx9.2mm")
+   (family "IND")
+   (package "B82144B_(6.5D)")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/lead/data_sheet/30/ds/b82144b2.pdf")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "B82144B2153K000")
+   (gate
+    (symbol "B82144B2153K000")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B82144B2153K000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B82144B_(6.5D)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.5 3.25)
+      (arc (pt 2.5 3.25) (pt -0.75 -3.25) (pt 5.75 3.25) (start -180.0) (sweep 90.0))
+      (pt 2.5 -3.25)
+      (arc (pt 2.5 -3.25) (pt -0.75 -3.25) (pt 5.75 3.25) (start -180.0) (sweep 270.0))
+      (pt 2.5 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -1.15 0) (pt -1.05 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2 4.25)
+      (pt 6.75 4.25)
+      (pt 6.75 -4.25)
+      (pt -2 -4.25)
+      (pt -2 4.25))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 5 0) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (round 1.5))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (square 1.5))
+   )
+   (model "B82144B2153K000.stp"
+    (euler 90 0 0)
+    (offset 21.600000381469727 1.2000000476837158 -15.239999771118164)
+   )
+  )
+ )
+)
