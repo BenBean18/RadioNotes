@@ -1,0 +1,24 @@
+* Z:\home\bean\RadioNotes\class_e_10mhz_opt2_real_components.asc
+Vbattery N001 0 12
+Vgen N007 0 PULSE(0 12 0 1n 1n 17.81n 35.62n) Rser=10
+L1 N001 N002 3.7389µH
+C1 N002 0 350pF
+C2 N003 N002 93pF
+L2 N003 N004 373.89nH
+RLoad N004 0 3.1
+M1 N002 N005 0 0 RD16HHF1
+Vgen1 N006 0 PULSE(0 3.3 0 1n 1n 17.81n 35.62n) Rser=330
+R2 N001 N005 20
+Q1 N005 N006 0 0 NPN
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.mos
+.model MySwitch SW(Ron= .0003250389 Roff=10000 Vt=3.5 Vh=0)
+.tran 0 30u 25u 100p startup
+* ClassE - www.TonneSoftware.com
+.model RD16HHF1 VDMOS(Rg=987m Rd=0m Rs=111m Vto=3.19 Kp=0.495 Lambda=0 mtriode=0.804 subthres=2.37e-02 Cgdmax=11.6p Cgdmin=1.64p Cgs=44.9p Cjo=73.1p M=0.297 Vj=0.839)
+.backanno
+.end

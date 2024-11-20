@@ -207,3 +207,14 @@ Behavior when amplifying a square wave:
 ![](square_class_a.png)
 
 Efficiency when amplifying sine wave: 13.761 W out / 37.42 W in = 36.8%, not terrible for this kind of really inefficient amp
+
+## Back to Class E
+oops the sim had a 12V signal, 3.3 isn't enough for this transistor, finding another
+https://www.mouser.com/c/semiconductors/discrete-semiconductors/transistors/mosfets/?id%20-%20continuous%20drain%20current=5%20A~~789%20A&mounting%20style=Through%20Hole&pd%20-%20power%20dissipation=16%20W~~-&vds%20-%20drain-source%20breakdown%20voltage=100%20V~~1.2%20kV&vgs%20th%20-%20gate-source%20threshold%20voltage=0%20V~~2.5%20V&rp=semiconductors%2Fdiscrete-semiconductors%2Ftransistors%2Fmosfets%7C~Vgs%20th%20-%20Gate-Source%20Threshold%20Voltage%7C~Id%20-%20Continuous%20Drain%20Current%7C~Pd%20-%20Power%20Dissipation%7C~Vds%20-%20Drain-Source%20Breakdown%20Voltage
+
+I feel like this https://www.mouser.com/datasheet/2/196/Infineon_IPW50R280CE_DS_v02_02_EN-3360013.pdf should work, but it doesn't in LTspice
+
+What about SPA21N50C3
+
+
+WEEEE DID IT WITH a 3V3 SIGNAL LETS GOOOOOO RIGHT BEFORE CHECK IDK WHY THE COMMON EMITTER WAS SO HARD I WAS KINDA JUST TRYING STUFF WITHOUT THINKING SINCE IM TIRED
