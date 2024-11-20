@@ -261,32 +261,34 @@ Line 254
 
 Surface-mount and on a PCB will be important I think. Building the components separately (with 0 ohm resistors to connect them) will help, I think. I will likely need an oscilloscope for this...
 
-### Preamp
+### Preamp: $4.16
 - 330 ohm resistor: I have a bunch of these
 - LT1818 op-amp: https://www.mouser.com/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D $4.16
 - 3.3k ohm resistor: I might have one of these, will check
 - 1k ohm resistor: I have a bunch of these
-### Amplifier
-- RD16HHF1 transistor: https://www.rfparts.com/rd16hhf1-501.html ... this is $15 shipping, I'd love to find a better source or different transistor
-    - MRF101AN transistor: https://www.mouser.com/ProductDetail/NXP-Semiconductors/MRF101AN?qs=qSfuJ%252Bfl%2Fd58kkrkzbAqzA%3D%3D could be an alternative, but I'd have to re-optimize this part :( It works *ok* with it, but not ideal (like 10W out, drawing ~16W)...
-- 5 uH RF choke: 
-- 10 pF capacitor
-- 100 pF capacitor
+### Amplifier: $44.58
+- RD16HHF1 transistor: https://hobbypcb.com/products/rd16hhf1-transistor-4-pack $25 for a 4-pack + $8 shipping
+    - MRF101AN is also great, but it's $28 which is insane and I'd have to reoptimize the circuit
+- 10 uH RF choke (this value doesn't matter as long as it's greater than or equal to 5): https://www.mouser.com/ProductDetail/EPCOS-TDK/B82144B2153K?qs=sGAEpiMZZMug9GoBKXZ75z2egS9EOetRez0MMm%252BK9K1rUJvIh%252BSBsg%3D%3D $0.59
+- 10 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGU21RCG2E100FU?qs=sGAEpiMZZMug9GoBKXZ758Gc9rwqdhh1nhfM76%2FweKsh%2Facwh1R%252BbQ%3D%3D $0.52 SMD
+- 100 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600S101FT250XT4K?qs=sGAEpiMZZMug9GoBKXZ758Gc9rwqdhh1xAGGBmhEWTG8H2tLscT8VQ%3D%3D $1.79 SMD
 - ~~373 nH inductor~~ obtained by these in parallel:
-    - 1.8 uH inductor
-    - 470 nH inductor
-### Impedance matching
-- 190 pF capacitor
-- 130 pF capacitor
-- 160 nH inductor
-### Low pass filter
-- 560 nH inductor
-- 560 nH inductor
-- 82 pF capacitor
-- 150 pF capacitor
-- 82 pF capacitor
+    - 1.8 uH inductor: https://www.mouser.com/ProductDetail/Murata-Electronics/LQH43NH1R8J03L?qs=sGAEpiMZZMug9GoBKXZ75xcp4%2FGLqVYsZpFGQ0NSLBCAF5ub0YTLpQ%3D%3D $0.60 SMD
+    - 470 nH inductor: https://www.mouser.com/ProductDetail/Delevan/5022R-471H?qs=sGAEpiMZZMug9GoBKXZ7556XAKv9YM6msUFuT6NaqUw4LeeZk%2Fc%252BHg%3D%3D $8.08 SMD
+    - Note: I chose these to have high DC current, but I think it might all be AC current in LTspice (ranges from -1.5A to +1.5A in a sine wave for the 470 nH inductor). If that's true, I can use inductors that can take less current but have a lower tolerance.
+### Impedance matching: $12.05
+- ~~190~~ 180 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F181FW250XT?qs=sGAEpiMZZMug9GoBKXZ75%252BHbCQrgMXFwLOjUM3zg8vUvUYuAtgmmTQ%3D%3D $3.26 SMD
+- 130 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/700A131FT150XC100?qs=7D1LtPJG0i24xk8ie5Hj5Q%3D%3D $8.44 SMD
+    - This might be a weird value given the high price, try to find a less expensive one with a different value maybe
+- 160 nH inductor https://www.mouser.com/ProductDetail/Walsin/WLQC2222H0JR16LB?qs=sGAEpiMZZMug9GoBKXZ75xcp4%2FGLqVYsVgu5JNq60%252Bq%252BXr9H0xxtQQ%3D%3D $0.36 SMD
+### Low pass filter: $7.62
+- 560 nH inductor: https://www.mouser.com/ProductDetail/ABRACON/AISC-1008-R56J-T?qs=sGAEpiMZZMug9GoBKXZ7556XAKv9YM6mdpnFQEVc0hrjPEIAkP6Q7w%3D%3D $0.24 SMD
+- 560 nH inductor: https://www.mouser.com/ProductDetail/ABRACON/AISC-1008-R56J-T?qs=sGAEpiMZZMug9GoBKXZ7556XAKv9YM6mdpnFQEVc0hrjPEIAkP6Q7w%3D%3D $0.24 SMD
+- 82 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F820FT250XT?qs=sGAEpiMZZMug9GoBKXZ755zCscuRgncV6nPae8Ctu8Pkp8r3nnIp%2FA%3D%3D $2.06 SMD
+- 150 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F151FT250XT?qs=No6TofSzqEbBIp%2Fhve1ScA%3D%3D $3.02 SMD
+- 82 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F820FT250XT?qs=sGAEpiMZZMug9GoBKXZ755zCscuRgncV6nPae8Ctu8Pkp8r3nnIp%2FA%3D%3D $2.06 SMD
 ### Miscellaneous
-- Output SMA connector
+- Output SMA connector: 
 - Connectors for battery (powerpoles probably)
 - For operating near an outlet: 12V 2A power supply https://www.amazon.com/100-240V-Transformers-Switching-Applications-Connectors/dp/B077PW5JC3
 - For operating away from an outlet: 12V battery, 12V battery charger
