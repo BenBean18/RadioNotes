@@ -1,10 +1,10 @@
 * Z:\home\bean\RadioNotes\class_e_10mhz_opt2_real_components.asc
 Vbattery N004 0 12
-L1 N004 N005 3.7389µH
+L1 N004 N005 5µH
 C1 N005 0 10p
 C2 N006 N005 100pF
-L2 N006 N007 373.89nH
-RLoad NC_01 0 10
+L2 NC_01 NC_02 373.89nH
+RLoad NC_03 0 10
 M1 N005 N013 0 0 RD16HHF1
 Vgen2 N012 0 PULSE(0 3.3 0 1n 1n {0.5/freq} {1/freq}) Rser=330
 R1 N014 0 1k
@@ -17,15 +17,17 @@ C4 N002 0 910p
 C5 N003 0 750p
 R2 N003 0 75
 C6 N008 N007 190p
-L5 N008 0 159n
-C7 N009 N008 131p
-R4 NC_02 0 75
+L5 N008 0 160n
+C7 N009 N008 130p
+R4 NC_04 0 75
 L6 N010 N009 560n
 L7 N011 N010 560n
 C8 N009 0 82p
 C9 N010 0 150p
 C10 N011 0 82p
 R5 N011 0 75
+L8 N007 N006 1.8µ
+L9 N007 N006 470n
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.mos
@@ -37,8 +39,11 @@ R5 N011 0 75
 * this is needed to amplify the 3.3V square wave to 12V
 * actual Class E amplifier
 .param freq 28074000
-* .step param freq 24Meg 29Meg 0.5Meg
+* .step param freq 28Meg 30Meg 0.1Meg
 * 10 -> 75, lpf
+* impedance matching network
+* low pass filter
+.model MRF101AN VDMOS(Rg=4 Rd=1 Rs=0.1 Vto=2.2 Kp=7.1 Lambda=0 mtriode=0.692 subthres=1.07m Cgdmax=5p Cgdmin=1p Cgs=130p Cjo=130p M=0.4 Vj=2.3 BV=140 tt=1n)
 .lib LTC2.lib
 .backanno
 .end

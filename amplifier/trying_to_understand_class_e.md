@@ -255,3 +255,48 @@ Line 254
 
 ## Updated to do impedance matching and low pass filtering
 13.181 W / 15.672 W = 84% efficiency, not bad!
+![](done_class_e.png)
+
+## BoM
+
+Surface-mount and on a PCB will be important I think. Building the components separately (with 0 ohm resistors to connect them) will help, I think. I will likely need an oscilloscope for this...
+
+### Preamp
+- 330 ohm resistor: I have a bunch of these
+- LT1818 op-amp: https://www.mouser.com/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D $4.16
+- 3.3k ohm resistor: I might have one of these, will check
+- 1k ohm resistor: I have a bunch of these
+### Amplifier
+- RD16HHF1 transistor: https://www.rfparts.com/rd16hhf1-501.html ... this is $15 shipping, I'd love to find a better source or different transistor
+    - MRF101AN transistor: https://www.mouser.com/ProductDetail/NXP-Semiconductors/MRF101AN?qs=qSfuJ%252Bfl%2Fd58kkrkzbAqzA%3D%3D could be an alternative, but I'd have to re-optimize this part :( It works *ok* with it, but not ideal (like 10W out, drawing ~16W)...
+- 5 uH RF choke: 
+- 10 pF capacitor
+- 100 pF capacitor
+- ~~373 nH inductor~~ obtained by these in parallel:
+    - 1.8 uH inductor
+    - 470 nH inductor
+### Impedance matching
+- 190 pF capacitor
+- 130 pF capacitor
+- 160 nH inductor
+### Low pass filter
+- 560 nH inductor
+- 560 nH inductor
+- 82 pF capacitor
+- 150 pF capacitor
+- 82 pF capacitor
+### Miscellaneous
+- Output SMA connector
+- Connectors for battery (powerpoles probably)
+- For operating near an outlet: 12V 2A power supply https://www.amazon.com/100-240V-Transformers-Switching-Applications-Connectors/dp/B077PW5JC3
+- For operating away from an outlet: 12V battery, 12V battery charger
+
+This person just used a drill on a double-sided PCB: https://people.physics.anu.edu.au/~dxt103/class-e/ (well specifically a Dremel)
+
+Making PCBs is doable! https://www.instructables.com/How-to-make-2-sided-Printed-Circuit-Boards/
+
+https://www.allaboutcircuits.com/tools/wire-self-inductance-calculator/
+
+"ANY RF design will NOT work on 'Veroboard' and the simplest method is to build above a copper groundplane, 'Ugly style'.
+
+However the best way is to produce a PCB which simplifies the whole process and makes it repeatable."
