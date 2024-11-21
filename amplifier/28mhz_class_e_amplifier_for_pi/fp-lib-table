@@ -5,4 +5,8 @@
   (lib (name "1.8uH")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/LQH43NH1R8J03L/KiCad")(options "")(descr ""))
   (lib (name "0505")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/0505/KiCad")(options "")(descr ""))
   (lib (name "560nH")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/AISC-1008-R56J-T/KiCad")(options "")(descr ""))
+  (lib (name "1Kohm")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/CFR0W4J0102A50/KiCad")(options "")(descr ""))
+  (lib (name "wireinductor0")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-391GEC/KiCad")(options "")(descr ""))
+  (lib (name "wireinductor1")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-501GEC/KiCad")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty")(options "")(descr ""))
 )

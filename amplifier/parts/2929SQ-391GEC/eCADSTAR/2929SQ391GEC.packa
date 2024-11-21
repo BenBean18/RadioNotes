@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2929SQ-391GEC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-02-06:19:55)
+    (mountForm default
+        (footprintRef "2929SQ391GEC")
+        (spec "System")
+    )
+)

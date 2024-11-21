@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2929SQ_501GEC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "COILCRAFT", "2929SQ-501GEC" (!) = "", "2929SQ501GEC", "Other", "994-2929SQ-501GEC", "https://www.mouser.co.uk/ProductDetail/Coilcraft/2929SQ-501GEC?qs=zCSbvcPd3pZVsQHAXUuBTA%3D%3D", "Fixed Inductors 2929 500nH Unshld 2% 4.3A 16.5mOhms", "https://componentsearchengine.com/Datasheets/2/2929SQ-501GEC.pdf", "7.494 mm"
+END_PART
+
+END.

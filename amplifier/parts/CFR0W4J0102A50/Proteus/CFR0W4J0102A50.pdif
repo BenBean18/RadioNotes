@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CFR0W4J0102A50"
+   (description "Carbon Film Resistors 1KOhms +/-5% 1/4W Axial RoHS")
+   (family "RES")
+   (package "RESAD1625W54L665D240")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-CFR0W4J0102A50_C61293.pdf")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)")
+   (attribute "Manufacturer_Part_Number" "CFR0W4J0102A50")
+   (gate
+    (symbol "CFR0W4J0102A50")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CFR0W4J0102A50"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESAD1625W54L665D240"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.825 1.55)
+      (pt 17.125 1.55)
+      (pt 17.125 -1.55)
+      (pt -0.825 -1.55)
+      (pt -0.825 1.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.825 1.2)
+      (pt 11.475 1.2)
+      (pt 11.475 -1.2)
+      (pt 4.825 -1.2)
+      (pt 4.825 1.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 4.825 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 11.475 0)
+      (pt 16.3 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 4.825 1.2)
+      (pt 11.475 1.2)
+      (pt 11.475 -1.2)
+      (pt 4.825 -1.2)
+      (pt 4.825 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.925 0)
+      (pt 4.825 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11.475 0)
+      (pt 15.375 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 16.3 0) (padstack 0))
+   (padstack 0
+    (hole 0.75)
+    (plated true)
+    (pad (layer TCOP) (round 1.15))
+    (pad (layer INNER) (round 1.15))
+    (pad (layer BCOP) (round 1.15))
+   )
+   (model "CFR0W4J0102A50.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

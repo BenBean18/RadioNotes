@@ -273,9 +273,9 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - 10 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGU21RCG2E100FU?qs=sGAEpiMZZMug9GoBKXZ758Gc9rwqdhh1nhfM76%2FweKsh%2Facwh1R%252BbQ%3D%3D $0.52 SMD
 - 100 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600S101FT250XT4K?qs=sGAEpiMZZMug9GoBKXZ758Gc9rwqdhh1xAGGBmhEWTG8H2tLscT8VQ%3D%3D $1.79 SMD
 - ~~373 nH inductor~~ obtained by these in parallel:
-    - 1.8 uH inductor: https://www.mouser.com/ProductDetail/Murata-Electronics/LQH43NH1R8J03L?qs=sGAEpiMZZMug9GoBKXZ75xcp4%2FGLqVYsZpFGQ0NSLBCAF5ub0YTLpQ%3D%3D $0.60 SMD
-    - 470 nH inductor: https://www.mouser.com/ProductDetail/Delevan/5022R-471H?qs=sGAEpiMZZMug9GoBKXZ7556XAKv9YM6msUFuT6NaqUw4LeeZk%2Fc%252BHg%3D%3D $8.08 SMD
-    - Note: I chose these to have high DC current, but I think it might all be AC current in LTspice (ranges from -1.5A to +1.5A in a sine wave for the 470 nH inductor). If that's true, I can use inductors that can take less current but have a lower tolerance.
+    - [1.5 uH inductor (1A)](https://www.mouser.com/ProductDetail/ABRACON/AIML-0805HC-1R5M-T?qs=sGAEpiMZZMug9GoBKXZ75%2FnYL8W%2FxAjS63UBWhrxAHlPYUZ3%252BE5ReA%3D%3D) $0.24 SMD 0805
+        - 20% tolerance isn't ideal, but the circuit still produces ~12 W (vs ~13 W when proper values) so it's likely fine
+    - [500 nH inductor (2.6A)](https://www.mouser.com/ProductDetail/Coilcraft/2929SQ-501GEC?qs=sGAEpiMZZMug9GoBKXZ75%252BsWPz3kIrHCnigL4O0yLFQ3SWhg742u4A%3D%3D) $3.43 SMD
 ### Impedance matching: $12.05
 - ~~190~~ 180 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F181FW250XT?qs=sGAEpiMZZMug9GoBKXZ75%252BHbCQrgMXFwLOjUM3zg8vUvUYuAtgmmTQ%3D%3D $3.26 SMD
 - 130 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/700A131FT150XC100?qs=7D1LtPJG0i24xk8ie5Hj5Q%3D%3D $8.44 SMD
@@ -292,6 +292,8 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - Connectors for battery (powerpoles probably)
 - For operating near an outlet: 12V 2A power supply https://www.amazon.com/100-240V-Transformers-Switching-Applications-Connectors/dp/B077PW5JC3
 - For operating away from an outlet: 12V battery, 12V battery charger
+- 3 [zero ohm resistors](https://www.mouser.com/ProductDetail/Panasonic/ERJ-S1T0R00U?qs=9gtMhpKs0nGpAa0s5YUvaA%3D%3D) $1.83 for 10, SMD 2512
+    - Note: from first glance it seems like we need to shove 12 W through these, but really, if we set the resistance to 50 milliohms (worst case for most of these), a max of 180 mW is flowing through
 
 This person just used a drill on a double-sided PCB: https://people.physics.anu.edu.au/~dxt103/class-e/ (well specifically a Dremel)
 
@@ -310,3 +312,27 @@ the RD16HHF1 is a TO-220 package MOSFET
 crud i need to redesign this for 50 ohms of impedance, that's what all the connectors use
 
 dipole is theoretically 72 ohms but drops to ~50
+
+op amp: https://courses.csail.mit.edu/6.01/spring08/handouts/week8/week8Notes.pdf
+
+New schematic on 50 ohms (130pF can be 120pF, doesn't affect much):
+![](50_ohm_network.png)
+
+### Impedance Matching: $4.17
+- [200 pF capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F201JT250XTV?qs=sGAEpiMZZMug9GoBKXZ758Gc9rwqdhh1w9J0EiG7ffSXqU4SG8338g%3D%3D) $1.80 SMD 0805
+- [130 nH inductor (4A+)](https://www.mouser.com/ProductDetail/Walsin/WLQC2222H0GR13LB?qs=sGAEpiMZZMug9GoBKXZ75xcp4%2FGLqVYsdHMz1RgwXY51vEDoyOLhBw%3D%3D) $0.36 SMD weird mounting
+![](inductor_mounting.png)
+- [110 pF capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F111GW250XT?qs=sGAEpiMZZMug9GoBKXZ75%252BHbCQrgMXFw8lnyjHsl6qExor%252BjemU1qg%3D%3D) $2.01 SMD 0805
+
+### Low pass filter: $16.18...ugh
+- [120 pF capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F121FT250XT?qs=sGAEpiMZZMug9GoBKXZ755zCscuRgncVdf8XgiDHX3JaMoKC0HQhZw%3D%3D) $3.02 SMD 0805
+- [390 nH inductor](https://www.mouser.com/ProductDetail/Coilcraft/2929SQ-391GEC?qs=sGAEpiMZZMug9GoBKXZ75%252BsWPz3kIrHCxiydFNyNS3QpiAQURGne4g%3D%3D) $3.44 SMD get pattern online
+- [220 pF capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F221FT250XT?qs=sGAEpiMZZMug9GoBKXZ75%252BHbCQrgMXFwhajreLIhYA%252BRGwNzkWYuTg%3D%3D) $3.26 SMD 0805
+- [390 nH inductor](https://www.mouser.com/ProductDetail/Coilcraft/2929SQ-391GEC?qs=sGAEpiMZZMug9GoBKXZ75%252BsWPz3kIrHCxiydFNyNS3QpiAQURGne4g%3D%3D) $3.44 SMD get pattern online
+- [120 pF capacitor](https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F121FT250XT?qs=sGAEpiMZZMug9GoBKXZ755zCscuRgncVdf8XgiDHX3JaMoKC0HQhZw%3D%3D) $3.02 SMD 0805
+
+https://www.mouser.com/c/rf-wireless/rf-capacitors/?instock=y&sort=pricing
+
+https://www.mouser.com/c/rf-wireless/rf-inductors/rf-inductors-smd/?instock=y&sort=pricing
+
+What are the "HandSolder" pads in KiCAD?

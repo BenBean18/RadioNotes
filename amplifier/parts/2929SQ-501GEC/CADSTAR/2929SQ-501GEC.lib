@@ -1,0 +1,16 @@
+.2929SQ-501GEC :1 ;Fixed Inductors 2929 500nH Unshld 2% 4.3A 16.5mOhms
+"2929SQ501GEC"
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 2929SQ-501GEC
+~!Mouser Part Number (994-2929SQ-501GEC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coilcraft/2929SQ-501GEC?qs=zCSbvcPd3pZVsQHAXUuBTA%3D%3D)
+~!Manufacturer_Name (COILCRAFT)
+~!Manufacturer_Part_Number (2929SQ-501GEC)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/2929SQ-501GEC.pdf)
+~!Height (7.494mm)
+~!3D_Model (2929SQ-501GEC)
+"2929SQ-501GEC"
+1.1!U 2.1!U 

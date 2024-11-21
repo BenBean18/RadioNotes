@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_20109858"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-20-21:52:06)
+    (utime 2024-11-20-21:52:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CFR0W4J0102A50")
+)
+
+
+(pinAssign "ECS_20109858"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime )
+    (utime 2024-11-20-21:52:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20109858")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CFR0W4J0102A50")
+)
+
+
+(part "CFR0W4J0102A50"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime )
+    (utime 2024-11-20-21:52:06)
+    (packageRef "CFR0W4J0102A50")
+    (pinAssignRef "ECS_20109858")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Carbon Film Resistors 1KOhms +/-5% 1/4W Axial RoHS")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)")
+    (property "Manufacturer_Part_Number" "CFR0W4J0102A50")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-CFR0W4J0102A50_C61293.pdf")
+)
+
+

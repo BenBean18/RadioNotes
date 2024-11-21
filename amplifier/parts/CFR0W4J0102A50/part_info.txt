@@ -1,0 +1,9 @@
+Manufacturer=UNI-ROYAL(Uniroyal Elec)
+PartNumber=CFR0W4J0102A50
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=1.1
+Released=
+Downloaded=2024-11-20 21:53:22
+3D=Y

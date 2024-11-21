@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2929SQ_391GEC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "COILCRAFT", "2929SQ-391GEC" (!) = "", "2929SQ391GEC", "Other", "994-2929SQ-391GEC", "https://www.mouser.co.uk/ProductDetail/Coilcraft/2929SQ-391GEC?qs=zCSbvcPd3pZ4jWAdj%252BjX1w%3D%3D", "Fixed Inductors 2929 390nH Unshld 2% 4.4A 14.5mOhms", "https://www.coilcraft.com/getmedia/a4eed406-a97e-4630-9d8e-771bb470867f/1515sq.pdf", "7.494 mm"
+END_PART
+
+END.

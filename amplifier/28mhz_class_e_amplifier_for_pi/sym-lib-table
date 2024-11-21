@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "130nH")(type "KiCad")(uri "${KIPRJMOD}/130nH_WLQC2222H0GR13LB.kicad_sym")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.kicad_sym")(options "")(descr ""))
+)
