@@ -1,4 +1,4 @@
-23713718838652787
+23717183192424091
 1.8uH
 LQH43MN470K03L
 1812 (4532) L=4.5±0.3mm W=3.2±0.2mm T=2.6±0.2mm
@@ -48,6 +48,13 @@ audio belton reverb
 0
 7
 7
+BNC
+CONBNC002
+CONBNC002-3
+Connector
+0
+4
+4
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -96627,6 +96634,13 @@ Varistor VF
 0
 2
 2
+barreljack
+694106301002_1
+694106301002
+Connector
+0
+3
+3
 custom
 130nH_WLQC2222H0GR13LB
 
