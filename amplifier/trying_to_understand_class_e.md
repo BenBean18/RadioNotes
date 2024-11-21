@@ -264,8 +264,8 @@ Surface-mount and on a PCB will be important I think. Building the components se
 ### Preamp: $4.16
 - 330 ohm resistor: I have a bunch of these
 - LT1818 op-amp: https://www.mouser.com/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D $4.16
-- 3.3k ohm resistor: I might have one of these, will check
-- 1k ohm resistor: I have a bunch of these
+- [3.3k ohm resistor](https://www.mouser.com/ProductDetail/YAGEO/RT1206FRE073K3L?qs=yNCrj0CQcyKaI9QY3npKEw%3D%3D) $0.10 SMD 1206
+- [1k ohm resistor](https://www.mouser.com/ProductDetail/YAGEO/RT1206FRD071KL?qs=k2KEx2DUIRTlsCJPbWhghg%3D%3D) $0.10 SMD 1206
 ### Amplifier: $44.58
 - RD16HHF1 transistor: https://hobbypcb.com/products/rd16hhf1-transistor-4-pack $25 for a 4-pack + $8 shipping
     - MRF101AN is also great, but it's $28 which is insane and I'd have to reoptimize the circuit
@@ -295,6 +295,10 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - For operating away from an outlet: 12V battery, 12V battery charger
 - 3 [zero ohm resistors](https://www.mouser.com/ProductDetail/Panasonic/ERJ-S1T0R00U?qs=9gtMhpKs0nGpAa0s5YUvaA%3D%3D) $1.83 for 10, SMD 2512
     - Note: from first glance it seems like we need to shove 12 W through these, but really, if we set the resistance to 50 milliohms (worst case for most of these), a max of 180 mW is flowing through
+- Voltage regulation:
+    - 7805 TO-220
+    - [0.1uF capacitor](https://www.mouser.com/ProductDetail/KEMET/C0805C104M3RAC7210?qs=jbCUrP3sAgTaw5dvu0fywg%3D%3D) $0.10 SMD 0805
+    - [0.33uF capacitor](https://www.mouser.com/ProductDetail/KEMET/C0805C334M3RACTU?qs=AQZKGUoVmMh2MFP%252BsbWU4Q%3D%3D) $0.61 SMD 0805
 
 This person just used a drill on a double-sided PCB: https://people.physics.anu.edu.au/~dxt103/class-e/ (well specifically a Dremel)
 
