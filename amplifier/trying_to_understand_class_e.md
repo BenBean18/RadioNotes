@@ -288,8 +288,9 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - 150 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F151FT250XT?qs=No6TofSzqEbBIp%2Fhve1ScA%3D%3D $3.02 SMD
 - 82 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F820FT250XT?qs=sGAEpiMZZMug9GoBKXZ755zCscuRgncV6nPae8Ctu8Pkp8r3nnIp%2FA%3D%3D $2.06 SMD
 ### Miscellaneous
-- Output SMA connector: 
-- Connectors for battery (powerpoles probably)
+- [Output BNC connector](https://www.mouser.com/ProductDetail/TE-Connectivity-Linx-Technologies/CONBNC002?qs=doiCPypUmgFbIbY%252BDq4BiQ%3D%3D) $2.13 PCB mount
+    - BNC chosen because quick connect/disconnect
+- [Barrel jack for DC input](https://www.mouser.com/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D) $1.02 PCB mount
 - For operating near an outlet: 12V 2A power supply https://www.amazon.com/100-240V-Transformers-Switching-Applications-Connectors/dp/B077PW5JC3
 - For operating away from an outlet: 12V battery, 12V battery charger
 - 3 [zero ohm resistors](https://www.mouser.com/ProductDetail/Panasonic/ERJ-S1T0R00U?qs=9gtMhpKs0nGpAa0s5YUvaA%3D%3D) $1.83 for 10, SMD 2512
@@ -336,3 +337,7 @@ https://www.mouser.com/c/rf-wireless/rf-capacitors/?instock=y&sort=pricing
 https://www.mouser.com/c/rf-wireless/rf-inductors/rf-inductors-smd/?instock=y&sort=pricing
 
 What are the "HandSolder" pads in KiCAD?
+
+https://ms.componentsearchengine.com
+
+TODO would be cool to add a 5V regulator for the Pi running off the 12V supply, since I'll need power for it

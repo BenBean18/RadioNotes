@@ -1,0 +1,231 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CONBNC002"
+   (description "RF Connectors / Coaxial Connectors BNC Connector Right Angle Jack, Female Socket 50 Ohm, Through Hole")
+   (family "CON")
+   (package "CONBNC002")
+   (attribute "Datasheet Link" "https://linxtechnologies.com/wp/wp-content/uploads/conbnc002-ds.pdf")
+   (attribute "Geometry.Height" "13.1mm")
+   (attribute "Mouser Part Number" "712-CONBNC002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONBNC002?qs=doiCPypUmgFbIbY%252BDq4BiQ%3D%3D")
+   (attribute "Manufacturer_Name" "Linx Technologies")
+   (attribute "Manufacturer_Part_Number" "CONBNC002")
+   (gate
+    (symbol "CONBNC002")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "CONBNC002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CONBNC002"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.86 14.4)
+      (pt 9.94 14.4)
+      (pt 9.94 -0.5)
+      (pt -4.86 -0.5)
+      (pt -4.86 14.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.96 35.7)
+      (pt 11.04 35.7)
+      (pt 11.04 -1.723)
+      (pt -5.96 -1.723)
+      (pt -5.96 35.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.62 14.4)
+      (pt 12.7 14.4)
+      (pt 12.7 -1.723)
+      (pt -7.62 -1.723)
+      (pt -7.62 14.4))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.46 14.4)
+      (pt -1.96 14.9)
+      (pt -2.54 15.4)
+      (pt -1.96 15.9)
+      (pt -2.54 16.4)
+      (pt -1.96 16.9)
+      (pt -2.46 17.4)
+      (pt -1.96 17.9)
+      (pt -2.54 18.4)
+      (pt -1.96 18.9)
+      (pt -2.54 19.4)
+      (pt -1.96 19.9)
+      (pt -2.46 20.4)
+      (pt -1.96 20.9)
+      (pt -2.46 21.4)
+      (pt -1.96 21.9)
+      (pt -2.54 22.4)
+      (pt -1.96 22.9)
+      (pt -2.54 23.4)
+      (pt -1.96 23.9)
+      (pt -2.54 24.4)
+      (pt -1.96 24.9))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 7.54 14.4)
+      (pt 7.04 14.9)
+      (pt 7.54 15.4)
+      (pt 7.04 15.9)
+      (pt 7.54 16.4)
+      (pt 7.04 16.9)
+      (pt 7.62 17.4)
+      (pt 7.04 17.9)
+      (pt 7.62 18.4)
+      (pt 7.04 18.9)
+      (pt 7.54 19.4)
+      (pt 7.04 19.9)
+      (pt 7.54 20.4)
+      (pt 7.04 20.9)
+      (pt 7.54 21.4)
+      (pt 7.04 21.9)
+      (pt 7.62 22.4)
+      (pt 7.04 22.9)
+      (pt 7.62 23.4)
+      (pt 7.04 23.9)
+      (pt 7.62 24.4)
+      (pt 7.04 24.9))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.96 24.9)
+      (pt -4.96 24.9)
+      (pt -4.96 34.7))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 7.04 24.9)
+      (pt 10.04 24.9)
+      (pt 10.04 34.7)
+      (pt -4.96 34.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.46 24.9)
+      (pt -4.96 24.9)
+      (pt -4.96 34.7)
+      (pt 10.04 34.7)
+      (pt 10.04 24.9)
+      (pt 7.54 24.9)
+      (pt 7.04 24.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.86 -0.5)
+      (pt -4.86 14.4)
+      (pt 9.94 14.4)
+      (pt 9.94 -0.5)
+      (pt 4.54 -0.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.86 -0.5)
+      (pt -2.54 -0.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 -1.2)
+      (pt 0 -1.4)
+      (pt 0 -1.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 2))
+   (leg MH1 (pt -2.540 5.080) (padstack 0))
+   (leg MH2 (pt 7.620 5.080) (padstack 0))
+   (padstack 0
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 1
+    (hole 0.89)
+    (plated true)
+    (pad (layer TCOP) (square 1.446))
+    (pad (layer INNER) (round 1.446))
+    (pad (layer BCOP) (square 1.446))
+   )
+   (padstack 2
+    (hole 0.89)
+    (plated true)
+    (pad (layer TCOP) (round 1.446))
+    (pad (layer INNER) (round 1.446))
+    (pad (layer BCOP) (round 1.446))
+   )
+   (model "CONBNC002.stp"
+    (euler -90 180 0)
+    (offset 2.549999952316284 5.099999904632568 0)
+   )
+  )
+ )
+)

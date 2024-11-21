@@ -1,0 +1,16 @@
+.694106301002 :1 ;WURTH ELEKTRONIK - 694106301002 - CONNECTOR, POWER ENTRY, JACK, 3A, 20VDC
+"694106301002_1"
+*STM J
+*NGS
+*PLB 1="POWER" 2="GND_1" 3="GND_2"
+*MXP 3
+*DFN 694106301002
+~!Mouser Part Number (710-694106301002)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (694106301002)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf)
+~!Height (-)
+~!3D_Model (694106301002)
+"694106301002"
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CONBNC002'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Linx Technologies", "CONBNC002" (!) = "", "CONBNC002", "Other", "712-CONBNC002", "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONBNC002?qs=doiCPypUmgFbIbY%252BDq4BiQ%3D%3D", "RF Connectors / Coaxial Connectors BNC Connector Right Angle Jack, Female Socket 50 Ohm, Through Hole", "https://linxtechnologies.com/wp/wp-content/uploads/conbnc002-ds.pdf", "13.1 mm"
+END_PART
+
+END.

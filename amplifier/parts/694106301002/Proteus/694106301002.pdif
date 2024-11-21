@@ -1,0 +1,99 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "694106301002"
+   (description "WURTH ELEKTRONIK - 694106301002 - CONNECTOR, POWER ENTRY, JACK, 3A, 20VDC")
+   (family "CON")
+   (package "694106301002_1")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf")
+   (attribute "Mouser Part Number" "710-694106301002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "694106301002")
+   (gate
+    (symbol "694106301002")
+    (pin "POWER" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "GND_2" 3 PS)
+   )
+  )
+  (symbol "694106301002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "694106301002_1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 9)
+      (pt 14.5 9)
+      (pt 14.5 0)
+      (pt 0 0)
+      (pt 0 9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.25 0)
+      (pt 0 0)
+      (pt 0 9)
+      (pt 14.5 9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 16.803 3.939) (pt 16.931 3.939)
+     )
+    )
+   )
+   (leg 1 (pt 13.6 3.8) (padstack 0))
+   (leg 2 (pt 7.8 3.8) (padstack 0))
+   (leg 3 (pt 10.6 -1) (padstack 0))
+   (padstack 0
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.8))
+    (pad (layer INNER) (round 4.8))
+    (pad (layer BCOP) (round 4.8))
+   )
+   (model "694106301002.stp"
+    (euler 0 0 -90)
+    (offset 3.619999885559082 3.7799999713897705 5.670000076293945)
+   )
+  )
+ )
+)

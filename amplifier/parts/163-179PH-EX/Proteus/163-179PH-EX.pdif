@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "163-179PH-EX"
+   (description "DC Power Connectors PCB 2.1MM")
+   (family "CON")
+   (package "163179PHEX")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf")
+   (attribute "Geometry.Height" "11mm")
+   (attribute "Mouser Part Number" "163-179PH-EX")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D")
+   (attribute "Manufacturer_Name" "Kobiconn")
+   (attribute "Manufacturer_Part_Number" "163-179PH-EX")
+   (gate
+    (symbol "163-179PH-EX")
+    (pin "A" A PS)
+    (pin "B" B PS)
+    (pin "C" C PS)
+   )
+  )
+  (symbol "163-179PH-EX"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "163179PHEX"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -8.55 6.265)
+      (pt 5.95 6.265)
+      (pt 5.95 -3.535)
+      (pt -8.55 -3.535)
+      (pt -8.55 6.265))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.55 7.265)
+      (pt 9.55 7.265)
+      (pt 9.55 -7.265)
+      (pt -9.55 -7.265)
+      (pt -9.55 7.265))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.55 7.265)
+      (pt 9.55 7.265)
+      (pt 9.55 -7.265)
+      (pt -9.55 -7.265)
+      (pt -9.55 7.265))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.55 6.265)
+      (pt -8.55 6.265)
+      (pt -8.55 -3.535)
+      (pt 5.95 -3.535)
+      (pt 5.95 -1.635))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.45 1.465)
+      (arc (pt 8.450 1.465) (pt 8.350 1.265) (pt 8.550 1.465) (start -180.0) (sweep 90.0))
+      (pt 8.45 1.265)
+      (arc (pt 8.450 1.265) (pt 8.350 1.265) (pt 8.550 1.465) (start -180.0) (sweep -90.0))
+      (pt 8.45 1.465))))
+   (leg A (pt 5.150 1.365) (padstack 0))
+   (leg B (pt 2.200 -3.535) (padstack 0))
+   (leg C (pt -0.850 1.365) (padstack 0))
+   (padstack 0
+    (hole 3.6401)
+    (plated true)
+    (pad (layer TCOP) (round 5.460))
+    (pad (layer INNER) (round 5.460))
+    (pad (layer BCOP) (round 5.460))
+   )
+   (model "163-179PH-EX.stp"
+    (euler 0 0 -90)
+    (offset -8.600000381469727 1.2999999523162842 0)
+   )
+  )
+ )
+)

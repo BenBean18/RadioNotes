@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '163_179PH_EX'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kobiconn", "163-179PH-EX" (!) = "", "163179PHEX", "Other", "163-179PH-EX", "https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D", "DC Power Connectors PCB 2.1MM", "https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf", "11 mm"
+END_PART
+
+END.

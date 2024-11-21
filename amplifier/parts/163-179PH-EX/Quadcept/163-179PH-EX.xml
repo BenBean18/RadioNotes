@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/248373/1542200/2.50/3/4/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c546_h364.01" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="143.31102362205">
+    <padshape layer="TOP" shape="round" width="214.96062992126" height="214.96062992126" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="222.83464566929" height="222.83464566929" />
+    <padshape layer="INNER" shape="round" width="214.96062992126" height="214.96062992126" />
+    <padshape layer="BOTTOM" shape="round" width="214.96062992126" height="214.96062992126" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="222.83464566929" height="222.83464566929" />
+  </padstyle>
+  <footprint name="163179PHEX" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="A" style="c546_h364.01" originx="202.75590551181" originy="53.740157480314" rotation="90" />
+    <pcbpin number="2" name="B" style="c546_h364.01" originx="86.614173228345" originy="-139.17322834646" rotation="90" />
+    <pcbpin number="3" name="C" style="c546_h364.01" originx="-33.464566929133" originy="53.740157480314" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-336.61417322834" originy="246.65354330708" endx="234.25196850393" endy="246.65354330708" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="234.25196850393" originy="246.65354330708" endx="234.25196850393" endy="-139.17322834646" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="234.25196850393" originy="-139.17322834646" endx="-336.61417322834" endy="-139.17322834646" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-336.61417322834" originy="-139.17322834646" endx="-336.61417322834" endy="246.65354330708" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-375.9842519685" originy="286.02362204724" endx="375.9842519685" endy="286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="375.9842519685" originy="286.02362204724" endx="375.9842519685" endy="-286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="375.9842519685" originy="-286.02362204724" endx="-375.9842519685" endy="-286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-375.9842519685" originy="-286.02362204724" endx="-375.9842519685" endy="286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-375.9842519685" originy="286.02362204724" endx="375.9842519685" endy="286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="375.9842519685" originy="286.02362204724" endx="375.9842519685" endy="-286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="375.9842519685" originy="-286.02362204724" endx="-375.9842519685" endy="-286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-375.9842519685" originy="-286.02362204724" endx="-375.9842519685" endy="286.02362204724" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-61.023622047243" originy="246.65354330708" endx="-336.61417322834" endy="246.65354330708" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-336.61417322834" originy="246.65354330708" endx="-336.61417322834" endy="-139.17322834646" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-336.61417322834" originy="-139.17322834646" endx="234.25196850393" endy="-139.17322834646" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="234.25196850393" originy="-139.17322834646" endx="234.25196850393" endy="-64.370078740157" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="332.67716535433" originy="57.67716535433" endx="332.67716535433" endy="57.67716535433" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="332.67716535433" originy="53.740157480314" startangle="90.0" sweepangle="-180.0" radius="3.9370078740157" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="332.67716535433" originy="49.803149606299" endx="332.67716535433" endy="49.803149606299" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="332.67716535433" originy="53.740157480314" startangle="-90.0" sweepangle="-180.0" radius="3.9370078740157" width="7.8740157480314" />
+  </footprint>
+  <symbol name="163-179PH-EX" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="600" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="570" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="A" />
+      <text name="pindes" originx="660" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="A" />
+    </sympin>
+    <sympin number="2" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="B" />
+    </sympin>
+    <sympin number="3" originx="600" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="570" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="C" />
+      <text name="pindes" originx="660" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="C" />
+    </sympin>
+  </symbol>
+  <component name="163-179PH-EX" designatorprefix="J" height="433.07086614173" footprint="163179PHEX">
+    <comppin designator="A" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <comppin designator="B" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B" />
+    <comppin designator="C" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <attached_symbol gate="1" name="163-179PH-EX" />
+    <pinmap designator="A" footprintpin="1" />
+    <pinmap designator="B" footprintpin="2" />
+    <pinmap designator="C" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="DC Power Connectors PCB 2.1MM" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="163-179PH-EX" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Kobiconn" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="163-179PH-EX" />
+  </component>
+</quadcept_library>

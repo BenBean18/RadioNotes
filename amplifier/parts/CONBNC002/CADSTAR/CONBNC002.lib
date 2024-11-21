@@ -1,0 +1,17 @@
+.CONBNC002 :1 ;RF Connectors / Coaxial Connectors BNC Connector Right Angle Jack, Female Socket 50 Ohm, Through Hole
+CONBNC002
+*STM J
+*NGS
+*PNM 1=1 2=2 3=MH1 4=MH2
+*PLB 1="1" 2="2" 3="MH1" 4="MH2"
+*MXP 4
+*DFN CONBNC002
+~!Mouser Part Number (712-CONBNC002)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONBNC002?qs=doiCPypUmgFbIbY%252BDq4BiQ%3D%3D)
+~!Manufacturer_Name (Linx Technologies)
+~!Manufacturer_Part_Number (CONBNC002)
+~!Link Datasheet (https://linxtechnologies.com/wp/wp-content/uploads/conbnc002-ds.pdf)
+~!Height (13.1mm)
+~!3D_Model (CONBNC002)
+CONBNC002
+1.1!U 2.1!U 3.1!U 4.1!U 

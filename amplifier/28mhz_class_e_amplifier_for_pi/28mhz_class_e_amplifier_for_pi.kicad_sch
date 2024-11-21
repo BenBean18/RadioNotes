@@ -294,6 +294,175 @@
 				)
 			)
 		)
+		(symbol "barreljack:694106301002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "694106301002"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "694106301002_1"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WURTH ELEKTRONIK - 694106301002 - CONNECTOR, POWER ENTRY, JACK, 3A, 20VDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-694106301002"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "694106301002"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "694106301002_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ltspice:GND"
 			(power)
 			(exclude_from_sim no)
@@ -1496,6 +1665,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 91.44 113.03)
@@ -1514,6 +1779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b431fd68-3737-419e-839d-21bd85e54555")
+	)
+	(junction
+		(at 81.28 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24ded17-0719-4330-b40b-7398e20fc466")
 	)
 	(wire
 		(pts
@@ -1634,16 +1905,6 @@
 			(type solid)
 		)
 		(uuid "4065be3e-d001-4999-a4ca-139113a6f0f3")
-	)
-	(wire
-		(pts
-			(xy 106.68 105.41) (xy 106.68 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4267ae36-b2f7-49b1-9138-e6f9ca06d20d")
 	)
 	(wire
 		(pts
@@ -1794,16 +2055,6 @@
 			(type default)
 		)
 		(uuid "8a957036-4e07-4325-a1b0-ef186bedef44")
-	)
-	(wire
-		(pts
-			(xy 106.68 95.25) (xy 106.68 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8bc3e864-f981-46c6-a011-b7c27af7ff9d")
 	)
 	(wire
 		(pts
@@ -1967,16 +2218,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 106.68 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc981b1e-5c95-4b25-a1c2-e417153e07f3")
-	)
-	(wire
-		(pts
 			(xy 142.24 109.22) (xy 142.24 104.14)
 		)
 		(stroke
@@ -2017,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 81.28 91.44)
+			(xy 81.28 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -3057,94 +3298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:voltage")
-		(at 106.68 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44441429-c56e-4e9d-b6ab-53cc55d5d6fa")
-		(property "Reference" "VBATTERY1"
-			(at 108.585 95.25 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12"
-			(at 108.585 101.6 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1Kohm:RESAD1625W54L665D240"
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"V\" model=\"${VALUE}\" "
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b209823a-f221-4153-bedc-5ab708ada926")
-		)
-		(pin "2"
-			(uuid "33ae58c4-f5e3-49c0-bdbf-c262281e8807")
-		)
-		(instances
-			(project ""
-				(path "/c76b4f53-cf38-425a-9e08-4e96ea8ec0d5"
-					(reference "VBATTERY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ltspice:cap")
 		(at 214.63 102.87 270)
 		(unit 1)
@@ -3346,7 +3499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BNC:CONBNC002"
 			(at 273.05 110.49 0)
 			(effects
 				(font
@@ -3742,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -4025,6 +4178,129 @@
 		)
 	)
 	(symbol
+		(lib_id "barreljack:694106301002")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3792ffc-2077-4696-9957-a297721d34af")
+		(property "Reference" "J2"
+			(at 66.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "694106301002"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "barreljack:694106301002_1"
+			(at 77.47 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf"
+			(at 77.47 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 694106301002 - CONNECTOR, POWER ENTRY, JACK, 3A, 20VDC"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 77.47 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-694106301002"
+			(at 77.47 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D"
+			(at 77.47 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 77.47 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "694106301002"
+			(at 77.47 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88a698fb-0f13-4f0d-b1db-e673320e7023")
+		)
+		(pin "2"
+			(uuid "e450f0dd-cd90-4d5d-b06b-28b7bf83118b")
+		)
+		(pin "1"
+			(uuid "4d6cd0e2-33f1-4aa0-88fc-bc06a2f60969")
+		)
+		(instances
+			(project ""
+				(path "/c76b4f53-cf38-425a-9e08-4e96ea8ec0d5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ltspice:cap")
 		(at 153.67 102.87 270)
 		(unit 1)
@@ -4244,6 +4520,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6eae418-acb4-46af-a9e7-6b9017103f22")
+		(property "Reference" "#PWR01"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4774228-4e9e-4ccf-aa54-7d210cb74caa")
+		)
+		(instances
+			(project ""
+				(path "/c76b4f53-cf38-425a-9e08-4e96ea8ec0d5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 113.03 90)
 		(unit 1)
@@ -4399,16 +4742,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:GND")
-		(at 106.68 105.41 0)
+		(lib_id "power:GND")
+		(at 50.8 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6ae3c0c-704c-4510-b9fd-25432ab9567b")
-		(property "Reference" "#GND01"
-			(at 106.68 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "e0654e15-b624-43ae-b4c1-5cf5494ca1d1")
+		(property "Reference" "#PWR02"
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,17 +4760,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "0"
-			(at 106.68 105.41 0)
+		(property "Value" "GND"
+			(at 46.99 88.8999 90)
 			(effects
 				(font
-					(size 1.0668 1.0668)
+					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 105.41 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 105.41 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,8 +4787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 106.68 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,13 +4796,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "d2b1a653-9d60-42c6-b140-be43227b9467")
+		(pin "1"
+			(uuid "7758edc2-0bfe-446c-888d-b58aae8ad2ab")
 		)
 		(instances
-			(project ""
+			(project "28mhz_class_e_amplifier_for_pi"
 				(path "/c76b4f53-cf38-425a-9e08-4e96ea8ec0d5"
-					(reference "#GND01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

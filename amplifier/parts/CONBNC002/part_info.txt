@@ -1,0 +1,9 @@
+Manufacturer=Linx Technologies
+PartNumber=CONBNC002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2022-03-15 09:53:51
+Downloaded=2024-11-21 03:06:00
+3D=Y

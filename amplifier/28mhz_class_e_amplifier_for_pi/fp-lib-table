@@ -9,4 +9,6 @@
   (lib (name "wireinductor0")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-391GEC/KiCad")(options "")(descr ""))
   (lib (name "wireinductor1")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-501GEC/KiCad")(options "")(descr ""))
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty")(options "")(descr ""))
+  (lib (name "BNC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/CONBNC002/KiCad")(options "")(descr ""))
+  (lib (name "barreljack")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/694106301002/KiCad")(options "")(descr ""))
 )

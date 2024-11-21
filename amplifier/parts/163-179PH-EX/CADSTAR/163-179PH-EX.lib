@@ -1,0 +1,17 @@
+.163-179PH-EX :1 ;DC Power Connectors PCB 2.1MM
+"163179PHEX"
+*STM J
+*NGS
+*PNM 1=A 2=B 3=C
+*PLB 1="A" 2="B" 3="C"
+*MXP 3
+*DFN 163-179PH-EX
+~!Mouser Part Number (163-179PH-EX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D)
+~!Manufacturer_Name (Kobiconn)
+~!Manufacturer_Part_Number (163-179PH-EX)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf)
+~!Height (11mm)
+~!3D_Model (163-179PH-EX)
+"163-179PH-EX"
+1.1!U 2.1!U 3.1!U 
