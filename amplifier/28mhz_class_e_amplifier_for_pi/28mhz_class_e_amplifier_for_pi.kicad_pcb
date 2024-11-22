@@ -2456,7 +2456,7 @@
 		(at 151.1 100.425)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
-		(property "Reference" "M1"
+		(property "Reference" "RD16HHF1"
 			(at 2.54 -4.27 0)
 			(layer "F.SilkS")
 			(uuid "770501ca-a55e-4cbd-80ba-ed787c51910d")
@@ -3061,7 +3061,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 -1.68 0)
+			(at -3.175 0 0)
 			(layer "F.SilkS")
 			(uuid "39523d33-f910-44bb-9ea2-b2d0b4b95e95")
 			(effects
@@ -5385,8 +5385,8 @@
 		(at 134.24 97.655 180)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
-		(property "Reference" "U2"
-			(at 2.54 -4.27 0)
+		(property "Reference" "LM7805"
+			(at 10.915 -0.02 0)
 			(layer "F.SilkS")
 			(uuid "13065026-11a2-420d-a898-51c06ebc2747")
 			(effects
@@ -6763,7 +6763,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "RF1"
-			(at 0 -1.82 0)
+			(at 4.175 0 0)
 			(layer "F.SilkS")
 			(uuid "8d49bce7-8635-4eee-bbf1-685f4c201106")
 			(effects
@@ -7004,6 +7004,180 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "575d81fb-a815-462d-b629-495aedc7d8e3")
+	)
+	(gr_text "GND"
+		(at 110.35 95.7 0)
+		(layer "F.SilkS")
+		(uuid "01267e98-64f6-4975-ba97-09fcc286130b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S"
+		(at 153.125 98.55 0)
+		(layer "F.SilkS")
+		(uuid "0198df78-8c2d-4f1e-8d38-edd372bc0552")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "10m Class E amplifier"
+		(at 106.8 65.55 0)
+		(layer "F.SilkS")
+		(uuid "029f878a-5694-4647-b42f-163234a7b5ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "O"
+		(at 127.625 100.8 0)
+		(layer "F.SilkS")
+		(uuid "2921fecf-3965-4bb6-bb3d-ff18e78672c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HiPi"
+		(at 105.8 63.675 0)
+		(layer "F.SilkS")
+		(uuid "6f5112b5-e8cf-429c-85d6-a22e2465f5ce")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "KQ4TVW\nBen Goldberg"
+		(at 184.125 102.275 0)
+		(layer "F.SilkS")
+		(uuid "7986905e-ce83-48b2-b471-86910bfd1b23")
+		(effects
+			(font
+				(size 1.18 1.18)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "12V input"
+		(at 106.7095 79.825 0)
+		(layer "F.SilkS")
+		(uuid "79ac0373-23ea-45f1-acc4-260b16e8eb35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BNC output"
+		(at 171.5 61.85 0)
+		(layer "F.SilkS")
+		(uuid "8af1280d-b6ce-4e8c-bc94-9a338e57b442")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RF"
+		(at 110.35 98.2 0)
+		(layer "F.SilkS")
+		(uuid "9c982674-14b1-463c-a253-fd7f3a41c6ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 110.35 100.7 0)
+		(layer "F.SilkS")
+		(uuid "b53c0854-86fe-4810-b36b-ddcf28771520")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I"
+		(at 134.925 100.8 0)
+		(layer "F.SilkS")
+		(uuid "cb0b71d5-40e6-4c70-86bb-0f877953f347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 149.6 98.55 0)
+		(layer "F.SilkS")
+		(uuid "d527012b-3427-4a29-a61c-dab9a5a331c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D\n"
+		(at 156.625 98.55 0)
+		(layer "F.SilkS")
+		(uuid "e60e5659-e5a4-45d9-a8b9-6e381c21833f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 131.15 100.8 0)
+		(layer "F.SilkS")
+		(uuid "fbabeeca-7380-4848-8d39-e37fbbb7dc7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 163.525 72.925)
