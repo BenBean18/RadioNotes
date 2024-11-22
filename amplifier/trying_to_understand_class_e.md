@@ -345,3 +345,22 @@ What are the "HandSolder" pads in KiCAD?
 https://ms.componentsearchengine.com
 
 TODO would be cool to add a 5V regulator for the Pi running off the 12V supply, since I'll need power for it
+
+Potential power supply idea: solar panel charging battery? i already have the panel and could get a charge controller + battery
+
+What FT8 signal reports mean:
+```
+FT8 is a digital communications mode which works in high noise situations; it's not very fast, but it can be used to communicate in situations where the signal strength wouldn't be good enough to make most other modes possible.
+
+When an FT8 signal report shows a value of +3, it refers to the signal-to-noise ratio (SNR). The SNR is a measure of how much stronger the desired signal is compared to the background noise. In this case, the +3 represents a positive value, indicating that the desired signal is 3 decibels (dB) stronger than the noise level. Since SSB is the mode most commonly used for FT8 the SNR is calculated within the 2.5 kHz bandwidth range.
+
+The SNR measurement helps operators assess the quality of the received signal. A higher positive value like +3 indicates a stronger and clearer signal with less interference from noise. It suggests that the transmission is more likely to be received accurately.
+
+By exchanging signal reports, ham radio operators can gauge the performance of their transmissions and make adjustments if necessary. This information allows them to understand how well their signals are being received and helps ensure effective communication.
+
+So, when an FT8 signal report indicates +3, it means that the desired signal is 3 dB stronger than the noise level within a 2.5 kHz bandwidth. It suggests a good signal quality with a higher chance of successful reception and accurate communication.
+
+Hint: +3 is in both the question and answer.
+```
+
+no I'm definitely not studying for General when I haven't even built my transmitter for frequencies I'm allowed to transmit on yet, why would I do that???
