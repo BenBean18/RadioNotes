@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\class_e_10mhz_opt2_real_components.asc
-Start Time: Thu Nov 21 00:10:54 2024
+Start Time: Thu Nov 21 17:58:55 2024
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -14,5 +14,5 @@ WARNING: Less than two connections to node nc_02.  This node is used by l2.
 WARNING: Less than two connections to node nc_03.  This node is used by rload.
 WARNING: Less than two connections to node nc_04.  This node is used by r4.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 2.601 seconds.
+Total elapsed time: 3.422 seconds.
 

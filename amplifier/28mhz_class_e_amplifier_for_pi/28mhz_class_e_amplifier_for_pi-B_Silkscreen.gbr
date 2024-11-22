@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.3-8.0.3-0~ubuntu23.10.1*%
+%TF.CreationDate,2024-11-21T20:35:22-05:00*%
+%TF.ProjectId,28mhz_class_e_amplifier_for_pi,32386d68-7a5f-4636-9c61-73735f655f61,alpha*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.3-8.0.3-0~ubuntu23.10.1) date 2024-11-21 20:35:22*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*
