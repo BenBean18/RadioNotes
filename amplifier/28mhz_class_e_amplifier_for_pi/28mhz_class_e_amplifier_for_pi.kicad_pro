@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 0.89,
+          "height": 1.446,
+          "width": 1.446
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -470,7 +470,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""

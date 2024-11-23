@@ -265,7 +265,7 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - 330 ohm resistor: I have a bunch of these
 - LT1818 op-amp: https://www.mouser.com/ProductDetail/Analog-Devices/LT1818CS8PBF?qs=ytflclh7QUUppAef0n%252BGjw%3D%3D $4.16
 - [3.3k ohm resistor](https://www.mouser.com/ProductDetail/YAGEO/RT1206FRE073K3L?qs=yNCrj0CQcyKaI9QY3npKEw%3D%3D) $0.10 SMD 1206
-- [1k ohm resistor](https://www.mouser.com/ProductDetail/YAGEO/RT1206FRD071KL?qs=k2KEx2DUIRTlsCJPbWhghg%3D%3D) $0.10 SMD 1206
+- [1k ohm resistor](https://www.mouser.com/ProductDetail/YAGEO/RT1206DRE071KL?qs=sGAEpiMZZMtlubZbdhIBILjYW2Gkblj8hfgv5JrL9YA%3D) $0.10 SMD 1206
 ### Amplifier: $44.58
 - RD16HHF1 transistor: https://hobbypcb.com/products/rd16hhf1-transistor-4-pack $25 for a 4-pack + $8 shipping
     - MRF101AN is also great, but it's $28 which is insane and I'd have to reoptimize the circuit
@@ -275,7 +275,7 @@ Surface-mount and on a PCB will be important I think. Building the components se
 - ~~373 nH inductor~~ obtained by these in parallel:
     - [1.5 uH inductor (1A)](https://www.mouser.com/ProductDetail/ABRACON/AIML-0805HC-1R5M-T?qs=sGAEpiMZZMug9GoBKXZ75%2FnYL8W%2FxAjS63UBWhrxAHlPYUZ3%252BE5ReA%3D%3D) $0.24 SMD 0805
         - 20% tolerance isn't ideal, but the circuit still produces ~12 W (vs ~13 W when proper values) so it's likely fine
-    - [500 nH inductor (2.6A)](https://www.mouser.com/ProductDetail/Coilcraft/2929SQ-501GEC?qs=sGAEpiMZZMug9GoBKXZ75%252BsWPz3kIrHCnigL4O0yLFQ3SWhg742u4A%3D%3D) $3.43 SMD
+    - [500 nH inductor (4.3A)](https://www.mouser.com/ProductDetail/Coilcraft/2929SQ-501GEC?qs=sGAEpiMZZMug9GoBKXZ75%252BsWPz3kIrHCnigL4O0yLFQ3SWhg742u4A%3D%3D) $3.43 SMD
 ### Impedance matching: $12.05
 - ~~190~~ 180 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/600F181FW250XT?qs=sGAEpiMZZMug9GoBKXZ75%252BHbCQrgMXFwLOjUM3zg8vUvUYuAtgmmTQ%3D%3D $3.26 SMD
 - 130 pF capacitor: https://www.mouser.com/ProductDetail/KYOCERA-AVX/700A131FT150XC100?qs=7D1LtPJG0i24xk8ie5Hj5Q%3D%3D $8.44 SMD
@@ -364,3 +364,12 @@ Hint: +3 is in both the question and answer.
 ```
 
 no I'm definitely not studying for General when I haven't even built my transmitter for frequencies I'm allowed to transmit on yet, why would I do that???
+
+GET FLUX
+
+## 10m antenna
+Going to start with a horizontal dipole strung up between trees, we'll see how it goes. Will likely need a more portable antenna for POTA.
+
+$$
+\frac{c}{24.078 \text{MHz}} = 105"
+$$

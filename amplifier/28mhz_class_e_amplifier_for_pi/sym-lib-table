@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.kicad_sym")(options "")(descr ""))
   (lib (name "barreljack")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/694106301002/KiCad/694106301002.kicad_sym")(options "")(descr ""))
+  (lib (name "bnc")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/CONBNC002/KiCad/CONBNC002.kicad_sym")(options "")(descr ""))
 )
