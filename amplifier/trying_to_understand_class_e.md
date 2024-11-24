@@ -373,3 +373,42 @@ Going to start with a horizontal dipole strung up between trees, we'll see how i
 $$
 \frac{c}{24.078 \text{MHz}} = 105"
 $$
+
+Ordered PCB!
+![](prod.png)
+
+Drainpipe before 1642, tuned dipole after 1642 -- antenna matters!
+![](antenna_matters.png)
+
+I just realized I need a transmit/receive switch, looking into how to design that
+
+https://qrp-labs.com/images/qcxp/manual111.pdf
+
+https://www.qrpkits.com/files/EasyTRSW3_20171212.pdf
+
+Maybe eventually get https://www.bioennopower.com/products/12v-3ah-lfp-battery-black-w-pvc-pack?variant=1014018732 for power supply
+
+Current battery: https://www.amazon.com/TalentCell-LiFePO4-Battery-Rechargeable-Phosphate/dp/B08R1FWW5P?ref_=ast_sto_dp#customerReviews
+
+Connector: https://www.amazon.com/CERRXIAN-Extension-Alligator-Crocodile-Accessories/dp/B0C77YBH3W?crid=11QY4LJHX68O0&dib=eyJ2IjoiMSJ9.bY3YWg-IX_ctezPBaYAJRoJVgoWSOpGhTsJ6JSLd6fdgjVVrrDvTUJjz8BuT35TUgLpAEngrZuUcH597-1JcBS-Y5G1_bFYBzPgDUVZE0qBamPwTwAmfmrCEZ5cEtN2ssq0vXUeilThsbSO1dQkhnKR-kYOgSl1oIE46M7s4W6nHqZP37Il4rWtmLmJng8uzDqbf1rraLAPnjdO6Q6F2nUacVBIRL7gXX6Yq9dNjra8.3x4LTSXAh3a3jf1rg3yV1fmA7zzI8HYvbGZZSRUUZ-E&dib_tag=se&keywords=male+barrel+jack+to+alligator+clip&qid=1732421528&sprefix=male+barrel+jack+to+alligator+clip%2Caps%2C95&sr=8-13
+
+SMA to BNC:
+https://www.amazon.com/Coaxial-Adapter-Female-Connector-Pieces/dp/B017SOLCMU?crid=21XR0JOOAN48R&dib=eyJ2IjoiMSJ9.kpTv3lGIeDkFfLbUjROMebGLXkT84N8DM4lRaPJ8gI2mhfwxf5CY4KN_eZyA3Jtt13aKDikZ99LDQWpPVabwtutpu5GBPGK-AOdqTAJ1gYSz8iKq5rKmp16QqSdUQJhvOZPNZuv6KhRhi9xkA5Fd_h_8m0tjij61FgxXKaL_OBmikanNllHs00sZdvsSQx6-kZG1mFqTx9t0RWo-oXtF389KVOP--kB9nrMEckd4Bdg.eDbrSt9Pdj92x4A2Lb57fCshU38O5DO0QLIYMt2HZho&dib_tag=se&keywords=SMA+to+BNC&qid=1732421900&sprefix=sma+to+bnc%2Caps%2C137&sr=8-3
+
+F to BNC: https://www.amazon.com/BOOBRIE-Connector-Converter-Application-Antenna/dp/B0B7QMML8P?crid=2T0WTUA1OZPQ&dib=eyJ2IjoiMSJ9.uiNhScIXU2ed8Ht-WQoSWTwoCSMusG9FNqVOIzhOr78ZR6MARU8uvZH62-u1PCZyvhnMjNFNLZb2U7IX1JImw22lv8rq9_6UJV2fh4pZUAiXEf1hzIHu2tCWdaQEJpR-AJcKN-Q05w0ueI5T4bTT4LdRCr6sR4UjAxzvbgNj_CJ6yxdIOYSL4p4lkOySkqd-Yy-MiyXXKlvNCoWXKiHGVsPri0L3npVQAI5xPokiEhY.afL8lFqSoAUrVJQvrUgk8QUd-jDv1N3zyZgmSr0yPuk&dib_tag=se&keywords=bnc+to+f+type+adapter+50+ohm&qid=1732422024&sprefix=bnc+to+f+type+adapter+50+ohm%2Caps%2C88&sr=8-3
+
+## Actually ordering things
+
+Things to order from Amazon:
+- Battery + charger ($39): https://www.amazon.com/TalentCell-LiFePO4-Battery-Rechargeable-Phosphate/dp/B08R1FWW5P
+- Alligator clips to barrel jack ($10): https://www.amazon.com/CERRXIAN-Extension-Alligator-Crocodile-Accessories/dp/B0C77YBH3W
+- SMA to BNC adapters ($6) -- might be cheaper at Mouser: https://www.amazon.com/Coaxial-Adapter-Female-Connector-Pieces/dp/B017SOLCMU
+- Type F to BNC adapters ($10) -- might be cheaper at Mouser: https://www.amazon.com/BOOBRIE-Connector-Converter-Application-Antenna/dp/B0B7QMML8P
+- One long BNC male-male cable (15ft = $20): https://www.amazon.com/Coaxial-Oscilloscope-Spectrum-Analyzer-Generator/dp/B09SYM34RH
+- Short BNC male-male cables (2 pack of 1ft = $13): https://www.amazon.com/MOOKEERF-Male-Cable-Coaxial-Connectors/dp/B0C284N1XH
+
+Mouser cart should be done
+
+And I also need transistors (probably ~$30 with shipping)
+
+And the antenna switcher kit: https://www.qrpkits.com/eztrswitch.html
