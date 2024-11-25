@@ -406,9 +406,41 @@ Things to order from Amazon:
 - Type F to BNC adapters ($10) -- might be cheaper at Mouser: https://www.amazon.com/BOOBRIE-Connector-Converter-Application-Antenna/dp/B0B7QMML8P
 - One long BNC male-male cable (15ft = $20): https://www.amazon.com/Coaxial-Oscilloscope-Spectrum-Analyzer-Generator/dp/B09SYM34RH
 - Short BNC male-male cables (2 pack of 1ft = $13): https://www.amazon.com/MOOKEERF-Male-Cable-Coaxial-Connectors/dp/B0C284N1XH
+- Barrel jack splitter (so we can power the antenna switcher also): https://www.amazon.com/JacobsParts-Splitter-Female-5-5x2-1mm-Pigtals/dp/B0192CFTE8?th=1
 
 Mouser cart should be done
 
 And I also need transistors (probably ~$30 with shipping)
 
 And the antenna switcher kit: https://www.qrpkits.com/eztrswitch.html
+
+MUF governs 28MHz propagation I think:  MUF is the highest frequency that is expected to bounce off of the ionosphere on a path 3000km long. So the MUF along a path between two points shows the possibility of long-hop DX between those points on a given band. If the MUF is 12MHz, then 30 meters and longer will work, but 20 meters and shorter won't. For long multi-hop paths, the worst MUF anywhere on the path is what matters. For single-hop paths shorter than 3000km, the usable frequency will be less than the MUF, because higher-angle signals "punch through" the ionosphere more easily. As you get closer to vertical, the usable frequency drops to the Critical Frequency (foF2). https://prop.kc2g.com/
+
+so right now MUF for my area at midnight is ~19 MHz and I hear absolutely nothing on 28 MHz, which ig makes sense?
+
+what in tarnation is this signal
+![](image-1.png)
+
+Got EU signal on 18.100 (17m), mayeb MUF actually means something (also FT8 is amazing, I can barely hear that signal)
+
+```
+CQ RZ6LY LN06
+RZ6LY KD9V EM69
+```
+
+![alt text](image-2.png)
+
+(above image from 18.100)
+
+14.074 is popping, will post map screenshot when done
+
+holy crap 7.074 is even more active
+![alt text](image-3.png)
+
+10.136 (30m) is also very active
+`MERCI 73 NN0F`
+
+US is WANK for callsigns...interesting acronym but whatever
+
+Overall screenshot:
+![alt text](image-4.png)
