@@ -444,3 +444,119 @@ US is WANK for callsigns...interesting acronym but whatever
 
 Overall screenshot:
 ![alt text](image-4.png)
+
+also alaska
+![alt text](image-5.png)
+
+https://www.qsl.net/4x4xm/HF-Propagation.htm#MUF
+
+![](muf_vs_propagation.jpeg)
+
+uhhhhhhh so i just discovered i can listen to 10m without direct sampling and get the benefits of an LNA amplifying at 49.6 dB :)
+
+this is SO MUCH BETTER, it's insane
+
+have to be careful of local FM stations being mirrored down here but if you choose a hardware frequency where not much is going on it seems to be ok
+
+![alt text](image-6.png)
+
+and got two people from Malawi
+![alt text](image-7.png)
+
+NEW ZEALAND
+![alt text](image-8.png)
+
+(right when the MUF map predicted also)
+
+wtf
+![alt text](image-9.png)
+
+that explains the pileup lol
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+we got the aussies!
+![alt text](image-15.png)
+
+HOLY CRAP TEN THOUSAND MILES
+![alt text](image-16.png)
+
+THATS EVERYWHERE EXCEPT ANTARCTICA THIS SESSION LFG
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+I am very confused how that signal is getting to Spain. I know grayline (on the border between light and dark, which I guess is this time) provides unique propagation opportunities, but it's weird. MUF doesn't seem to allow for it
+![alt text](image-19.png)
+
+unless this somehow took the long path???
+
+```
+241125_223445    28.074 Rx FT8    -15  1.2 1466 AJ8A EA4HKT -16
+241125_223515    28.074 Rx FT8    -19  1.3 1466 AJ8A EA4HKT RR73
+241125_223645    28.074 Rx FT8    -23  1.2 1466 CQ EA4HKT IM89
+241125_223715    28.074 Rx FT8    -22  1.2 1466 CQ EA4HKT IM89
+241125_223745    28.074 Rx FT8    -23  1.2 1466 CQ EA4HKT IM89
+241125_223815    28.074 Rx FT8    -22  1.2 1466 CQ EA4HKT IM89
+241125_223830    28.074 Rx FT8    -17  0.5 1775 EA4HKT AB4BC -05
+241125_223845    28.074 Rx FT8    -23  1.3 1467 AB4BC EA4HKT R-17
+241125_223900    28.074 Rx FT8    -17  0.5 1777 EA4HKT AB4BC RR73
+241125_223915    28.074 Rx FT8    -17  1.3 1467 AB4BC EA4HKT 73
+241125_224115    28.074 Rx FT8    -11  1.3 1467 CQ EA4HKT IM89
+241125_224345    28.074 Rx FT8     -8  1.2 1468 CQ EA4HKT IM89
+241125_224415    28.074 Rx FT8    -10  1.2 1468 CQ EA4HKT IM89
+241125_224445    28.074 Rx FT8     -8  1.3 1468 CQ EA4HKT IM89
+241125_224515    28.074 Rx FT8    -16  1.3 1468 CQ EA4HKT IM89
+241125_224545    28.074 Rx FT8    -18  1.3 1469 CQ EA4HKT IM89
+241125_224600    28.074 Rx FT8     -5  0.7 1407 EA4HKT K6PBT DM09
+241125_224630    28.074 Rx FT8     -4  0.7 1407 EA4HKT K6PBT DM09
+241125_224700    28.074 Rx FT8    -11  0.7 1407 EA4HKT K6PBT R-10
+```
+
+AB4BC is also from North Carolina, so maybe it's something weird right where we are? idk
+
+Just caught https://www.qrz.com/db/XE1RK on voice on 28.395 talking in Spanish
+
+And someone on 28.395 from Seattle
+
+CHINA!!!!!!!!!
+```
+241125_235630    28.074 Rx FT8     -9  0.8  437 YV1GIY BA7IO R-16
+```
+https://www.qrz.com/db/BA7IO
+
+https://www.arrl.org/files/file/Technology/pdf/119962.pdf
+
+thinking about it more, it's weird that electrons put into an antenna are turned into photons, how does that happen?
+
+https://www.eevblog.com/forum/chat/how-does-the-electron-make-a-photon-in-an-antenna/
+"One of the classic Feynman lectures had a nice discussion of how magnetic fields and induction are required to preserve angular momentum"
+
+https://physics.stackexchange.com/questions/30517/what-are-electromagnetic-fields-made-of
+
+https://en.wikipedia.org/wiki/Electromagnetic_field
+
+maybe i should audit e&m next semester, idk if they teach this stuff though
+
+https://en.wikipedia.org/wiki/Maxwell%27s_equations
+
+https://www.reddit.com/r/explainlikeimfive/comments/rigy99/eli5_how_do_antennas_shoot_off_photons/
+
+"Electromagnetic waves are emitted by electrically charged particles undergoing acceleration," https://en.wikipedia.org/wiki/Electromagnetic_radiation
+
+this 1,433 page textbook would likely be helpful :upside_down: https://eceweb1.rutgers.edu/~orfanidi/ewa/ewa-1up.pdf
+
+this book could be good if i can find a pdf (linked from Wikipedia): "An Introduction To Electromagnetic Wave Propagation And Antennas
+By Shane Cloude"
+
+Just checked out Theory of Electromagnetic Wave Propagation by Charles Herach Papas from DCo Library, will read more at a more reasonable hour
+
+(also looks like i need to know some multi to understand this, especially curl and divergence operators)
