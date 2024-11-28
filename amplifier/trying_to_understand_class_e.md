@@ -560,3 +560,20 @@ By Shane Cloude"
 Just checked out Theory of Electromagnetic Wave Propagation by Charles Herach Papas from DCo Library, will read more at a more reasonable hour
 
 (also looks like i need to know some multi to understand this, especially curl and divergence operators)
+
+This might be a good transistor for the rocketry amplifier:
+https://www.mitsubishielectric.com/semiconductors/hf/products/datasheet/rd02lus2.pdf
+https://meus-semiconductors.com/products/high-frequency-devices/rd02lus2
+or https://www.mitsubishielectric.com/news/2014/0828.html
+
+this is cool (in FT8 paper) https://en.wikipedia.org/wiki/Costas_array, it's how they synchronize at the start
+
+the things we do for radio
+![alt text](image-20.png)
+
+ok so I kinda realized I need a heatsink so the transistor doesn't burn itself out (just burns me), found this https://www.amazon.com/Easycargo-Aluminium-25x34x12mm-Regulator-25mmx34mmx12mm/dp/B07B62V4FP on Amazon which looks like it dissipates a decent amount of heat, thermal dissipation wasn't really documented but I found this Mouser one that looks basically identical and has basically identical dimensions: https://www.mouser.com/datasheet/2/1628/hse_bx_02-3510312.pdf, which has 12.93 degC/W of heat dissipation
+
+the transistor dissipated ~2.6W in simulation, so I'll say 3 to be safe, temperature is "only" 70 deg C :)
+![alt text](image-21.png)
+
+I didn't exactly design the PCB for this, but I can make up for that by stacking pin headers until it doesn't interfere with things :)
