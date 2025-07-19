@@ -1,0 +1,16 @@
+.MMG3H21NT1 :1 ;RF Amplifier 20.5DBM 19.5DB RF GenPurp Amp
+MMG3H21NT1
+*STM IC
+*NGS
+*PLB 1="RFIN" 2="GND_1" 3="RFOUT/DCSUPPLY" 4="GND_2"
+*MXP 4
+*DFN MMG3H21NT1
+~!Mouser Part Number (841-MMG3H21NT1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MMG3H21NT1?qs=cmND3fj6fzMiXymwJACqWA%3D%3D)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (MMG3H21NT1)
+~!Link Datasheet (http://www.nxp.com/docs/en/data-sheet/MMG3H21NT1.pdf)
+~!Height (1.6mm)
+~!3D_Model (MMG3H21NT1)
+MMG3H21NT1
+1.1!U 2.1!U 3.1!U 4.1!U 

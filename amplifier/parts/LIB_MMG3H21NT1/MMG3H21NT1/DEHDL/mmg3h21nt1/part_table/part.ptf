@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MMG3H21NT1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "MMG3H21NT1" (!) = "", "MMG3H21NT1", "Other", "841-MMG3H21NT1", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MMG3H21NT1?qs=cmND3fj6fzMiXymwJACqWA%3D%3D", "RF Amplifier 20.5DBM 19.5DB RF GenPurp Amp", "http://www.nxp.com/docs/en/data-sheet/MMG3H21NT1.pdf", "1.6 mm"
+END_PART
+
+END.

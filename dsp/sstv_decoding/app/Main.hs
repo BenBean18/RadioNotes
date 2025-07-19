@@ -6,7 +6,7 @@ import Streaming.Binary
 import Data.Binary (Binary, get, put)
 import qualified Streaming.Prelude as S
 import System.IO (withFile, IOMode(..))
-import qualified Data.ByteString.Streaming.Char8 as Q
+import qualified Streaming.ByteString.Char8 as Q
 import qualified GHC.Int
 import Utilities
 

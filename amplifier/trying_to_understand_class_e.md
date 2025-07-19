@@ -577,3 +577,7 @@ the transistor dissipated ~2.6W in simulation, so I'll say 3 to be safe, tempera
 ![alt text](image-21.png)
 
 I didn't exactly design the PCB for this, but I can make up for that by stacking pin headers until it doesn't interfere with things :)
+
+## Assembly of amplifier/etc
+
+12-15-2024: got TX/RX switch assembled and it works. It's really hard to fit 3 BNC connectors on a tiny board, I may or may not have melted plastic on one to make it smaller. It works though :)

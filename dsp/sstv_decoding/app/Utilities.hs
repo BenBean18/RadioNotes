@@ -1,5 +1,7 @@
 module Utilities where
 
+import Data.Binary (Binary, get, put)
+
 data ComplexFloat = ComplexFloat Float Float deriving Show
 instance Binary ComplexFloat where
     put (ComplexFloat r i) = do

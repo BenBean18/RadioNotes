@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMG3H21NT1
+D RF Amplifier 20.5DBM 19.5DB RF GenPurp Amp
+K
+F http://www.nxp.com/docs/en/data-sheet/MMG3H21NT1.pdf
+$ENDCMP
+#
+#End Doc Library

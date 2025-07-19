@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cots_amp")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/LIB_MMG3H21NT1/MMG3H21NT1/KiCad/MMG3H21NT1.kicad_sym")(options "")(descr ""))
+)

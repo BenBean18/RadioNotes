@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MMG3H21NT1"
+   (description "RF Amplifier 20.5DBM 19.5DB RF GenPurp Amp")
+   (family "ANA")
+   (package "MMG3H21NT1")
+   (attribute "Datasheet Link" "http://www.nxp.com/docs/en/data-sheet/MMG3H21NT1.pdf")
+   (attribute "Geometry.Height" "1.6mm")
+   (attribute "Mouser Part Number" "841-MMG3H21NT1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MMG3H21NT1?qs=cmND3fj6fzMiXymwJACqWA%3D%3D")
+   (attribute "Manufacturer_Name" "NXP")
+   (attribute "Manufacturer_Part_Number" "MMG3H21NT1")
+   (gate
+    (symbol "MMG3H21NT1")
+    (pin "RFIN" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "RFOUT/DCSUPPLY" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "MMG3H21NT1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MMG3H21NT1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.25 1.5)
+      (pt -2.25 1.5)
+      (pt -2.25 -1)
+      (pt 2.25 -1)
+      (pt 2.25 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.75 3)
+      (pt -2.75 3)
+      (pt -2.75 -3)
+      (pt 2.75 -3)
+      (pt 2.75 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.25 -1)
+      (pt 2.25 1.5)
+      (pt 1.5 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.25 -1)
+      (pt -2.25 1.5)
+      (pt -1.5 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 -2.4)
+      (arc (pt -1.600 -2.400) (pt -1.400 -2.500) (pt -1.600 -2.300) (start 180.0) (sweep 180.0))
+      (pt -1.4 -2.4)
+      (arc (pt -1.400 -2.400) (pt -1.400 -2.500) (pt -1.600 -2.300) (start 180.0) (sweep .0))
+      (pt -1.6 -2.4))))
+   (leg 1 (pt -1.500 -1.075) (padstack 0))
+   (leg 2 (pt 0.000 -1.075) (padstack 0))
+   (leg 3 (pt 1.500 -1.075) (padstack 0))
+   (leg 4 (pt 0.000 1.100) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.350 0 0 90.000))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 1.900 3.000 0 0 90.000))
+   )
+   (model "MMG3H21NT1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
