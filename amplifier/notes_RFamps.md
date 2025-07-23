@@ -155,8 +155,26 @@ why? warum?
 Ok I think I might understand it now. Maybe. For saturation mode anyway. If we look at the datasheet, we see this chart:
 ![2N3904 Figure 16: collector saturation region](image-22.png)
 
-This means that if we want to switch idk 100 mA, we need a base current of at least 3 mA? that doesn't make sense... because $V_{CE}$ is the **minimum** voltage needed for it to be in saturation, so like if we try 100 mA with a base current of only 2 mA it will be in cutoff. However, if we want to switch 100 mA with 5 mA, that's fine!
+~~This means that if we want to switch idk 100 mA, we need a base current of at least 3 mA? that doesn't make sense... because $V_{CE}$ is the **minimum** voltage needed for it to be in saturation, so like if we try 100 mA with a base current of only 2 mA it will be in cutoff. However, if we want to switch 100 mA with 5 mA, that's fine!~~
+
+^ this is wrong, see below, the chart is for $V_{CE}$ when in **saturation** which would be zero if the transistor was perfect
 
 Biasing for active mode: we only care about current.
 
 This looks like a really good writeup: https://electronics.stackexchange.com/questions/663662/npn-bjt-linear-region-operation, reading over it right now
+
+Remember: $V_{CE} = 0$ when the transistor is conducting fully, except it can't be zero because transistors aren't ideal.
+
+Hypothetical: want to switch 100 mA, $\text{V}_{\text{cc}} = 12\text{V}$, $\text{V}_\text{be} = \text{3.3V}$, $I_b = \text{5 mA}$
+
+Need to solve for $R_c$ and $R_b$
+
+On that chart, for the curve where $I_c = 100 mA$, $V_{ce} = 0.4V$ when $I_b = 5 mA$
+
+So what does this tell us now?
+
+$R_b = V_{be} / I_b = 3.3V / 5 mA = 660 \Omega$
+
+$R_c = (V_{cc} - V_{be}) / I_c = 8.7 V / 100 mA = 87 \Omega$
+
+LTspice time, but going to push first
