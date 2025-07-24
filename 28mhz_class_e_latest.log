@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\28mhz_class_e_latest.asc
-Start Time: Thu Jul 24 15:41:35 2025
+Start Time: Thu Jul 24 17:25:05 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -18,5 +18,5 @@ WARNING: Less than two connections to node nc_02.  This node is used by l2.
 WARNING: Less than two connections to node nc_03.  This node is used by rload.
 WARNING: Less than two connections to node nc_04.  This node is used by r4.
 .OP point found by inspection.
-Total elapsed time: 2.259 seconds.
+Total elapsed time: 2.312 seconds.
 
