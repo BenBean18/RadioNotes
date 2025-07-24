@@ -1,0 +1,15 @@
+* Z:\home\bean\RadioNotes\Draft2.asc
+Q1 N003 N002 0 0 2N3904
+R1 N001 N003 70
+V1 N004 0 PULSE(0 3.3 0 1n 1n {0.5/freq} {1/freq})
+R2 N002 N004 660
+V2 N001 0 12
+R3 N002 0 300
+C1 N004 N002 120p
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 10u 9u
+.param freq 28074000
+.backanno
+.end

@@ -165,16 +165,18 @@ This looks like a really good writeup: https://electronics.stackexchange.com/que
 
 Remember: $V_{CE} = 0$ when the transistor is conducting fully, except it can't be zero because transistors aren't ideal.
 
-Hypothetical: want to switch 100 mA, $\text{V}_{\text{cc}} = 12\text{V}$, $\text{V}_\text{be} = \text{3.3V}$, $I_b = \text{5 mA}$
+Hypothetical: want to switch 100 mA, $\text{V}_{\text{cc}} = 12\text{V}$, $\text{V}_\text{be} = \text{0.7V}$, $\text{I}_\text{b} = 4 \text{mA}$
 
 Need to solve for $R_c$ and $R_b$
 
-On that chart, for the curve where $I_c = 100 mA$, $V_{ce} = 0.4V$ when $I_b = 5 mA$
+On that chart, for the curve where $I_c = 100 mA$, $V_{ce} = 0.48V$ when $I_b = 4 mA$
 
 So what does this tell us now?
 
 $R_b = V_{be} / I_b = 3.3V / 5 mA = 660 \Omega$
 
-$R_c = (V_{cc} - V_{be}) / I_c = 8.7 V / 100 mA = 87 \Omega$
+$R_c = (V_{cc} - V_{be}) / I_c = 11.3 V / 100 mA = 113 \Omega$
 
 LTspice time, but going to push first
+
+oops i did it wrong, will look more later
