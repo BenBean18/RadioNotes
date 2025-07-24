@@ -165,18 +165,21 @@ This looks like a really good writeup: https://electronics.stackexchange.com/que
 
 Remember: $V_{CE} = 0$ when the transistor is conducting fully, except it can't be zero because transistors aren't ideal.
 
-Hypothetical: want to switch 100 mA, $\text{V}_{\text{cc}} = 12\text{V}$, $\text{V}_\text{be} = \text{0.7V}$, $\text{I}_\text{b} = 4 \text{mA}$
+Hypothetical: want to switch 30 mA, $\text{V}_{\text{cc}} = 12\text{V}$, $\text{V}_\text{be} = \text{0.7V}$, $\text{I}_\text{b} = 4 \text{mA}$
+(this is a beta of less than 10, gain-bandwidth product is 300 MHz / 28 MHz = 10.7)
 
 Need to solve for $R_c$ and $R_b$
 
-On that chart, for the curve where $I_c = 100 mA$, $V_{ce} = 0.48V$ when $I_b = 4 mA$
+On that chart, for the curve where $I_c = 30 mA$, $V_{ce} = 0.1V$ when $I_b = 4 mA$
 
 So what does this tell us now?
 
-$R_b = V_{be} / I_b = 3.3V / 5 mA = 660 \Omega$
+$R_b = V_{be} / I_b = 3.3V / 4 mA = 825 \Omega$
 
-$R_c = (V_{cc} - V_{be}) / I_c = 11.3 V / 100 mA = 113 \Omega$
+$R_c = (V_{cc} - V_{be}) / I_c = 11.3 V / 100 mA = 376 \Omega$
 
 LTspice time, but going to push first
 
 oops i did it wrong, will look more later
+
+"Try to think of a BJT as a bad delivery service: you are in base and ask for a carrier; the emitter ships one to you but it gets snatched by the evil collector. You are still waiting for your carrier, so the emitter ships another one, and this one too is snatched by the collector. Out of 100 carriers, only one makes it to your contact in base. But in order to get that one carrier you have to ask for it, by means of the base current. Stop the base current and the emitter will stop the deliveries." is a good explanation: https://electronics.stackexchange.com/a/654231
