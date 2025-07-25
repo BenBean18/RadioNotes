@@ -185,3 +185,10 @@ oops i did it wrong, will look more later
 "Try to think of a BJT as a bad delivery service: you are in base and ask for a carrier; the emitter ships one to you but it gets snatched by the evil collector. You are still waiting for your carrier, so the emitter ships another one, and this one too is snatched by the collector. Out of 100 carriers, only one makes it to your contact in base. But in order to get that one carrier you have to ask for it, by means of the base current. Stop the base current and the emitter will stop the deliveries." is a good explanation: https://electronics.stackexchange.com/a/654231
 
 https://positivefb.com/2021/06/19/bjt-amplifier-concept-to-components/
+
+# works? in sim? even when you change the transistor?
+some notes before i forget:
+- capacitors between each stage are for AC coupling, they let the AC signal through but not the DC offset, and then the voltage divider after is to set the DC offset to correctly bias the transistor. i *think* they might help provide charge faster also? idk though
+- emitter degeneration...honestly don't completely understand why it helps with stability yet but played around with resistor values until i found ones that worked
+- and that's about it! these are all standard component values too
+![works?](image-23.png)
