@@ -33,7 +33,7 @@ C11 N018 P001 0.022µ
 R13 N006 N009 10k
 R14 N009 0 2.2k
 Q3 N006 N009 P003 0 LG
-R15 N004 N006 220 pwr=0.5
+R15 N004 N006 165 pwr=0.5
 R8 P003 0 20
 C13 N007 N006 0.022µ
 R1 N004 N007 33k
@@ -47,7 +47,7 @@ L2 N005 N004 10µ
 .model PMOS PMOS
 .lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.mos
 .model MySwitch SW(Ron= .0003250389 Roff=10000 Vt=3.5 Vh=0)
-.tran 0 1m 900u 100p startup
+.tran 0 1m 900u startup
 * ClassE - www.TonneSoftware.com
 .model RD16HHF1 VDMOS(Rg=987m Rd=0m Rs=111m Vto=3.19 Kp=0.495 Lambda=0 mtriode=0.804 subthres=2.37e-02 Cgdmax=11.6p Cgdmin=1.64p Cgs=44.9p Cjo=73.1p M=0.297 Vj=0.839)
 * actual Class E amplifier
