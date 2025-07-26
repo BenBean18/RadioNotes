@@ -196,3 +196,6 @@ some notes before i forget:
 - 33ohm: https://www.mouser.com/ProductDetail/Susumu/HRG3216Q-33R0-D-T1?qs=Pccw3SRxl2QVimWmCTvNQQ%3D%3D
 
 Another important takeaway: this is more efficient (I think) because I'm not actually building a linear amplifier here, this is amplifying a square wave so switching the transistor between cutoff (<0.7V) and saturation (>0.7V)
+
+Building this:
+![yay](image-24.png)
