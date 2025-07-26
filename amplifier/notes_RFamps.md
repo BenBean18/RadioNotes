@@ -186,9 +186,13 @@ oops i did it wrong, will look more later
 
 https://positivefb.com/2021/06/19/bjt-amplifier-concept-to-components/
 
-# works? in sim? even when you change the transistor?
+### works? in sim? even when you change the transistor?
 some notes before i forget:
 - capacitors between each stage are for AC coupling, they let the AC signal through but not the DC offset, and then the voltage divider after is to set the DC offset to correctly bias the transistor. i *think* they might help provide charge faster also? idk though
-- emitter degeneration...honestly don't completely understand why it helps with stability yet but played around with resistor values until i found ones that worked
+- emitter degeneration...honestly don't completely understand why it helps with stability yet but played around with resistor values until i found ones that worked...once i have more mental energy https://www.electronics-tutorials.com/amplifiers/emitter-degeneration.htm
 - and that's about it! these are all standard component values too
 ![works?](image-23.png)
+
+- 33ohm: https://www.mouser.com/ProductDetail/Susumu/HRG3216Q-33R0-D-T1?qs=Pccw3SRxl2QVimWmCTvNQQ%3D%3D
+
+Another important takeaway: this is more efficient (I think) because I'm not actually building a linear amplifier here, this is amplifying a square wave so switching the transistor between cutoff (<0.7V) and saturation (>0.7V)
