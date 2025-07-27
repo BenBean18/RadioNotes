@@ -219,4 +219,15 @@ replaced the transistor with a theoretically working one (although slightly susp
 
 concerningly, my transmission did show up on harmonics as well, but may have just overloaded my SDR? not sure. i'm guessing that's what happened. it was much weaker than I thought it would be though, like -20 dB with LNA and using a tiny wire as an antenna, I expected it would be strong enough to potentially hurt the SDR.
 
-found a bad solder joint on a capacitor in series with the signal, reflowed it, still doesn't work :'( 
+found a bad solder joint on a capacitor in series with the signal, reflowed it, still doesn't work :'(
+
+Potential causes:
+- Ground planes of two boards only attached in one place (through battery)
+- Many solder joints look suspicious, but read zero ohms anyway (esp. caps...the RD16HHF1 also)
+- The new transistor also is broken (unlikely, gate and source have very high resistance between them)
+- An inductor broke (unlikely probably since they're just wires?)
+- A capacitor broke
+- ~~I believe the preamp I built today works (see earlier in this document when I was using my SDR), so it's probably not that, but would need an oscilloscope to confirm. I did confirm that all the nodes I could measure were biased correctly afaict though.~~
+- ~~Antenna bad? I don't think so since I was able to receive signals from Chile this morning~~
+
+I guess the best course of action is probably to go reflow everything and see if that fixes it, but I don't want to do that right now :(
