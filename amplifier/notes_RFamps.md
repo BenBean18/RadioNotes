@@ -199,3 +199,17 @@ Another important takeaway: this is more efficient (I think) because I'm not act
 
 Building this:
 ![yay](image-24.png)
+
+IRL: RD16HHF1 doesn't heat up at all when transmitting :( and no signal received. With the RD16HHF1 attached, voltage at its gate was like 0 instead of the intended bias of ~6.6V. So, I detached the RD16HHF1 and bias voltages were all correct to ~1.5V. So what's happening? I noticed my multimeter has a Hz measurement option, so I tried some different freqs (up to ~3M before multimeter just stopped measuring frequency) and they were mirrored at input and output! But that's not 28MHz, that's easier, so time to break out my SDR and use it as a spectrum analyzer. Results:
+- 5MHz: -58 dBFS without battery attached, -47 dBFS with battery attached
+- 28MHz: -46 dBFS without battery attached, -30 dBFS with battery attached
+
+That looks good! What's the expected gain? 900 mW out with 20 mW in is a ratio of 45 which is 16.53 dB which at 28MHz is exactly what we got. so wtf is the problem?
+
+(this makes sense too, about 10x current gain 8mA to 80mA and 4x voltage gain 3.3V to 12V)
+
+-46 to -30
+
+sooooo uh resistance between gate and source of the MOSFET is measured to be zero ohms. that's extremely suspicious: [gate oxide breakdown](https://www.sciencedirect.com/science/article/abs/pii/S0026271407000728)
+
+pretty sure the RD16HHF1 is broken, going to take inside and measure another one to confirm
