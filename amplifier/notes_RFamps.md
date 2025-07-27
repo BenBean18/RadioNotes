@@ -213,3 +213,10 @@ That looks good! What's the expected gain? 900 mW out with 20 mW in is a ratio o
 sooooo uh resistance between gate and source of the MOSFET is measured to be zero ohms. that's extremely suspicious: [gate oxide breakdown](https://www.sciencedirect.com/science/article/abs/pii/S0026271407000728)
 
 pretty sure the RD16HHF1 is broken, going to take inside and measure another one to confirm
+
+replaced the transistor with a theoretically working one (although slightly suspect solder joints), and nobody heard me on PSKReporter even though there were people listening on 10m in FM06 and people who heard other people on 10m in FM06. commands used (example):
+`pinctrl set 17 op dl && sudo ./ft8 28074000 -a 0 "CQ KQ4TVW FM06" && pinctrl set 17 op dh && pinctrl set 17 op dl && sudo ./ft8 28074000 -a 220 "CQ KQ4TVW FM06" && pinctrl set 17 op dh`
+
+concerningly, my transmission did show up on harmonics as well, but may have just overloaded my SDR? not sure. i'm guessing that's what happened. it was much weaker than I thought it would be though, like -20 dB with LNA and using a tiny wire as an antenna, I expected it would be strong enough to potentially hurt the SDR.
+
+found a bad solder joint on a capacitor in series with the signal, reflowed it, still doesn't work :'( 
