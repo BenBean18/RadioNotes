@@ -222,7 +222,7 @@ concerningly, my transmission did show up on harmonics as well, but may have jus
 found a bad solder joint on a capacitor in series with the signal, reflowed it, still doesn't work :'(
 
 Potential causes:
-- Ground planes of two boards only attached in one place (through battery)
+- Ground planes of two boards only attached in one place (through battery...this is an extremely long way for current to travel. maybe attaching the ground planes with a short wire is enough??)
 - Many solder joints look suspicious, but read zero ohms anyway (esp. caps...the RD16HHF1 also)
 - The new transistor also is broken (unlikely, gate and source have very high resistance between them)
 - An inductor broke (unlikely probably since they're just wires?)
@@ -231,3 +231,12 @@ Potential causes:
 - ~~Antenna bad? I don't think so since I was able to receive signals from Chile this morning~~
 
 I guess the best course of action is probably to go reflow everything and see if that fixes it, but I don't want to do that right now :(
+
+- Replace RD16HHF1 connection (did this by using the other TO220 slot (for the unused 7805) and some ugly hacks...)
+- C1: replace with 120p (done)
+- C2: replace with identical 100p (done)
+- L2_a1: replace with identical 1.5uH (not doing this)
+- CS1: replace with identical 200p (not doing this)
+- CF1: fix GND connection (did this)
+
+so uh idk if it's me or not, because propagation is crap tonight. :(
