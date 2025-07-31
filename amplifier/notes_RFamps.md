@@ -235,8 +235,14 @@ I guess the best course of action is probably to go reflow everything and see if
 - Replace RD16HHF1 connection (did this by using the other TO220 slot (for the unused 7805) and some ugly hacks...)
 - C1: replace with 120p (done)
 - C2: replace with identical 100p (done)
-- L2_a1: replace with identical 1.5uH (not doing this)
-- CS1: replace with identical 200p (not doing this)
+- L2_a1: replace with identical 1.5uH (did this now)
+- CS1: replace with identical 200p (did this now)
 - CF1: fix GND connection (did this)
 
 so uh idk if it's me or not, because propagation is crap tonight. :(
+
+-50 w/ no power at all, -43 w/ no power to big amp, -30 with (but also this is the only path that exits via an antenna)
+
+Tried replacing 47k to ground on the RD16HHF1 input with a 68k, and transistor seemed to get less warm weirdly, should have been hotter i think since longer time on?
+
+i think i need a scope to see the output voltage of the preamp and the drain voltage of the MOSFET and get a 50ohm resistor and put it across the output and see how much voltage drop etc etc all requiring a scope :(

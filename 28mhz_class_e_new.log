@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
-Circuit: * Z:\home\bean\RadioNotes\28mhz_class_e_latest.asc
-Start Time: Thu Jul 31 14:30:09 2025
+Circuit: * Z:\home\bean\RadioNotes\28mhz_class_e_new.asc
+Start Time: Thu Jul 31 11:46:58 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -12,7 +12,6 @@ temp = 37
 method = modified trap
 WARNING: Node N010 is floating.
 
-WARNING: Less than two connections to node nc_01.  This node is used by vgen2.
 .OP point found by inspection.
-Total elapsed time: 15.577 seconds.
+Total elapsed time: 3.852 seconds.
 
