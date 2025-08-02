@@ -246,3 +246,47 @@ so uh idk if it's me or not, because propagation is crap tonight. :(
 Tried replacing 47k to ground on the RD16HHF1 input with a 68k, and transistor seemed to get less warm weirdly, should have been hotter i think since longer time on?
 
 i think i need a scope to see the output voltage of the preamp and the drain voltage of the MOSFET and get a 50ohm resistor and put it across the output and see how much voltage drop etc etc all requiring a scope :(
+
+https://www.mouser.com/datasheet/2/115/DIOD_S_A0004873079_1-2542624.pdf
+
+https://www.mouser.com/c/semiconductors/discrete-semiconductors/transistors/mosfets/?id%20-%20continuous%20drain%20current=200%20mA~~100%20A&mounting%20style=SMD%2FSMT&product%20type=GaN%20FETs%7C~JFETs~~MOSFETs%7C~RF%20JFET%20Transistors~~RF%20MOSFETs&qg%20-%20gate%20charge=900%20pC~~12%20nC&technology=Si&transistor%20polarity=N-Channel&vds%20-%20drain-source%20breakdown%20voltage=20%20V~~300%20V&vgs%20th%20-%20gate-source%20threshold%20voltage=0%20V~~1.2%20V&rp=semiconductors%2Fdiscrete-semiconductors%7C~Product%20Type~~semiconductors%2Fdiscrete-semiconductors%2Ftransistors%2Fmosfets%7C~Vgs%20th%20-%20Gate-Source%20Threshold%20Voltage%7C~Id%20-%20Continuous%20Drain%20Current%7C~Qg%20-%20Gate%20Charge%7C~Vds%20-%20Drain-Source%20Breakdown%20Voltage
+
+https://assets.nexperia.com/documents/data-sheet/2N7002NXBK.pdf looks good
+
+wait this looks awesome https://www.mouser.com/datasheet/2/196/Infineon_IRLML2060_DataSheet_v01_01_EN-3363619.pdf
+
+https://positivefb.com/2021/06/19/bjt-amplifier-concept-to-components/
+
+https://101-things.readthedocs.io/en/latest/ham_transmitter.html
+
+https://101-things.readthedocs.io/en/latest/radio_receiver.html
+
+I will have access to https://www.keysight.com/us/en/product/EDUX1052A/oscilloscope-50-mhz-2-analog-channels.html in about 20 days
+
+2.4V - 17.4V at 10MHz, looks like a decent square wave
+
+First 2N3904 biased to 1.28V. -240mV to 2.16V on base at 28.074MHz
+
+Collector of first 2N3904: 5.12V - 10.2V at 28.074MHz
+
+At 2.8 MHz, base is -1.1V to 2.1V and collector is 2.8V - 9.8V
+
+At 10MHz, base is -1V to 2.1V and collector is 3.2V - 10.2V, still very clean
+
+At 15MHz, starts getting clipped: base is -0.76V to 2.12V and collector is 2.88V to 10.3V, looks less like a square and not being driven low as strongly. Rise time: 15ns, fall time: 20ns. Image has 15MHz written on it.
+
+18MHz: collector is 4V - 10.2V
+
+20MHz: collector is 4.4V - 10.2V
+
+28MHz: base is -0.3V - 2.1V, collector is 5.6V - 10.2V.
+
+The base of the second stage 2N3904 is -2.4V to 2.5V, with collector going from 4.8V to 10.6V. not nearly enough swing to drive the RD16HHF1 :(
+
+All below here has second stage disconnected
+
+At 28.074MHz with second stage disconnected, the collector of the first 2N3904 is going from ~3.3V to 12.4V. It's basically a triangle though, not much of a square wave. Base is going from -0.24V to 2V (0-2.2V if lowest is at DC, so 1.1V dropped across a 330 ohm resistor, so 3.3mA in and a minimum of ~3.3V at transistor across a 33ohm emitter resistor to ground so 100mA? that can't be right...that's a beta of like 30)
+
+At 7.074MHz with second stage disconnected, it looks really nice, base going from -1.02V to 1.88V and collector going from 1.36V to 15.2V (:o).
+
+Input before cap is 440mV to 3V with no power (at 28MHz, see prev photo)

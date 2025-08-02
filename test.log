@@ -1,0 +1,4 @@
+LTspice 24.0.12 for Windows
+Circuit: * Push-pull BJT driver with base resistors
+Start Time: Fri Aug  1 15:13:45 2025
+Fatal Error: Missing model value for Q1

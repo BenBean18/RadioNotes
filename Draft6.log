@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\Draft6.asc
-Start Time: Sat Jul 26 18:42:08 2025
+Start Time: Fri Aug  1 14:42:52 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -10,6 +10,40 @@ Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by v1.
+WARNING: Less than two connections to node nc_02.  This node is used by c2.
+WARNING: Less than two connections to node nc_03.  This node is used by r8.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.062 seconds.
+Heightened Def Con from 3.96429e-06 to 3.96449e-06
+Heightened Def Con from 4.14286e-06 to 4.14286e-06
+Heightened Def Con from 4.21429e-06 to 4.21429e-06
+Heightened Def Con from 4.23414e-06 to 4.23414e-06
+Heightened Def Con from 4.25e-06 to 4.25e-06
+Heightened Def Con from 4.57143e-06 ++++++++++++++++++to 4.57143e-06
+Heightened Def Con from 4.64286e-06 to 4.64306e-06
+Heightened Def Con from 5e-06 to 5e-06
+Heightened Def Con from 5.25e-06 to 5.2502e-06
+Heightened Def Con from 5.5e-06 to 5.5002e-06
+Heightened Def Con from 5.55557e-06 to 5.55577e-06
+Heightened Def Con from 5.877e-06 to 5.877e-06
+Heightened Def Con from 6.03571e-06 to 6.03571e-06
+Heightened Def Con from 6.23414e-06 +++++++++++++++to 6.23414e-06
+Heightened Def Con from 6.30557e-06 to 6.30559e-06
+Heightened Def Con from 6.55557e-06 to 6.55557e-06
+Heightened Def Con from 7.09129e-06 to 7.09129e-06
+Heightened Def Con from 7.57143e-06 to 7.57163e-06
+Heightened Def Con from 7.75e-06 to 7.75e-06
+Heightened Def Con from 8.57143e-06 +++++++++++++++++to 8.57143e-06
+Heightened Def Con from 8.75e-06 to 8.7502e-06
+Heightened Def Con from 8.92857e-06 ++++++++++++++++++to 8.92857e-06
+Heightened Def Con from 9.01986e-06 to 9.01986e-06
+Heightened Def Con from 9.53571e-06 to 9.53573e-06
+Heightened Def Con from 9.82143e-06 to 9.82145e-06
+Heightened Def Con from 1.11429e-05 to 1.11429e-05
+Heightened Def Con from 1.225e-05 to 1.225e-05
+Heightened Def Con from 1.55e-05 to 1.55e-05
+Heightened Def Con from 1.72341e-05 to 1.72341e-05
+Total elapsed time: 45.127 seconds.
 
