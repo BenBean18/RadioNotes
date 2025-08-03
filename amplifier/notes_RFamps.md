@@ -292,3 +292,12 @@ At 7.074MHz with second stage disconnected, it looks really nice, base going fro
 Input before cap is 440mV to 3V with no power (at 28MHz, see prev photo)
 
 Common collector is a good voltage buffer (i.e. only current gain)
+
+What I learned today:
+- Common emitter: i mostly know how this works already. control is at base, output is at collector, and there's a resistor from collector to Vcc (and sometimes a resistor from emitter to GND also for degeneration, but emitter can also just go to ground). base current is amplified at collector (well that's just core BJT functionality but whatever), when base is on then collector can conduct to ground (electrons at emitter are attracted to holes introduced at base assuming NPN but because of BJT properties the base is really bad at capturing those so they flow through the thin P layer to the collector, the percentage that get to base is like 1/beta or something), so it's inverting. good for voltage gain.
+- Common base: wtf is this lol, only learned about it today really in cascodes. it's a current mirror. basically the collector is attached to power and the emitter is attached to a current source. the base is kept constant (usually not ground though, biased to some voltage at least one Vbe (like 0.7V) above the emitter). electrons flow from emitter to collector so the amount of electrons flowing in at the emitter determine how many electrons flow out of the collector. in a cascode, this is useful because the Miller effect (parasitic capacitance that increases with voltage gain) is lessened at the bottom common emitter because not much voltage gain is needed, common base only wants current.
+- Common collector: heard of it before i think? makes more sense than common base anyway. control is at base, collector attached to Vcc, output at emitter with a resistor to ground. emitter changes its voltage so it's always 1 Vbe/"diode" drop (like 0.7V again) below base. electrons still flow from emitter to collector here, current through resistor is variable with voltage. anyway i'm tired but kinda understand this one, it'll just always be a diode drop below.
+
+And those are the 3 most common BJT amplifier types, all of which I'm using now!
+
+![yippee!](image-25.png)
