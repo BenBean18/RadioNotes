@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\28mhz_class_e_latest_cascode.asc
-Start Time: Sun Aug  3 12:04:38 2025
+Start Time: Sun Aug  3 13:05:18 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -12,7 +12,6 @@ temp = 37
 method = modified trap
 WARNING: Node N010 is floating.
 
-WARNING: Less than two connections to node nc_01.  This node is used by vgen1.
 .OP point found by inspection.
-Total elapsed time: 32.388 seconds.
-
+Fatal Error: Trouble writing 4 more bytes to the disk...
+   Full?  Permission problem?

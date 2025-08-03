@@ -303,3 +303,7 @@ And those are the 3 most common BJT amplifier types, all of which I'm using now!
 ![yippee!](image-25.png)
 
 Also just a bit more reflection: the old version didn't work probably because of the transistors being too slow/Miller capacitance/something. So we'll fix that with a cascode (inverting voltage gain is minimal I think although not fully convinced by my simulation but we'll see). But the cascode has a high output impedance so it can't drive the MOSFET easily, it'll get loaded down I think. So we'll add a common collector to act as a voltage follower which has very low output impedance.
+
+holy crap i think it might work and this is even on a *breadboard*
+
+![waoh](./IMG_9493.jpg)
