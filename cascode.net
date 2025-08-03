@@ -1,0 +1,30 @@
+* Z:\home\bean\RadioNotes\cascode.asc
+Vgen1 N011 0 PULSE(0 3.3 0 1n 1n {0.5/freq} {1/freq}) Rser=0
+R1 N008 N011 330
+Q1 N002 N004 N006 0 Q
+Q2 N006 N009 N012 0 Q
+R2 N001 N002 500
+V1 N001 0 13.3
+R3 N004 N009 10k
+R4 N009 0 10k
+C1 N004 0 0.022µ
+C2 N009 N008 0.022µ
+R5 N001 N004 22k
+Q3 N003 N005 N007 0 Q
+Q4 N007 N010 N013 0 Q
+R6 N005 N010 10k
+R7 N010 0 10k
+C3 N005 0 0.022µ
+R8 N001 N005 22k
+R9 N001 N003 165
+C4 N010 N002 0.022µ
+R10 N012 0 165
+R11 N013 0 20
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
+.param freq 28.074Meg
+.tran 0 1m 100u 100p
+.model Q AKO: 2N3904
+.backanno
+.end
