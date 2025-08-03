@@ -285,7 +285,7 @@ The base of the second stage 2N3904 is -2.4V to 2.5V, with collector going from 
 
 All below here has second stage disconnected
 
-At 28.074MHz with second stage disconnected, the collector of the first 2N3904 is going from ~3.3V to 12.4V. It's basically a triangle though, not much of a square wave. Base is going from -0.24V to 2V (0-2.2V if lowest is at DC, so 1.1V dropped across a 330 ohm resistor, so 3.3mA in and a minimum of ~3.3V at transistor across a 33ohm emitter resistor to ground so 100mA? that can't be right...that's a beta of like 30)
+At 28.074MHz with second stage disconnected, the collector of the first 2N3904 is going from ~3.3V to 12.4V. It's basically a triangle though, not much of a square wave. Base is going from -0.24V to 2V (0-2.2V if lowest is at DC, so 1.1V dropped across a 330 ohm resistor, so 3.3mA in and (13.3 Vcc - (3.3 V + 1.0 Vbe)) = 9V across a 400ohm resistor so 22 mA which is a beta of like 5)
 
 At 7.074MHz with second stage disconnected, it looks really nice, base going from -1.02V to 1.88V and collector going from 1.36V to 15.2V (:o).
 
