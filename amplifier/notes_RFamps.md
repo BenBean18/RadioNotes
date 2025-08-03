@@ -290,3 +290,5 @@ At 28.074MHz with second stage disconnected, the collector of the first 2N3904 i
 At 7.074MHz with second stage disconnected, it looks really nice, base going from -1.02V to 1.88V and collector going from 1.36V to 15.2V (:o).
 
 Input before cap is 440mV to 3V with no power (at 28MHz, see prev photo)
+
+Common collector is a good voltage buffer (i.e. only current gain)
