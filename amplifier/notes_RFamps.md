@@ -307,3 +307,21 @@ Also just a bit more reflection: the old version didn't work probably because of
 holy crap i think it might work and this is even on a *breadboard*
 
 ![waoh](./IMG_9493.jpg)
+
+...the RD16HHF1 did things but it got too hot and i shorted the gate to the source. :(((
+
+but i've learned a lot more about bjts while building this!
+
+i'll try to design the next board to use the ground plane as a heatsink, pretty sure that's a better idea. but first, checking to make sure i didn't break the preamp driving its output into ground.
+
+wellllll i destroyed a 2n3904 by doing that. :( but it was only the last one and i have a bunch more so i replaced it and it works now, although now peak to peak is only like 9V?
+
+also OUCH the 165ohm resistor on the collector of the common base transistor is getting quite hot and we've made an RTD, it only has a resistance of like 120 ohms now. wompity womp
+
+(330 made from 3 parallel 1Ks was also getting a bit warm)
+
+Ok peak to peak is back to ~10V once the resistor cooled down, but that's still worse than before, maybe the 2N3904 I picked is weaker?
+
+I tried another 2N3904 and it's still not ideal, looks less squarey, ?? will attach picture in a bit
+
+might try to solder this preamp to see if perf better or try to get one working more squarily in sim
