@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\cascode.asc
-Start Time: Sat Aug  2 23:15:10 2025
+Start Time: Sat Aug  2 23:32:44 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -14,5 +14,6 @@ WARNING: Node N013 is floating.
 
 WARNING: Less than two connections to node n013.  This node is used by c4.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 67.216 seconds.
+Heightened Def Con from 0.000485846 to 0.000485846
+Total elapsed time: 36.530 seconds.
 
