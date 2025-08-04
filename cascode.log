@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\cascode.asc
-Start Time: Sun Aug  3 12:55:25 2025
+Start Time: Mon Aug  4 14:16:36 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -10,10 +10,12 @@ Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
-WARNING: Node N012 is floating.
+WARNING: Node N014 is floating.
+WARNING: Node NC_02 is floating.
 
-WARNING: Less than two connections to node nc_01.  This node is used by v1.
-WARNING: Less than two connections to node n012.  This node is used by c4.
+WARNING: Less than two connections to node n014.  This node is used by c4.
+WARNING: Less than two connections to node nc_01.  This node is used by v2.
+WARNING: Less than two connections to node nc_02.  This node is used by v2.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 18.436 seconds.
+Total elapsed time: 5.339 seconds.
 

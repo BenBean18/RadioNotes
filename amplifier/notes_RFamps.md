@@ -300,6 +300,7 @@ What I learned today:
 
 And those are the 3 most common BJT amplifier types, all of which I'm using now!
 
+Note: when I built this I changed the 1.5k on the first base to a 2.2k, the 660 on the second collector to a 330 (made from 3 parallel 1Ks), and the 3.3k to bias the transistor to a 10k
 ![yippee!](image-25.png)
 
 Also just a bit more reflection: the old version didn't work probably because of the transistors being too slow/Miller capacitance/something. So we'll fix that with a cascode (inverting voltage gain is minimal I think although not fully convinced by my simulation but we'll see). But the cascode has a high output impedance so it can't drive the MOSFET easily, it'll get loaded down I think. So we'll add a common collector to act as a voltage follower which has very low output impedance.
@@ -325,3 +326,18 @@ Ok peak to peak is back to ~10V once the resistor cooled down, but that's still 
 I tried another 2N3904 and it's still not ideal, looks less squarey, ?? will attach picture in a bit
 
 might try to solder this preamp to see if perf better or try to get one working more squarily in sim
+
+Rise time and fall time are the amount of time for the transistor to go into or come out of saturation/cutoff. If you always operate a BJT in active mode it can go fast. Honestly, a fast FET is likely better for this. e.g. https://www.mouser.com/datasheet/2/196/Infineon_IRLML2060_DataSheet_v01_01_EN-3363619.pdf
+
+Let's try building this one and seeing if it looks any better/more swing
+![new](image-26.png)
+
+Sim results:
+![Cascoded](image-28.png)
+
+I'd also be interested to compare it to a simple common emitter (which can be achieved by replacing Q4 with a wire I think), it has less swing in LTspice but curious if capacitance affects it any more in reality
+
+This is without Q4/just the common emitter
+![Just CE](image-27.png)
+
+Wow the Miller effect is real! :o
