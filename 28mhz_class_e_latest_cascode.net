@@ -22,20 +22,18 @@ L8 N010 N009 1.5µ
 L9 N010 N009 500n
 R6 N011 N010 0.05
 V1 N004 0 13.3
-Vgen1 N019 0 PULSE(0 3.3 0 1n 1n {0.5/freq} {1/freq}) Rser=0
-R17 N017 N019 330
+Vgen1 N018 0 PULSE(0 3.3 0 1n 1n {0.5/freq} {1/freq}) Rser=0
+R17 N017 N018 330
 Q4 N005 N007 N016 0 LG
-Q5 N016 N018 N020 0 LG
-R18 N004 N005 660 pwr=0.5
-R20 N018 0 1k
+Q5 N016 N017 N019 0 LG
+R18 N004 N005 330 pwr=0.5
+R20 N017 0 1k
 C14 N007 0 0.022µ
-R4 N020 0 100
+R4 N019 0 33
 Q1 N004 N005 N006 0 LG
 R7 N006 0 83 pwr=0.5
-C11 N018 N017 0.022µ
-R1 N004 N018 6.8k
-R3 N007 0 2.2k
-R8 N004 N007 6.8k
+R3 N007 0 3.4k
+R8 N004 N007 10k
 .model NPN NPN
 .model PNP PNP
 .lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
@@ -56,10 +54,9 @@ R8 N004 N007 6.8k
 .model BS170 VDMOS VTO=1.824 RG=270 RS=1.572 RD=1.436 RB=.768 KP=.1233 Cgdmax=20p Cgdmin=3p CGS=28p Cjo=35p Rds=1.2E8 IS=5p Bv=60 Ibv=10u Tt=161.6n
 .model 2N7000 VDMOS(Rg=3 Vto=1.6 Rd=0 Rs=.75 Rb=.14 Kp=.17 mtriode=1.25 Cgdmax=80p Cgdmin=12p Cgs=50p Cjo=50p Is=.04p mfg=Fairchild Vds=60 Ron=2 Qg=1.5n)
 .MODEL BS250P VDMOS pchan Rg=160 VTO=-3.193 RS=2.041 RD=0.697 IS=2E-13 KP=0.277 Cjo=105p LAMBDA=1.2E-2 RB=0.309 Rds=1.2E8 Cgdmax=57p Cgdmin=5p CGS=47p TT=86.56n BV=45 IBV=10u
-.MODEL LG AKO: 2N3904 (Bf=60)
+.MODEL LG AKO: 2N3904 (Bf=200)
 .temp 37
 * 1W
-* Set to 3V3 to disable output (inverting)
 * 0.5W
 .backanno
 .end

@@ -300,7 +300,7 @@ What I learned today:
 
 And those are the 3 most common BJT amplifier types, all of which I'm using now!
 
-Note: when I built this I changed the 1.5k on the first base to a 2.2k, the 660 on the second collector to a 330 (made from 3 parallel 1Ks), and the 3.3k to bias the transistor to a 10k
+Note: when I built this I changed the 1.5k on the first base to a 2.2k, the 660 on the second collector to a 330 (made from 3 parallel 1Ks), and the 2.2k/3.3k for RD16HHF1 bias to a 1k/10k, and cap on input wasn't there
 ![yippee!](image-25.png)
 
 Also just a bit more reflection: the old version didn't work probably because of the transistors being too slow/Miller capacitance/something. So we'll fix that with a cascode (inverting voltage gain is minimal I think although not fully convinced by my simulation but we'll see). But the cascode has a high output impedance so it can't drive the MOSFET easily, it'll get loaded down I think. So we'll add a common collector to act as a voltage follower which has very low output impedance.
@@ -341,3 +341,49 @@ This is without Q4/just the common emitter
 ![Just CE](image-27.png)
 
 Wow the Miller effect is real! :o
+
+soooo this is only 5Vptp when built. idk if i massively fricked up or what happened (IMG_9503). At 500kHz (easy peasy) it's 9.44Vptp (about what was predicted) and looks like a quite nice square wave lol. 1MHz also looked fine.
+
+it's already starting to get clipped at 5MHz, only 7.76Vptp
+
+also the output transistor is getting *hot* (which probably makes sense, 400mW dissipated according to LTspice)
+
+wait what at 5MHz when I disconnect the common collecotor I'm getting 11.5Vptp, 14MHz is still 11Vptp, but 28MHz is 7.4Vptp
+
+why is adding another transistor at the end messing things up so much?
+
+Also was just curious, without cascoding we get ~6Vptp at 28MHz and it was 7.4Vptp with so it definitely improves things but not enormously
+
+Let's try going back to old amp and checking how it behaves
+
+Old amp is 9Vptp at 28MHz. that *should* be enough. IMG_9509
+
+It looks nicer without the last common collector attached, IMG_9510 (3.36V - 12.7V) From now on, all images will be w/out common collector attached unless specified otherwise
+
+The Miller effect **is** real! Same conditions as last photo but also with the common base bypassed by a wire, it's worse IMG_9511. That's pretty cool
+
+Let's make this better!
+
+Replacing 10K between bases with a 5.1K made things worse IMG_9512
+
+Stronger bias resistors (effectively everything halved, 2.2K down is 1K, 10K between the two bases is 5K, 22K up is 10K) seems to be better? IMG_9513 Actually maybe not, waveform looks better but less swing
+
+What about going back to old bias resistors and making emitter 33 instead of 50? It's definitely lower! But again less swing IMG_9514
+
+Let's try halving the two lower bias resistors (10K between bases now 5K and 2.2K down is now 1K). And we now have a lower triangle IMG_9515
+
+With this configuration we expect to see it low for longer with smaller spikes, and we do, but the spikes aren't very straight in reality IMG_9517
+![alt text](image-29.png)
+
+Replacing bottom 2.2K with 1K yields better results IMG_9518
+
+Just for fun, IMG_9519 is same configuration as 9518 except common base is bypassed with a wire, Miller capacitance continues to matter
+
+wtf so i was playing around for a while and this is like amazing how IMG_9521 CH2 is bottom (input), CH1 is top (output)
+The 165ohm was getting a bit toasty but that's fineeeee
+![wowowowowowow](image-30.png)
+![](IMG_9521.jpg)
+
+min is around 1.1V, max is around 11.2V
+
+lol it's not linear at all and will turn anything into a square wave but that's fine for this purpose (hmmmmm maybe i should use fast logic level mosfets instead....hmmmmmm)! we can try to build a linear amplifier later when we have a function generator just for fun
