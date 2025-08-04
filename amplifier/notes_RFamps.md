@@ -387,3 +387,21 @@ The 165ohm was getting a bit toasty but that's fineeeee
 min is around 1.1V, max is around 11.2V
 
 lol it's not linear at all and will turn anything into a square wave but that's fine for this purpose (hmmmmm maybe i should use fast logic level mosfets instead....hmmmmmm)! we can try to build a linear amplifier later when we have a function generator just for fun
+
+IMG_9523 and IMG_9524 is this without cascoding
+
+Also, something funny is that the output should be 180 degrees out of phase with the input (it's an inverting amplifier), but the delay is so bad that they're roughly the same. Doesn't matter :)
+
+Oddly, at like 15MHz it's only 8Vptp, what's happening? Is the gain actually decreasing a lot but because of ringing it looks higher? (e.g. rpi input Vptp is 5.4V which is just obviously wrong)
+
+And then at 22MHz it's back to 9.28Vptp and less squarey
+
+28MHz is at least 3.6dB lower in voltage than 500kHz = ratio of 1.514 so 8Vptp?? maybe? or wait is this power idk decibels are weird
+
+14.3 dB at 500kHz, 11.1 dB at 28MHz. 1 Vrms = 0 dB. so uh 5.188V vs 3.589V at fundamental frequency? idk maybe this sucks
+
+10.523dB at 28MHz vs 11.985dB at 500kHz for fundamental frequency in simulation
+
+so 1.73dB more lost in real life?
+
+wait idk but really weird that Vrms is lower (like 6.5V) at 15MHz than 28MHz (like ....okaayyyy still around 7V when it should be like 7.5 in sim so that's 290 mW vs 340 mW, and CH2/RPi input Vrms is like 2.6V which is higher than the 2.38 it should be so maybe weird oscilloscope artifacts idk)

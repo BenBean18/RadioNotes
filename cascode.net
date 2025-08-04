@@ -26,7 +26,7 @@ R3 N003 0 3.4k
 .model PNP PNP
 .lib C:\users\bean\AppData\Local\LTspice\lib\cmp\standard.bjt
 .param freq 28.074Meg
-.tran 0 100.1u 100u 100p
+.tran 0 200u 100u 100p
 .model Q AKO: 2N3904 (Bf=60)
 * .ac dec 1000 1Meg 1G
 .backanno
