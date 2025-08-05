@@ -405,3 +405,63 @@ And then at 22MHz it's back to 9.28Vptp and less squarey
 so 1.73dB more lost in real life?
 
 wait idk but really weird that Vrms is lower (like 6.5V) at 15MHz than 28MHz (like ....okaayyyy still around 7V when it should be like 7.5 in sim so that's 290 mW vs 340 mW, and CH2/RPi input Vrms is like 2.6V which is higher than the 2.38 it should be so maybe weird oscilloscope artifacts idk)
+
+wow diodes are slow, at least the ones i have are anyway
+![diodes](image-31.png)
+![resistors](image-32.png)
+
+I ended up using 100ohm instead of 330ohm resistors between the bases because that produces a cleaner waveform, idk why though /shrug
+
+With 330ohm resistor from output to 13.3V, we get 4.72V minimum. With no resistor, we get 1.3V minimum. So that means the resistor is dropping (13.3 V - 4.72 V) = 8.58 V. 8.58 V / 330 ohms = 26 mA of current through it. That seems to suck.
+
+10K we get 1.44V as lowest, so 12 mA?
+
+2.2K we get 2V as lowest, so 51 mA? That seems good
+
+...oops i was measuring the base of the second transistor, not the emitters. :facepalm: but the common collector delivering 50 mA is pretty good!
+
+At 28MHz:
+
+10.6 V / 165 ohms = 64 mA matches simulation
+
+With a 81.2ohm resistor to ground, maximum voltage is ~8.2V, 8.2 V / 81.2 ohms = can source 100 mA we're cooking
+
+81.2 ohm resistor to 13.3V, minimum voltage is 5.2 V, 13.3 V - 5.2 V = 8.1 V, 8.1 V / 81.2 ohms = can sink 100 mA we're cooking
+
+Waveform kinda looks like crap though when going this fast
+
+Now 110ohm resistor to ground:
+9.28 V / 110 ohms = 84 mA sourced
+
+110ohm resistor to 13.3V:
+(13.3 V - 4 V) / 110 ohms = 85 mA sunk
+
+With a 110ohm to ground and a 110ohm to power, minimum 3V, maximum 9.7V, simulated was 3V to 10.3V so not bad!
+
+6.16 Vptp from push pull (now only 3 to 9.1 and idk why), 4.8Vptp from before it
+
+With 330ohm to ground and 330ohm to power, between 7.7 and 8 Vptp from push pull.
+
+Modifying the simulation to this (two changes which don't exist IRL: adding 40ohm resistor on Q3 collector and making 50ohm resistors 70ohms on collectors of Q5 and Q6) results in these peak to peak voltages with those corresponding loads:
+![](image-33.png)
+
+And it still drives the MOSFET well in simulation:
+![wow](image-34.png)
+
+yoooo and if I bypass the push pull then the peak to peak voltage with 110ohm up and down is 4.6V, it was 4.8V IRL :)
+
+And if I bypass it with 330ohm up and 330ohm down Vptp was (10.2 V - 2.8 V) = 7.4V in sim...and IRL :)
+
+If we connect the output of the common collector directly to the MOSFET, it draws 6W of power on average for 14W of transmission power. If we connect the output of the push-pull to the MOSFET, it draws 3.47W of power on average for 14W of transmission power. So the push-pull stage is definitely doing something :)) (although why didn't it transmit when I tried this before? idk although the real transistor is less ideal so maybe it needs stronger drive idk)
+
+next iteration: use this https://www.mouser.com/ProductDetail/Aavid/581102B00000G?qs=PatHuWLFIbtpJJxTIzWZLQ%3D%3D and make space on PCB for it
+
+Data in scope_data_0 folder, CH1 is output and CH2 is input, this is for the final driver schematic with no load i.e. this picture but with the IRL values (50 ohm resistors are used instead of 70 ohms and the 40 ohm resistor doesn't exist)
+
+![alt text](image-35.png)
+
+Data with a 105ohm resistor up and 105ohm resistor down is in the scope_data_1/ALL0001 folder (verify: ptp = 6.64V)
+
+Data with a 330ohm resistor up and 330ohm resistor down is in the scope_data_2/ALL0002 folder (verify: ptp = 8.08V)
+
+Data with no load at 7MHz is in the scope_data_3/ALL0003 folder (verify: it's slow and 9.6Vptp)
