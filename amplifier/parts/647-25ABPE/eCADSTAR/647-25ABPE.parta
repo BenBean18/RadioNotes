@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12081668"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-28-08:06:28)
+    (utime 2024-11-28-08:06:28)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "647-25ABPE")
+)
+
+
+(pinAssign "ECS_12081668"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-28-08:06:28)
+    (utime 2024-11-28-08:06:28)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12081668")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "647-25ABPE")
+)
+
+
+(part "647-25ABPE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-28-08:06:28)
+    (utime 2024-11-28-08:06:28)
+    (packageRef "647-25ABPE")
+    (pinAssignRef "ECS_12081668")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "H")
+    (property "description" "Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical")
+    (property "Mouser_Part_Number" "567-647-25ABPE")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D")
+    (property "Manufacturer_Name" "Wakefield Thermal")
+    (property "Manufacturer_Part_Number" "647-25ABPE")
+    (property "Datasheet_Link" "https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf")
+    (property "compAreaTopHeight" 63.5)
+)
+
+

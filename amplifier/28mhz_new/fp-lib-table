@@ -5,4 +5,5 @@
   (lib (name "2929SQ-331GEC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-331GEC/KiCad")(options "")(descr ""))
   (lib (name "2222SQ")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2222SQ-161JEC/KiCad")(options "")(descr ""))
   (lib (name "2929SQ-431GEC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-431GEC/KiCad")(options "")(descr ""))
+  (lib (name "heatsink")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/647-25ABPE/KiCad")(options "")(descr ""))
 )

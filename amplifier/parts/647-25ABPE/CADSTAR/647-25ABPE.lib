@@ -1,0 +1,16 @@
+.647-25ABPE :1 ;Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical
+"64725ABPE"
+*STM H
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 647-25ABPE
+~!Mouser Part Number (567-647-25ABPE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D)
+~!Manufacturer_Name (Wakefield Thermal)
+~!Manufacturer_Part_Number (647-25ABPE)
+~!Link Datasheet (https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf)
+~!Height (63.5mm)
+~!3D_Model (647-25ABPE)
+"647-25ABPE"
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '647_25ABPE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wakefield Thermal", "647-25ABPE" (!) = "", "64725ABPE", "Other", "567-647-25ABPE", "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D", "Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical", "https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf", "63.5 mm"
+END_PART
+
+END.

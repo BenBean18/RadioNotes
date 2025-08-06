@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "647-25ABPE"
+   (description "Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical")
+   (family "ANA")
+   (package "64725ABPE")
+   (attribute "Datasheet Link" "https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf")
+   (attribute "Geometry.Height" "63.5mm")
+   (attribute "Mouser Part Number" "567-647-25ABPE")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D")
+   (attribute "Manufacturer_Name" "Wakefield Thermal")
+   (attribute "Manufacturer_Part_Number" "647-25ABPE")
+   (gate
+    (symbol "647-25ABPE")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "647-25ABPE"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "64725ABPE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.7 33.65)
+      (pt 12.7 33.65)
+      (pt 12.7 -8.25)
+      (pt -12.7 -8.25)
+      (pt -12.7 33.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.7 34.65)
+      (pt 13.7 34.65)
+      (pt 13.7 -9.25)
+      (pt -13.7 -9.25)
+      (pt -13.7 34.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -12.7 33.65)
+      (pt 12.7 33.65)
+      (pt 12.7 -8.25)
+      (pt -12.7 -8.25)
+      (pt -12.7 33.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -8.8)
+      (arc (pt 0.000 -8.800) (pt -0.050 -8.800) (pt 0.050 -8.700) (start 180.0) (sweep -90.0))
+      (pt 0 -8.7)
+      (arc (pt 0.000 -8.700) (pt -0.050 -8.800) (pt 0.050 -8.700) (start 180.0) (sweep 90.0))
+      (pt 0 -8.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 25.400) (padstack 2))
+   (padstack 0
+    (hole 2.6)
+    (plated true)
+    (pad (layer TCOP) (square 3.900))
+    (pad (layer INNER) (round 3.900))
+    (pad (layer BCOP) (square 3.900))
+   )
+   (padstack 2
+    (hole 2.6)
+    (plated true)
+    (pad (layer TCOP) (round 3.900))
+    (pad (layer INNER) (round 3.900))
+    (pad (layer BCOP) (round 3.900))
+   )
+   (model "647-25ABPE.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

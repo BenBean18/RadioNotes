@@ -5,6 +5,157 @@
 	(uuid "a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "heatsink:647-25ABPE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "647-25ABPE"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "64725ABPE"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "63.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "567-647-25ABPE"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wakefield Thermal"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "647-25ABPE"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "647-25ABPE_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ltspice:GND"
 			(power)
 			(exclude_from_sim no)
@@ -2289,6 +2440,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ltspice:GND")
+		(at 140.97 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00985a05-1d8b-43ea-9008-ff503ea381f6")
+		(property "Reference" "#GND05"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f4973cf6-102b-4159-bcb8-fc9832ccfc28")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ltspice:cap")
 		(at 238.76 101.6 0)
 		(unit 1)
@@ -2501,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 124.46 92.71 0)
 			(effects
 				(font
@@ -3273,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -3462,7 +3679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 101.6 77.47 0)
 			(effects
 				(font
@@ -3526,6 +3743,128 @@
 			(project ""
 				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
 					(reference "QN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "heatsink:647-25ABPE")
+		(at 140.97 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d7e68f-a623-4980-9b51-0851235730ad")
+		(property "Reference" "H1"
+			(at 157.48 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "647-25ABPE"
+			(at 157.48 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "64725ABPE"
+			(at 157.48 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf"
+			(at 157.48 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "63.5"
+			(at 157.48 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "567-647-25ABPE"
+			(at 157.48 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-25ABPE?qs=1%252ByrAFyf4wEF4vm1j%252Byz0w%3D%3D"
+			(at 157.48 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wakefield Thermal"
+			(at 157.48 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "647-25ABPE"
+			(at 157.48 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd1efb9-d12a-4cf8-a5ae-64cddc5a08b2")
+		)
+		(pin "2"
+			(uuid "e4cb755b-eb35-47d5-a75c-8c0a2664dabb")
+		)
+		(instances
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3805,6 +4144,72 @@
 			(project ""
 				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
 					(reference "RB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:GND")
+		(at 140.97 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7380268f-b966-472c-9282-af1c8f64dff4")
+		(property "Reference" "#GND04"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "60dec4b9-f16a-4ce3-9306-7c470244657d")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -5097,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 90.17 100.33 0)
 			(effects
 				(font
@@ -5592,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 90.17 87.63 0)
 			(effects
 				(font

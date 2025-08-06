@@ -1,0 +1,9 @@
+Manufacturer=Wakefield Thermal
+PartNumber=647-25ABPE
+PartCategory=Hardware
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2024-11-28 08:06:28
+Downloaded=2025-08-06 21:09:17
+3D=Y

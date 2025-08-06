@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 647-25ABPE
+D Heat Sink TO-220 Aluminum 6.0W @ 25C Board Level, Vertical
+K
+F https://wakefieldthermal.com/content/data_sheets/647%20%281%29.pdf
+$ENDCMP
+#
+#End Doc Library
