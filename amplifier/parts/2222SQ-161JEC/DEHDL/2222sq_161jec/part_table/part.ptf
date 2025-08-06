@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2222SQ_161JEC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "COILCRAFT", "2222SQ-161JEC" (!) = "", "2222SQ161JEC", "Other", "994-2222SQ-161JEC", "https://www.mouser.co.uk/ProductDetail/Coilcraft/2222SQ-161JEC?qs=zCSbvcPd3pbFJZdDO62HWA%3D%3D", "Fixed Inductors 2222 160nH Unshld 5% 5.7A 8.25mOhms", "https://www.mouser.ph/ProductDetail/Coilcraft/2222SQ-161JEC?qs=zCSbvcPd3pbFJZdDO62HWA%3D%3D", "5.944 mm"
+END_PART
+
+END.

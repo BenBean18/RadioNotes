@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "INDAD3280W80L1200D520"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "INDAD3280W80L1200D520")
+        (spec "default")
+    )
+)

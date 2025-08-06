@@ -1,0 +1,16 @@
+.2222SQ-161JEC :1 ;Fixed Inductors 2222 160nH Unshld 5% 5.7A 8.25mOhms
+"2222SQ161JEC"
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 2222SQ-161JEC
+~!Mouser Part Number (994-2222SQ-161JEC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coilcraft/2222SQ-161JEC?qs=zCSbvcPd3pbFJZdDO62HWA%3D%3D)
+~!Manufacturer_Name (COILCRAFT)
+~!Manufacturer_Part_Number (2222SQ-161JEC)
+~!Link Datasheet (https://www.mouser.ph/ProductDetail/Coilcraft/2222SQ-161JEC?qs=zCSbvcPd3pbFJZdDO62HWA%3D%3D)
+~!Height (5.944mm)
+~!3D_Model (2222SQ-161JEC)
+"2222SQ-161JEC"
+1.1!U 2.1!U 

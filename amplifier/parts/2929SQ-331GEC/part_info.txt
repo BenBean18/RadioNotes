@@ -1,0 +1,9 @@
+Manufacturer=COILCRAFT
+PartNumber=2929SQ-331GEC
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-06-02 06:10:26
+Downloaded=2025-08-06 02:51:32
+3D=N

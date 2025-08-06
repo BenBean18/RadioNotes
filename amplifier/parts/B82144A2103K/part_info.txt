@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B82144A2103K
+PartCategory=Inductor
+PackageCategory=Inductors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=1.1
+Released=2020-03-21 09:42:25
+Downloaded=2025-08-06 01:41:11
+3D=Y

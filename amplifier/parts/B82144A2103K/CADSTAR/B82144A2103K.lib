@@ -1,0 +1,16 @@
+.B82144A2103K :1 ;Fixed Inductors 10uH 1.4A 0.22ohms
+INDAD3280W80L1200D520
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B82144A2103K
+~!Mouser Part Number (871-B82144A2103K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82144A2103K?qs=v4Mlc8l4PHlohLUSZkySQA%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B82144A2103K)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/B82144A2103K.pdf)
+~!Height (-)
+~!3D_Model (B82144A2103K)
+B82144A2103K
+1.1!U 2.1!U 

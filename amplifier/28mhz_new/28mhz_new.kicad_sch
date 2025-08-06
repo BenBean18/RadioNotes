@@ -349,23 +349,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "M1"
+				(at 4.445 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.0668 1.0668)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "RD16HHF1"
+				(at 4.445 -5.715 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.0668 1.0668)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,6 +386,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "model=\"RD16HHF1\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -550,9 +570,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 0)
+					(at 0 -6.35 0)
 					(length 0.0005)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 0 0)
@@ -568,9 +588,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -6.35 0)
+					(at 3.81 -7.62 0)
 					(length 0.0005)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 0 0)
@@ -585,10 +605,12 @@
 						)
 					)
 				)
+			)
+			(symbol "nmos_1_0"
 				(pin passive line
-					(at 3.81 -7.62 0)
+					(at 3.81 0 0)
 					(length 0.0005)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 0 0)
@@ -1156,16 +1178,52 @@
 		)
 	)
 	(junction
+		(at 106.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30264846-be91-471e-a208-cc03a7bbedc3")
+	)
+	(junction
 		(at 106.68 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cda14f6-400f-47c3-a5f4-d4ce77fd9351")
 	)
 	(junction
+		(at 95.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bc1c42-fce5-41e4-81e8-8361439862b0")
+	)
+	(junction
+		(at 129.54 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38f5642-74f9-47ea-971e-5737e8ebd283")
+	)
+	(junction
+		(at 106.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90614e2-fadf-4d7d-8396-cbb4637e252d")
+	)
+	(junction
 		(at 298.45 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd3a6204-8840-4b5b-99ca-03751f0d261b")
+	)
+	(junction
+		(at 95.25 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1065246-8e8f-45de-96b0-21916edb4566")
+	)
+	(junction
+		(at 123.19 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee58345c-14eb-4a7d-8a71-e2cb62880751")
 	)
 	(wire
 		(pts
@@ -1279,6 +1337,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 95.25) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3181fd54-e0c3-4ace-a766-928f44946627")
+	)
+	(wire
+		(pts
 			(xy 106.68 86.36) (xy 106.68 85.09)
 		)
 		(stroke
@@ -1319,13 +1387,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 83.82) (xy 123.19 77.47)
+			(xy 106.68 88.9) (xy 110.49 88.9)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "394cc6d5-3776-4786-8898-b12dc5f1350d")
+		(uuid "3a39ca37-c6a4-45de-ac72-46bbc7344f7b")
 	)
 	(wire
 		(pts
@@ -1336,6 +1404,16 @@
 			(type solid)
 		)
 		(uuid "452d5ef8-3169-4dbc-8d66-e92d6d0a10b2")
+	)
+	(wire
+		(pts
+			(xy 82.55 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4540db29-deb3-4e14-ac5f-26ea06a4955a")
 	)
 	(wire
 		(pts
@@ -1399,6 +1477,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 77.47) (xy 123.19 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5fc7346b-ca9a-423d-917a-9835fc04fe1b")
+	)
+	(wire
+		(pts
 			(xy 185.42 93.98) (xy 179.07 93.98)
 		)
 		(stroke
@@ -1449,23 +1537,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 106.68 77.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "736ae35f-d50e-4697-9ed8-9574b731b65b")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.47) (xy 129.54 77.47)
+			(xy 129.54 77.47) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "74641b4f-bda4-4ec5-bf08-71a092a3a686")
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fed2a2-750e-4980-9216-f5d589c94c86")
 	)
 	(wire
 		(pts
@@ -1479,6 +1567,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de3e201-9405-48d9-bafc-377fc8b2416b")
+	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 95.25 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7e884ce4-6926-4ff1-9e25-927f003279ec")
+	)
+	(wire
+		(pts
 			(xy 179.07 107.95) (xy 179.07 104.14)
 		)
 		(stroke
@@ -1486,6 +1594,16 @@
 			(type solid)
 		)
 		(uuid "7e9c1466-bb89-4c32-9129-4b7159d113bc")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8f0a6e-543b-4b7e-9444-2299a2b4438d")
 	)
 	(wire
 		(pts
@@ -1536,6 +1654,26 @@
 			(type solid)
 		)
 		(uuid "9b8b8247-8175-4460-a512-6cad4e4079c3")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e65b66b-0cc6-468a-88f0-b362cd77e4f1")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef7cea2-034b-4e4b-8731-008894b0a193")
 	)
 	(wire
 		(pts
@@ -1619,6 +1757,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 77.47) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7129b4c-1e61-4d49-b3e3-51dd60e29544")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd545bb5-7bbf-4dcf-9a36-a8946d3a7ff7")
+	)
+	(wire
+		(pts
 			(xy 90.17 91.44) (xy 88.9 91.44)
 		)
 		(stroke
@@ -1699,23 +1857,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 93.98) (xy 190.5 93.98)
+			(xy 190.5 93.98) (xy 195.58 93.98)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d28a90b2-bcf6-408d-be37-00ca84302a28")
-	)
-	(wire
-		(pts
-			(xy 95.25 86.36) (xy 95.25 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d391af52-ca57-4dd7-b369-e9e27fe22a86")
+		(uuid "d333c75f-bc68-41f4-b7a9-78ec2eb9d29a")
 	)
 	(wire
 		(pts
@@ -1759,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 129.54 77.47)
+			(xy 129.54 77.47) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -1970,6 +2118,16 @@
 		)
 		(uuid "bb7ed90a-f6e0-46f6-bb37-3ef277538398")
 	)
+	(text "IDEA: make this an RPi hat!\nIf a user doesn't want to use it as a hat,\nthen just solder directly to pins"
+		(exclude_from_sim no)
+		(at 85.344 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfae2ab6-da65-436d-a19c-5b07edc31d32")
+	)
 	(text "ClassE - www.TonneSoftware.com"
 		(exclude_from_sim no)
 		(at 146.05 144.78 0)
@@ -2005,7 +2163,7 @@
 	)
 	(text "1W"
 		(exclude_from_sim no)
-		(at 108.585 95.25 0)
+		(at 107.696 88.138 0)
 		(effects
 			(font
 				(size 1.0668 1.0668)
@@ -2122,6 +2280,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2151,7 +2315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -2169,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F221FT250XT "
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -2209,69 +2373,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "ltspice:GND")
-		(at 267.97 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "117793fc-3d9a-41ce-9068-0a6e2cfe1afa")
-		(property "Reference" "#GND003"
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f1c7327a-d888-48a5-b797-e83e6069d907")
-		)
-		(instances
 			(project ""
-				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
-					(reference "#GND003")
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "CM1")
 					(unit 1)
 				)
 			)
@@ -2304,7 +2408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -2322,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F221FT250XT "
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -2362,6 +2466,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2382,7 +2492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LG"
+		(property "Value" "2N3904"
 			(at 128.905 98.1202 0)
 			(effects
 				(font
@@ -2391,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 124.46 92.71 0)
 			(effects
 				(font
@@ -2452,6 +2562,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "QN4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2472,7 +2588,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "440n"
+		(property "Value" "430n"
 			(at 249.555 95.25 90)
 			(effects
 				(font
@@ -2481,7 +2597,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "2929SQ-431GEC:2929SQ431GEC"
 			(at 254 92.71 0)
 			(effects
 				(font
@@ -2499,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2929SQ-431GEC"
 			(at 254 92.71 0)
 			(effects
 				(font
@@ -2536,6 +2652,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "L8")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "LM2")
 					(unit 1)
 				)
 			)
@@ -2605,11 +2727,17 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "ltspice:res")
-		(at 93.98 76.2 0)
+		(at 93.98 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,7 +2745,7 @@
 		(dnp no)
 		(uuid "1aa4430f-0890-4dc6-861a-7e4c061e2f96")
 		(property "Reference" "R18"
-			(at 96.8502 79.375 0)
+			(at 96.8502 80.645 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -2626,7 +2754,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 96.8502 82.2452 0)
+			(at 96.8502 83.5152 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -2634,8 +2762,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 76.2 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 76.2 0)
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,8 +2780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 76.2 0)
+		(property "Description" "TNPW1206330RBEEA"
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2790,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 93.98 76.2 0)
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2799,7 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
-			(at 93.98 76.2 0)
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,6 +2817,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RC1")
 					(unit 1)
 				)
 			)
@@ -2758,6 +2892,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND00")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2787,7 +2927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -2805,7 +2945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE071KL "
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -2842,6 +2982,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB1")
 					(unit 1)
 				)
 			)
@@ -2911,6 +3057,99 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:res")
+		(at 101.6 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34231868-efa5-41d1-9728-281c68481eed")
+		(property "Reference" "RE3"
+			(at 104.4702 90.805 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 104.4702 93.6752 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TNPW1206330RBEEA"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=${VALUE}"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e876c9-8a2c-4da6-ac25-9cae8598d780")
+		)
+		(pin "2"
+			(uuid "e948a417-14d8-4142-92fa-5147ca3297a9")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RE3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2940,7 +3179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -2958,7 +3197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE0733RL"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -2998,6 +3237,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RE1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3019,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L6"
+		(property "Value" "2N3906"
 			(at 131.1402 107.6198 0)
 			(effects
 				(font
@@ -3028,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -3089,6 +3334,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "QP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3118,7 +3369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3136,7 +3387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE074K7L"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3176,6 +3427,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3196,7 +3453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LG"
+		(property "Value" "2N3904"
 			(at 106.045 82.8802 0)
 			(effects
 				(font
@@ -3205,7 +3462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 101.6 77.47 0)
 			(effects
 				(font
@@ -3266,6 +3523,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "QN3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3295,7 +3558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -3313,7 +3576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE07100RL"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -3353,6 +3616,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3382,7 +3651,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -3400,7 +3669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603DRD07330RL"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -3440,6 +3709,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3469,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -3487,7 +3762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE0710KL "
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -3527,69 +3802,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "ltspice:GND")
-		(at 82.55 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65b27d05-2e4d-4cd6-ab76-5661e8d689ad")
-		(property "Reference" "#GND007"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ecc9f883-0f49-4764-a630-bcaeef0ce191")
-		)
-		(instances
 			(project ""
-				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
-					(reference "#GND007")
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB3")
 					(unit 1)
 				)
 			)
@@ -3659,6 +3874,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3725,6 +3946,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3754,7 +3981,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -3772,7 +3999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GRM21B5C2A223JA01L"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -3812,6 +4039,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "CB1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3841,7 +4074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "B82144A2103K:INDAD3280W80L1200D520"
 			(at 163.83 83.82 0)
 			(effects
 				(font
@@ -3859,7 +4092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "B82144A2103K "
 			(at 163.83 83.82 0)
 			(effects
 				(font
@@ -3899,6 +4132,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3928,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -3946,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F221FT250XT "
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -3986,6 +4225,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "CF2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4015,7 +4260,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "2929SQ-331GEC:2929SQ331GEC"
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -4033,7 +4278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2929SQ-331GEC"
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -4073,6 +4318,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4093,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4k"
+		(property "Value" "3.3k"
 			(at 90.5002 96.2152 0)
 			(effects
 				(font
@@ -4102,7 +4353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -4120,7 +4371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRD073K3L "
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -4160,6 +4411,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4189,7 +4446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -4207,7 +4464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE074K7L"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -4247,11 +4504,17 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "ltspice:res")
-		(at 105.41 87.63 0)
+		(at 109.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4259,7 +4522,7 @@
 		(dnp no)
 		(uuid "a8b78ca0-6742-4605-8735-d6ae1f268311")
 		(property "Reference" "R7"
-			(at 108.2802 90.805 0)
+			(at 112.0902 90.805 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -4267,8 +4530,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "165"
-			(at 108.2802 93.6752 0)
+		(property "Value" "330"
+			(at 112.0902 93.6752 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -4276,8 +4539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 87.63 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,8 +4557,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 87.63 0)
+		(property "Description" "TNPW1206330RBEEA"
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4567,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 105.41 87.63 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4576,7 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
-			(at 105.41 87.63 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,6 +4594,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RE2")
 					(unit 1)
 				)
 			)
@@ -4363,7 +4632,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -4381,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F111GW250XT"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -4421,6 +4690,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4450,7 +4725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -4468,7 +4743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TFHP1206D-50RFT5"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -4508,6 +4783,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RC3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4537,7 +4818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 128.27 81.28 0)
 			(effects
 				(font
@@ -4555,7 +4836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TFHP1206D-50RFT5"
 			(at 128.27 81.28 0)
 			(effects
 				(font
@@ -4595,6 +4876,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RC2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4624,7 +4911,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "2929SQ-391GEC:2929SQ391GEC"
 			(at 278.13 92.71 0)
 			(effects
 				(font
@@ -4642,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2929SQ-391GEC"
 			(at 278.13 92.71 0)
 			(effects
 				(font
@@ -4682,6 +4969,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "LF1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4711,7 +5004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -4729,7 +5022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RT0603FRE07100RL"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -4769,6 +5062,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "RB5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4789,7 +5088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LG"
+		(property "Value" "2N3904"
 			(at 94.615 105.7402 0)
 			(effects
 				(font
@@ -4798,7 +5097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 90.17 100.33 0)
 			(effects
 				(font
@@ -4856,6 +5155,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "QN1")
 					(unit 1)
 				)
 			)
@@ -4925,19 +5230,25 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "ltspice:GND")
-		(at 106.68 95.25 0)
+		(at 78.74 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d34c1d47-11d0-4a04-b893-f538b4e3cb41")
-		(property "Reference" "#GND009"
-			(at 106.68 95.25 0)
+		(uuid "cca323ce-3ea8-40c6-9f26-5267e1ad2f54")
+		(property "Reference" "#GND03"
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +5257,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 106.68 95.25 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -4955,7 +5266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 95.25 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +5275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 95.25 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5284,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 95.25 0)
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "96da49a3-ed2c-40ca-b0fb-7c5738945405")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:GND")
+		(at 106.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d34c1d47-11d0-4a04-b893-f538b4e3cb41")
+		(property "Reference" "#GND009"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,6 +5365,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "#GND009")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -5020,7 +5403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 161.29 101.6 0)
 			(effects
 				(font
@@ -5081,6 +5464,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "M1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5110,7 +5499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 297.18 99.06 0)
 			(effects
 				(font
@@ -5128,7 +5517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F121FT250XT"
 			(at 297.18 99.06 0)
 			(effects
 				(font
@@ -5168,6 +5557,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "CF3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5188,7 +5583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LG"
+		(property "Value" "2N3904"
 			(at 94.615 93.0402 0)
 			(effects
 				(font
@@ -5197,7 +5592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 90.17 87.63 0)
 			(effects
 				(font
@@ -5258,6 +5653,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "QN2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5287,7 +5688,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "2929SQ-391GEC:2929SQ391GEC"
 			(at 294.64 92.71 0)
 			(effects
 				(font
@@ -5305,7 +5706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2929SQ-391GEC"
 			(at 294.64 92.71 0)
 			(effects
 				(font
@@ -5342,6 +5743,12 @@
 			(project ""
 				(path "/82a265ed-099f-486d-b824-c1301a5bdbe9"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "LF2")
 					(unit 1)
 				)
 			)
@@ -5411,6 +5818,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5440,7 +5853,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "2222SQ:2222SQ181JEC"
 			(at 236.22 92.71 0)
 			(effects
 				(font
@@ -5458,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2222SQ-181GEC"
 			(at 236.22 92.71 0)
 			(effects
 				(font
@@ -5498,6 +5911,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "LM1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5527,7 +5946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 266.7 99.06 0)
 			(effects
 				(font
@@ -5545,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600F121FT250XT"
 			(at 266.7 99.06 0)
 			(effects
 				(font
@@ -5585,6 +6004,17 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "CF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

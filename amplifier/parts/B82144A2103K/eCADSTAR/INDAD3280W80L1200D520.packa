@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B82144A2103K"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-27-16:06:22)
+    (mountForm default
+        (footprintRef "INDAD3280W80L1200D520")
+        (spec "System")
+    )
+)

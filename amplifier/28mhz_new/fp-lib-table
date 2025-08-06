@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "B82144A2103K")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/B82144A2103K/KiCad")(options "")(descr ""))
+  (lib (name "2929SQ-391GEC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-391GEC/KiCad")(options "")(descr ""))
+  (lib (name "2929SQ-331GEC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-331GEC/KiCad")(options "")(descr ""))
+  (lib (name "2222SQ")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2222SQ-161JEC/KiCad")(options "")(descr ""))
+  (lib (name "2929SQ-431GEC")(type "KiCad")(uri "/home/bean/RadioNotes/amplifier/parts/2929SQ-431GEC/KiCad")(options "")(descr ""))
+)

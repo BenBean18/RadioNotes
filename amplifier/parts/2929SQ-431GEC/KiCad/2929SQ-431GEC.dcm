@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2929SQ-431GEC
+D RF inductor, air core, 2% tol, SMT, RoHS, halogen-free
+K
+F https://www.coilcraft.com/getmedia/a4eed406-a97e-4630-9d8e-771bb470867f/1515sq.pdf
+$ENDCMP
+#
+#End Doc Library

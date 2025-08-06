@@ -1,0 +1,140 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B82144A2103K"
+   (description "Fixed Inductors 10uH 1.4A 0.22ohms")
+   (family "IND")
+   (package "INDAD3280W80L1200D520")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/B82144A2103K.pdf")
+   (attribute "Mouser Part Number" "871-B82144A2103K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82144A2103K?qs=v4Mlc8l4PHlohLUSZkySQA%3D%3D")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "B82144A2103K")
+   (gate
+    (symbol "B82144A2103K")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B82144A2103K"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "INDAD3280W80L1200D520"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1 2.95)
+      (pt 33.8 2.95)
+      (pt 33.8 -2.95)
+      (pt -1 -2.95)
+      (pt -1 2.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 10.4 2.6)
+      (pt 22.4 2.6)
+      (pt 22.4 -2.6)
+      (pt 10.4 -2.6)
+      (pt 10.4 2.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 10.4 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 22.4 0)
+      (pt 32.8 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 10.4 2.6)
+      (pt 22.4 2.6)
+      (pt 22.4 -2.6)
+      (pt 10.4 -2.6)
+      (pt 10.4 2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.1 0)
+      (pt 10.4 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 22.4 0)
+      (pt 31.7 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 32.8 0) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (round 1.5))
+   )
+   (model "B82144A2103K.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

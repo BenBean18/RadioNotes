@@ -1,0 +1,244 @@
+(footprint "2222SQ181JEC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2222SQ-161JEC-2")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "0e8e9b74-ee48-4958-94e6-625901a3cef5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "2222SQ181JEC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e2d1d515-fc7e-47a3-b4ec-13a76d553e37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "052bff83-e959-4952-b03d-e32cdba1178a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65642f93-e9e5-4449-b8fe-1c613bda2110")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea416beb-d489-40e2-b91c-3f129488db43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 0)
+		(end -5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18fdb635-4075-4123-a6bc-4ff5a129da91")
+	)
+	(fp_line
+		(start -4.9 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c84f5c9-bc61-4aa8-8f62-72ef762c1598")
+	)
+	(fp_line
+		(start -1.88 -2.795)
+		(end 1.88 -2.795)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81627dd7-a6be-4dc8-a842-3cce1c4b96c1")
+	)
+	(fp_line
+		(start -1.88 2.795)
+		(end 1.88 2.795)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0f57b86-0eff-449b-9bdd-f2a94d35f3f6")
+	)
+	(fp_arc
+		(start -5 0)
+		(mid -4.95 -0.05)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78815845-e2b3-456f-8c95-08a0aa1c392a")
+	)
+	(fp_arc
+		(start -4.9 0)
+		(mid -4.95 0.05)
+		(end -5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf46cbd1-42d1-451f-8a50-fe8bf6ad3230")
+	)
+	(fp_line
+		(start -5.76 -4.365)
+		(end 5.76 -4.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3dfde3e-21ab-41c7-a756-70317e704d40")
+	)
+	(fp_line
+		(start -5.76 4.365)
+		(end -5.76 -4.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13d5aa84-dd92-45ff-a015-ad6aa74caf8e")
+	)
+	(fp_line
+		(start 5.76 -4.365)
+		(end 5.76 4.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c84e4d9-c320-40d1-9436-61508fe715a3")
+	)
+	(fp_line
+		(start 5.76 4.365)
+		(end -5.76 4.365)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ff19ee1-b75b-4511-bd36-95ea9a62e0f4")
+	)
+	(fp_line
+		(start -3.685 -2.795)
+		(end 3.685 -2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b447f8d-cc3a-4889-bb7a-fc4e86449b23")
+	)
+	(fp_line
+		(start -3.685 2.795)
+		(end -3.685 -2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8110c723-fd84-4c57-826f-7988ae32aaa1")
+	)
+	(fp_line
+		(start 3.685 -2.795)
+		(end 3.685 2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "feea71af-b490-47cc-aade-94eb53aed2c0")
+	)
+	(fp_line
+		(start 3.685 2.795)
+		(end -3.685 2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70524961-86e2-4e34-b6a7-da06ebec52fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "341b740f-4f21-4a0f-8019-82db499262e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.68 0)
+		(size 2.16 6.73)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb062f8c-8f76-416c-a77c-987368cb6d72")
+	)
+	(pad "2" smd rect
+		(at 3.68 0)
+		(size 2.16 6.73)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c0d8ac8-8e39-4972-8f97-49b9e5336dc8")
+	)
+	(model "2222SQ-161JEC.stp"
+		(offset
+			(xyz 3.469999976 0 3.920000017)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

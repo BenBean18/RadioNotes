@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "2929SQ431GEC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "2929SQ431GEC")
+        (spec "default")
+    )
+)

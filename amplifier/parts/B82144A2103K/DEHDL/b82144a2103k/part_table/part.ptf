@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B82144A2103K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "B82144A2103K" (!) = "", "INDAD3280W80L1200D520", "Inductors, Axial Diameter Horizontal Mounting", "871-B82144A2103K", "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82144A2103K?qs=v4Mlc8l4PHlohLUSZkySQA%3D%3D", "Fixed Inductors 10uH 1.4A 0.22ohms", "https://componentsearchengine.com/Datasheets/2/B82144A2103K.pdf"
+END_PART
+
+END.

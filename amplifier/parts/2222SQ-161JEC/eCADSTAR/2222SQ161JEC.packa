@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2222SQ-161JEC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-15-09:29:11)
+    (mountForm default
+        (footprintRef "2222SQ161JEC")
+        (spec "System")
+    )
+)

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_840049"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-02-06:10:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "2929SQ-331GEC")
+)
+
+
+(pinAssign "ECS_840049"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-02-06:10:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_840049")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "2929SQ-331GEC")
+)
+
+
+(part "2929SQ-331GEC"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-02-06:10:26)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "2929SQ-331GEC")
+    (pinAssignRef "ECS_840049")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "COILCRAFT - 2929SQ-331GEC - Air Core Inductor, Square, 330 nH, 4.7 A, 2929SQ Series, +/- 5%, 10.29mm x 7.49mm x 7.24mm")
+    (property "Mouser_Part_Number" "994-2929SQ-331GEC")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/2929SQ-331GEC?qs=zCSbvcPd3pbvtAoRmJf4qw%3D%3D")
+    (property "Manufacturer_Name" "COILCRAFT")
+    (property "Manufacturer_Part_Number" "2929SQ-331GEC")
+    (property "Datasheet_Link" "https://www.coilcraft.com/getmedia/a4eed406-a97e-4630-9d8e-771bb470867f/1515sq.pdf")
+    (property "compAreaTopHeight" 7.494)
+)
+
+

@@ -1,0 +1,9 @@
+Manufacturer=COILCRAFT
+PartNumber=2222SQ-161JEC
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-03-15 09:29:11
+Downloaded=2025-08-06 02:54:26
+3D=Y
