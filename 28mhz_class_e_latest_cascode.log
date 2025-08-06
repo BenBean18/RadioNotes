@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\28mhz_class_e_latest_cascode.asc
-Start Time: Tue Aug  5 14:19:45 2025
+Start Time: Tue Aug  5 20:19:18 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -10,9 +10,6 @@ Maximum thread count: 20
 tnom = 27
 temp = 37
 method = modified trap
-WARNING: Node N011 is floating.
-
 .OP point found by inspection.
-Heightened Def Con from 0.000239401 to 0.000239401
-Total elapsed time: 30.906 seconds.
+Total elapsed time: 20.168 seconds.
 

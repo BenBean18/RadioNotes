@@ -465,3 +465,7 @@ Data with a 105ohm resistor up and 105ohm resistor down is in the scope_data_1/A
 Data with a 330ohm resistor up and 330ohm resistor down is in the scope_data_2/ALL0002 folder (verify: ptp = 8.08V)
 
 Data with no load at 7MHz is in the scope_data_3/ALL0003 folder (verify: it's slow and 9.6Vptp)
+
+returned oscope :( time to start on kicad now though! with Bf=60 we get 11.5W out for 3.05W dissipated through transistor, 80% efficient, not terrible! I could try to go for more power but that doesn't seem worth it. Also, we're dangerously close to the maximum Vds (max 50V, peaking at 41V during normal operation and going higher otherwise). If run off 12V, peak voltage is 37V during normal operation (again, above that for like 20us but that's sim so who knows if it's real) for 8.97W out dissipating 2.5W. And I might get some extra components to swap around because the board layout doesn't dictate the components.
+
+Also, was planning on adding another section for an alternative push-pull gate driver using [these guys](https://www.mouser.com/datasheet/2/196/Infineon_IRLML2060_DataSheet_v01_01_EN-3363619.pdf).

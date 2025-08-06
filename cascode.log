@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\bean\RadioNotes\cascode.asc
-Start Time: Tue Aug  5 15:06:45 2025
+Start Time: Tue Aug  5 15:10:22 2025
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -16,5 +16,5 @@ WARNING: Less than two connections to node nc_01.  This node is used by v2.
 WARNING: Less than two connections to node nc_02.  This node is used by v2.
 Direct Newton iteration for .op point succeeded.
 Changing Tseed to 1e-14
-Total elapsed time: 12.131 seconds.
+Total elapsed time: 5.499 seconds.
 
