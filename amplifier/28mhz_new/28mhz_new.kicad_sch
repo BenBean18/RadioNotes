@@ -5514,7 +5514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600F221FT250XT "
+		(property "Description" "08051A221FAT2A"
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -5607,7 +5607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600F221FT250XT "
+		(property "Description" "08051A221FAT2A"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -8113,7 +8113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600F221FT250XT "
+		(property "Description" "08051A221FAT2A"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -9619,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600F121FT250XT"
+		(property "Description" "08051A121FAT2A"
 			(at 261.62 99.06 0)
 			(effects
 				(font
@@ -10043,7 +10043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600F121FT250XT"
+		(property "Description" "08051A121FAT2A"
 			(at 231.14 99.06 0)
 			(effects
 				(font
