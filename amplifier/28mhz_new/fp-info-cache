@@ -1,4 +1,4 @@
-23710388374259377
+23712142914768443
 2222SQ
 2222SQ161JEC
 2222SQ-161JEC-2
@@ -55,6 +55,13 @@ Inductor
 0
 2
 2
+BNC
+CONBNC002
+CONBNC002-3
+Connector
+0
+4
+4
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

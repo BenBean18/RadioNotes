@@ -154,7 +154,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Cmts.User")
 		(uuid "f9f261e0-ee99-4763-9ecb-0f653f210c11")
 	)
 	(fp_line
@@ -164,7 +164,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Cmts.User")
 		(uuid "97946dfd-cdbd-4afd-bc5a-b57a4ec9bda2")
 	)
 	(fp_line
@@ -174,7 +174,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Cmts.User")
 		(uuid "6709c6ca-f754-4bb4-8dfb-9a1750bc53a2")
 	)
 	(fp_line
@@ -184,8 +184,128 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "Cmts.User")
 		(uuid "980af889-4115-476f-8f6b-793250bbf941")
+	)
+	(fp_line
+		(start -12.7 -33.65)
+		(end -12.7 -20.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e27d3d4-18d0-4621-8058-15b4fce2d779")
+	)
+	(fp_line
+		(start -12.7 -20.65)
+		(end -0.8 -20.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b3baa48-9142-4dd6-99ca-cfc83fe86c6b")
+	)
+	(fp_line
+		(start -12.7 -4.75)
+		(end -0.8 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b3d4985-bea1-4ce1-ac8a-897d81cd4eb3")
+	)
+	(fp_line
+		(start -12.7 8.25)
+		(end -12.7 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f1af7e6-fa5f-4050-b824-99ebe6d6bc00")
+	)
+	(fp_line
+		(start -0.8 -20.65)
+		(end -0.8 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3319da77-a61f-4cff-9426-2804563be70f")
+	)
+	(fp_line
+		(start 0.8 -20.65)
+		(end 0.8 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f23eed04-39fe-4ca5-aa80-0f5749691871")
+	)
+	(fp_line
+		(start 0.8 -20.65)
+		(end 12.7 -20.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a758dbdd-cd99-4c2e-8970-caaa6efc9e8d")
+	)
+	(fp_line
+		(start 0.8 -4.75)
+		(end 12.7 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "349d3471-0d4f-4695-b49c-b9a2ad36e2bf")
+	)
+	(fp_line
+		(start 12.7 -33.65)
+		(end -12.7 -33.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aa69b8f-c23e-43fe-abb0-0323edd157ec")
+	)
+	(fp_line
+		(start 12.7 -33.65)
+		(end 12.7 -20.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "32c7150a-2fbf-4a1c-a65f-683ad7a12c32")
+	)
+	(fp_line
+		(start 12.7 -4.75)
+		(end 12.7 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "26badad7-7513-4c71-962a-5620f67ee806")
+	)
+	(fp_line
+		(start 12.7 8.25)
+		(end -12.7 8.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9443c326-aa49-4640-8e6f-202f16baac62")
 	)
 	(fp_line
 		(start -12.7 -33.65)
@@ -253,6 +373,15 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4586ff1a-9b30-401b-abef-bd3b34c3084a")
+	)
+	(group ""
+		(uuid "6cd392b9-a06b-4bbe-ac53-8f27d47ccd44")
+		(members "0f1af7e6-fa5f-4050-b824-99ebe6d6bc00" "26badad7-7513-4c71-962a-5620f67ee806"
+			"32c7150a-2fbf-4a1c-a65f-683ad7a12c32" "349d3471-0d4f-4695-b49c-b9a2ad36e2bf"
+			"4b3d4985-bea1-4ce1-ac8a-897d81cd4eb3" "5b3baa48-9142-4dd6-99ca-cfc83fe86c6b"
+			"5e27d3d4-18d0-4621-8058-15b4fce2d779" "8aa69b8f-c23e-43fe-abb0-0323edd157ec"
+			"9443c326-aa49-4640-8e6f-202f16baac62" "a758dbdd-cd99-4c2e-8970-caaa6efc9e8d"
+		)
 	)
 	(model "/home/bean/RadioNotes/amplifier/parts/647-25ABPE/3D/647-25ABPE.stp"
 		(offset

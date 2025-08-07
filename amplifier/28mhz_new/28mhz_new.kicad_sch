@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE071KL "
+		(property "Description" "RT0805FRE071KL "
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -3396,7 +3396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE0733RL"
+		(property "Description" "RT0805FRE0733RL"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE074K7L"
+		(property "Description" "RT0805FRE074K7L"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -3915,7 +3915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE07100RL"
+		(property "Description" "RT0805FRE07100RL"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -3990,7 +3990,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603DRD07330RL"
+		(property "Description" "TNPW1206330RBEEA"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE0710KL "
+		(property "Description" "RT0805FRE0710KL "
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -4758,7 +4758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRD073K3L "
+		(property "Description" "RT0805FRD073K3L "
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -4851,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -4869,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE074K7L"
+		(property "Description" "RT0805FRE074K7L"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603FRE07100RL"
+		(property "Description" "RT0805FRE07100RL"
 			(at 121.92 95.25 0)
 			(effects
 				(font

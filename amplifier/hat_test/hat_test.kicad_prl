@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 47,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "28mhz_new.kicad_prl",
+    "filename": "hat_test.kicad_prl",
     "version": 3
   },
   "project": {
