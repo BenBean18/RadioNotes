@@ -6421,7 +6421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0805FRE0733RL"
+		(property "Description" "RT0805BRD0733RL"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -8299,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0805FRD073K3L "
+		(property "Description" "RT0805BRD073K3L"
 			(at 50.8 90.17 0)
 			(effects
 				(font
