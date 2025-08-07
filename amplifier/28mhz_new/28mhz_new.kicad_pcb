@@ -3457,7 +3457,7 @@
 			(remove_unused_layers no)
 			(uuid "744719b5-9722-42b0-bf68-47f3b3454f38")
 		)
-		(model "CONBNC002.stp"
+		(model "/home/bean/RadioNotes/amplifier/parts/CONBNC002/3D/CONBNC002.stp"
 			(offset
 				(xyz 2.549999914 5.099999828 0)
 			)
