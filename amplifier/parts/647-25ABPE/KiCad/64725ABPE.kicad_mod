@@ -67,85 +67,123 @@
 	(attr through_hole)
 	(fp_line
 		(start -12.7 -33.65)
-		(end 12.7 -33.65)
+		(end -12.7 -20.65)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bee51582-1ba2-4337-baa7-63e96b83ef88")
+		(uuid "39605976-be83-41f0-acbf-6f3ed0a62b64")
+	)
+	(fp_line
+		(start -12.7 -20.65)
+		(end -0.8 -20.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4262d1a2-cc49-4246-9619-6afc19e38ac2")
+	)
+	(fp_line
+		(start -12.7 -4.75)
+		(end -0.8 -4.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14b9cf1f-6b52-4347-9405-cf767f75b305")
 	)
 	(fp_line
 		(start -12.7 8.25)
-		(end -12.7 -33.65)
+		(end -12.7 -4.75)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "eefc5816-0b9b-42cc-8ad8-60b36831faae")
+		(uuid "3fbecedf-307a-40ff-905f-ea1b1c72f383")
 	)
 	(fp_line
-		(start 0 8.7)
-		(end 0 8.7)
+		(start -0.8 -20.65)
+		(end -0.8 -4.75)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.2)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0c0730a9-0292-4edc-b980-1aca91cf0d1e")
+		(uuid "921f9c4a-b326-4fb9-8121-cc512d505591")
 	)
 	(fp_line
-		(start 0 8.8)
-		(end 0 8.8)
+		(start 0.8 -20.65)
+		(end 0.8 -4.75)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.2)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8caefeef-2ad1-4c33-8811-6e361500040b")
+		(uuid "942be59e-0510-4a82-9c64-a935240a601d")
+	)
+	(fp_line
+		(start 0.8 -20.65)
+		(end 12.7 -20.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb1ecc1f-3b60-40bb-949a-e7032b6bd2e5")
+	)
+	(fp_line
+		(start 0.8 -4.75)
+		(end 12.7 -4.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04ead6ee-311b-4c0d-ad68-fc422273f12f")
 	)
 	(fp_line
 		(start 12.7 -33.65)
+		(end -12.7 -33.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3286ce7-a97e-4830-9b70-5ecdf00b255a")
+	)
+	(fp_line
+		(start 12.7 -33.65)
+		(end 12.7 -20.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1569909-6f0f-46fc-b63f-d2a88a174cec")
+	)
+	(fp_line
+		(start 12.7 -4.75)
 		(end 12.7 8.25)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "431fff3b-6350-4da7-b602-aa921ab8d904")
+		(uuid "40a07bf8-dda9-428b-80b1-2462469258d3")
 	)
 	(fp_line
 		(start 12.7 8.25)
 		(end -12.7 8.25)
 		(stroke
 			(width 0.2)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "341490ff-a3c0-4616-b3fa-05b0530b9577")
-	)
-	(fp_arc
-		(start 0 8.7)
-		(mid 0.05 8.75)
-		(end 0 8.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b0d38acc-8fbb-439c-b8f7-8d87599eb399")
-	)
-	(fp_arc
-		(start 0 8.8)
-		(mid -0.05 8.75)
-		(end 0 8.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "787776dd-49c1-4d7c-9ad8-982b9ed0f184")
+		(uuid "73829f8c-1ef0-407e-9303-f45d21a7aec0")
 	)
 	(fp_line
 		(start -13.7 -34.65)
@@ -191,7 +229,7 @@
 		(start -12.7 -33.65)
 		(end -12.7 -20.65)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -201,7 +239,7 @@
 		(start -12.7 -20.65)
 		(end -0.8 -20.65)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -211,7 +249,7 @@
 		(start -12.7 -4.75)
 		(end -0.8 -4.75)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -221,7 +259,7 @@
 		(start -12.7 8.25)
 		(end -12.7 -4.75)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -231,7 +269,7 @@
 		(start -0.8 -20.65)
 		(end -0.8 -4.75)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -241,7 +279,7 @@
 		(start 0.8 -20.65)
 		(end 0.8 -4.75)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -251,7 +289,7 @@
 		(start 0.8 -20.65)
 		(end 12.7 -20.65)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -261,7 +299,7 @@
 		(start 0.8 -4.75)
 		(end 12.7 -4.75)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -271,7 +309,7 @@
 		(start 12.7 -33.65)
 		(end -12.7 -33.65)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -281,7 +319,7 @@
 		(start 12.7 -33.65)
 		(end 12.7 -20.65)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -291,7 +329,7 @@
 		(start 12.7 -4.75)
 		(end 12.7 8.25)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -301,7 +339,7 @@
 		(start 12.7 8.25)
 		(end -12.7 8.25)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.CrtYd")
@@ -375,12 +413,23 @@
 		(uuid "4586ff1a-9b30-401b-abef-bd3b34c3084a")
 	)
 	(group ""
+		(uuid "b3db1084-aeb9-41bc-bd94-846674a42221")
+		(members "04ead6ee-311b-4c0d-ad68-fc422273f12f" "14b9cf1f-6b52-4347-9405-cf767f75b305"
+			"39605976-be83-41f0-acbf-6f3ed0a62b64" "3fbecedf-307a-40ff-905f-ea1b1c72f383"
+			"40a07bf8-dda9-428b-80b1-2462469258d3" "4262d1a2-cc49-4246-9619-6afc19e38ac2"
+			"73829f8c-1ef0-407e-9303-f45d21a7aec0" "921f9c4a-b326-4fb9-8121-cc512d505591"
+			"942be59e-0510-4a82-9c64-a935240a601d" "a3286ce7-a97e-4830-9b70-5ecdf00b255a"
+			"d1569909-6f0f-46fc-b63f-d2a88a174cec" "eb1ecc1f-3b60-40bb-949a-e7032b6bd2e5"
+		)
+	)
+	(group ""
 		(uuid "6cd392b9-a06b-4bbe-ac53-8f27d47ccd44")
 		(members "0f1af7e6-fa5f-4050-b824-99ebe6d6bc00" "26badad7-7513-4c71-962a-5620f67ee806"
-			"32c7150a-2fbf-4a1c-a65f-683ad7a12c32" "349d3471-0d4f-4695-b49c-b9a2ad36e2bf"
-			"4b3d4985-bea1-4ce1-ac8a-897d81cd4eb3" "5b3baa48-9142-4dd6-99ca-cfc83fe86c6b"
-			"5e27d3d4-18d0-4621-8058-15b4fce2d779" "8aa69b8f-c23e-43fe-abb0-0323edd157ec"
-			"9443c326-aa49-4640-8e6f-202f16baac62" "a758dbdd-cd99-4c2e-8970-caaa6efc9e8d"
+			"32c7150a-2fbf-4a1c-a65f-683ad7a12c32" "3319da77-a61f-4cff-9426-2804563be70f"
+			"349d3471-0d4f-4695-b49c-b9a2ad36e2bf" "4b3d4985-bea1-4ce1-ac8a-897d81cd4eb3"
+			"5b3baa48-9142-4dd6-99ca-cfc83fe86c6b" "5e27d3d4-18d0-4621-8058-15b4fce2d779"
+			"8aa69b8f-c23e-43fe-abb0-0323edd157ec" "9443c326-aa49-4640-8e6f-202f16baac62"
+			"a758dbdd-cd99-4c2e-8970-caaa6efc9e8d" "f23eed04-39fe-4ca5-aa80-0f5749691871"
 		)
 	)
 	(model "/home/bean/RadioNotes/amplifier/parts/647-25ABPE/3D/647-25ABPE.stp"
