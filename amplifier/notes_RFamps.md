@@ -477,3 +477,7 @@ Good push pull explanation: https://www.youtube.com/watch?v=KnbcPSYSUdw
 dang this is sad RF PNPs are dying out because nobody uses discrete parts commercially anymore https://www.reddit.com/r/rfelectronics/comments/hdyiuh/goto_rf_pnp_transistor/
 
 C2, C1, R3, L2, LM1, CM1, LM2, R2, CF1, LF1, CF3, CF2, LF2, RB1, R1, RB3, CB1, RB2, RE1, RB7, RB6, RB5, RB4, RE2, RE3, RC1, RC3, RC2, then all of the through hole parts is a sane order I think
+
+For shopping list, need to buy mounting hardware and 40 pin header as well as everything else.
+
+Also, consider a not giant resistor for the second zero ohm.
