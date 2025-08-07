@@ -1433,6 +1433,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "barreljack:694106301002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3921,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 93.98) (xy 217.17 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e0c66e9-0215-4d4d-b92c-cf73689b2899")
+	)
+	(wire
+		(pts
 			(xy 262.89 93.98) (xy 269.24 93.98)
 		)
 		(stroke
@@ -4121,7 +4252,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 93.98) (xy 217.17 93.98)
+			(xy 104.14 102.87) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "983ade3d-661f-4ac2-875f-e2d0a3c56135")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 229.87 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -4421,7 +4562,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 93.98 102.87)
+			(xy 121.92 102.87) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -6769,6 +6910,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 107.95 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5206d27c-936e-4122-9bce-c1ce5e237d3d")
+		(property "Reference" "R3"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 107.95 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 107.95 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d7c8283-030f-4475-a26b-850849466c8b")
+		)
+		(pin "1"
+			(uuid "7051e576-3876-4dc5-a7c1-644c286f17e5")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ltspice:res")
 		(at 86.36 101.6 0)
 		(unit 1)
@@ -8471,6 +8680,74 @@
 			(project ""
 				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
 					(reference "RE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf43647-e8a0-4b9b-9a9e-da8678bd8277")
+		(property "Reference" "R2"
+			(at 226.06 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 226.06 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 226.06 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d652c94f-8f0d-4d53-ba0c-f2e696c23f8a")
+		)
+		(pin "1"
+			(uuid "c76bd6f9-e1a2-4c09-bdf6-fb456c906f40")
+		)
+		(instances
+			(project "28mhz_new"
+				(path "/a27f0a38-2c6c-4fbf-aebb-5f1ef9203ab8"
+					(reference "R2")
 					(unit 1)
 				)
 			)
