@@ -476,8 +476,52 @@ Good push pull explanation: https://www.youtube.com/watch?v=KnbcPSYSUdw
 
 dang this is sad RF PNPs are dying out because nobody uses discrete parts commercially anymore https://www.reddit.com/r/rfelectronics/comments/hdyiuh/goto_rf_pnp_transistor/
 
-C2, C1, R3, L2, LM1, CM1, LM2, R2, CF1, LF1, CF3, CF2, LF2, RB1, R1, RB3, CB1, RB2, RE1, RB7, RB6, RB5, RB4, RE2, RE3, RC1, RC3, RC2, then all of the through hole parts is a sane order I think
+C2, C1, R3, L2, LM1, CM1, LM2, R2, CF1, LF1, CF3, CF2, LF2
+
+RB1, R1, RB3, CB1, RB2, RE1, RB7, RB6, RB5, RB4, RE2, RE3, RC1, RC3, RC2, then all of the through hole parts is a sane order I think
 
 For shopping list, need to buy mounting hardware and 40 pin header as well as everything else.
 
 Also, consider a not giant resistor for the second zero ohm.
+
+- [x] RB1 1k
+- [x] RB3 10k
+- [x] R1 330
+- [x] CB1 0.022u
+- [x] RB2 3.3k
+- [x] RE1 33
+- [x] RB7 4.7k
+- [x] RB6 100
+- [x] RB5 100
+- [x] RB4 4.7k
+- [x] RE2 330
+- [x] RE3 330
+- [x] RC1 330
+- [x] RC2 50
+- [x] RC3 50
+
+- [x] C2 110p
+- [x] C1 220p
+- [x] R3 0
+- [x] L2 330n
+- [x] LM1 180n
+- [x] CM1 220p
+- [x] LM2 430n
+- [x] R2 0
+- [x] CF1 120p
+- [x] LF1 390n
+- [x] CF3 120p
+- [x] CF2 220p
+- [x] LF2 390n
+
+Tested transmitter and right when I started a transmission I burned out the last 2N3904 (QN4, in push pull).
+
+Resistance between G and S of FET is now zero. It was definitely nonzero before. However, I'm not driving 13.3V directly to ground, it's 13.3V through a 50 ohm resistor to ground, which is...266 mA > absolute maximum rating of 200 mA for a 2N3904. But that's not the concerning part, the concerning part is that the FET has R=0 between gate and source.
+
+Gate oxide breakdown again? To be fair, absolute maximum voltage for the RD16HHF1 is 50V and the maximum we normally reach is 42V, but in LTSpice it peaks at ~120V before settling down, idk what's going on
+
+http://www.classeradio.com/protect.htm: " The most common failure modes of MOSFETs in class E transmitters are gate puncture due to voltage spikes at the gates of the MOSFET, and drain-source (high voltage) breakdown. "
+
+I probably had a voltage spike at the gate then? There's no inductor there though
+
+Maybe https://www.infineon.com/assets/row/public/documents/24/49/infineon-igd70r500d2s-datasheet-en.pdf? Higher maximum voltages
