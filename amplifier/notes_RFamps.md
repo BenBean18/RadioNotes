@@ -524,4 +524,8 @@ http://www.classeradio.com/protect.htm: " The most common failure modes of MOSFE
 
 I probably had a voltage spike at the gate then? There's no inductor there though
 
-Maybe https://www.infineon.com/assets/row/public/documents/24/49/infineon-igd70r500d2s-datasheet-en.pdf? Higher maximum voltages
+Maybe https://www.infineon.com/assets/row/public/documents/24/49/infineon-igd70r500d2s-datasheet-en.pdf? Higher maximum voltages but nvm fall time 44ns
+
+10-30ohm resistor on RD16HHF1 gate is a good idea also for protection, would have avoided the 2N3904 failure
+
+ZENER!! perhaps 1N5368BG on drain (less important though) and 1N5352B on gate + 10ohm resistor on gate?
